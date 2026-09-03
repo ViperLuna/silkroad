@@ -53,6 +53,11 @@
       "id": "shopkeeper-kyriakos",
       "name": "Shopkeeper Kyriakos",
       "cityId": "tyre"
+    },
+    {
+      "id": "tavern-keep-demetrios",
+      "name": "Tavern Keep Demetrios",
+      "cityId": "tyre"
     }
   ],
   "items": [
@@ -203,6 +208,18 @@
     {
       "id": "green-nobility-tunic",
       "name": "Green Nobility Tunic"
+    },
+    {
+      "id": "burgundy-regal-garbs",
+      "name": "Burgundy Regal Garbs"
+    },
+    {
+      "id": "imperial-garment",
+      "name": "Imperial Garment"
+    },
+    {
+      "id": "flatbread",
+      "name": "Flatbread"
     }
   ],
   "listings": [
@@ -624,6 +641,36 @@
       "sellPrice": 2500,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:37:01.724Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kyriakos__burgundy-regal-garbs",
+      "traderId": "shopkeeper-kyriakos",
+      "itemId": "burgundy-regal-garbs",
+      "buyPrice": 0,
+      "sellPrice": 10000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:37:18.463Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kyriakos__imperial-garment",
+      "traderId": "shopkeeper-kyriakos",
+      "itemId": "imperial-garment",
+      "buyPrice": 0,
+      "sellPrice": 40000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:37:35.267Z",
+      "history": []
+    },
+    {
+      "id": "tavern-keep-demetrios__flatbread",
+      "traderId": "tavern-keep-demetrios",
+      "itemId": "flatbread",
+      "buyPrice": 0,
+      "sellPrice": 5,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:39:40.680Z",
       "history": []
     }
   ]
