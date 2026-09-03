@@ -198,6 +198,11 @@
       "id": "agriculture-merchant-sarhad",
       "name": "Agriculture Merchant Sarhad",
       "cityId": "damascus"
+    },
+    {
+      "id": "bladesmith-ogin",
+      "name": "Bladesmith Ogin",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1481,6 +1486,16 @@
       "sellPrice": 25,
       "isLocal": false,
       "updatedAt": "2026-09-03T21:46:47.214Z",
+      "history": []
+    },
+    {
+      "id": "bladesmith-ogin__tools",
+      "traderId": "bladesmith-ogin",
+      "itemId": "tools",
+      "buyPrice": 0,
+      "sellPrice": 77,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:47:21.057Z",
       "history": []
     }
   ]
