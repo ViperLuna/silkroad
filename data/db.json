@@ -2251,6 +2251,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T23:58:05.622Z",
       "history": []
+    },
+    {
+      "id": "weaver-kyriakos__hides",
+      "traderId": "weaver-kyriakos",
+      "itemId": "hides",
+      "buyPrice": 0,
+      "sellPrice": 16,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:58:17.016Z",
+      "history": []
     }
   ]
 }
