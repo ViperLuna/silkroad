@@ -2027,6 +2027,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T23:03:26.532Z",
       "history": []
+    },
+    {
+      "id": "potter-photeinos__glassware",
+      "traderId": "potter-photeinos",
+      "itemId": "glassware",
+      "buyPrice": 0,
+      "sellPrice": 175,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:03:37.756Z",
+      "history": []
     }
   ]
 }
