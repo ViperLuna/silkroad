@@ -58,6 +58,11 @@
       "id": "tavern-keep-demetrios",
       "name": "Tavern Keep Demetrios",
       "cityId": "tyre"
+    },
+    {
+      "id": "tavern-manager-strategos",
+      "name": "Tavern Manager Strategos",
+      "cityId": "tyre"
     }
   ],
   "items": [
@@ -248,6 +253,10 @@
     {
       "id": "stew-50",
       "name": "Stew (+50)"
+    },
+    {
+      "id": "tavern-ownership",
+      "name": "Tavern Ownership"
     }
   ],
   "listings": [
@@ -739,6 +748,16 @@
       "sellPrice": 150,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:50:44.817Z",
+      "history": []
+    },
+    {
+      "id": "tavern-manager-strategos__tavern-ownership",
+      "traderId": "tavern-manager-strategos",
+      "itemId": "tavern-ownership",
+      "buyPrice": 0,
+      "sellPrice": 15000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:51:45.117Z",
       "history": []
     }
   ]
