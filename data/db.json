@@ -269,6 +269,11 @@
       "id": "priest-kyriakos",
       "name": "Priest Kyriakos",
       "cityId": "antioch"
+    },
+    {
+      "id": "craftsman-thodoros",
+      "name": "Craftsman Thodoros",
+      "cityId": "antioch"
     }
   ],
   "items": [
@@ -2110,6 +2115,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-03T23:06:24.830Z",
+      "history": []
+    },
+    {
+      "id": "craftsman-thodoros__cross-necklace-50",
+      "traderId": "craftsman-thodoros",
+      "itemId": "cross-necklace-50",
+      "buyPrice": 0,
+      "sellPrice": 80,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:06:59.521Z",
       "history": []
     }
   ]
