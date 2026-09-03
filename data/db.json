@@ -504,6 +504,10 @@
     {
       "id": "red-tunic",
       "name": "Red Tunic"
+    },
+    {
+      "id": "embroidered-red-tunic",
+      "name": "Embroidered Red Tunic"
     }
   ],
   "listings": [
@@ -1655,6 +1659,16 @@
       "sellPrice": 100,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:52:53.518Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-awgin__embroidered-red-tunic",
+      "traderId": "shopkeeper-awgin",
+      "itemId": "embroidered-red-tunic",
+      "buyPrice": 0,
+      "sellPrice": 160,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:53:20.351Z",
       "history": []
     }
   ]
