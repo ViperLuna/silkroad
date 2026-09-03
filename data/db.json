@@ -117,6 +117,11 @@
       "id": "merchant-leo",
       "name": "Merchant Leo",
       "cityId": "paneas"
+    },
+    {
+      "id": "mine-overseer-nikephoros",
+      "name": "Mine Overseer Nikephoros",
+      "cityId": "coastal-pheonice"
     }
   ],
   "items": [
@@ -343,6 +348,10 @@
     {
       "id": "steel-pickaxe",
       "name": "Steel Pickaxe"
+    },
+    {
+      "id": "mine-ownership",
+      "name": "Mine Ownership"
     }
   ],
   "listings": [
@@ -924,6 +933,16 @@
       "sellPrice": 1000,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:09:29.822Z",
+      "history": []
+    },
+    {
+      "id": "mine-overseer-nikephoros__mine-ownership",
+      "traderId": "mine-overseer-nikephoros",
+      "itemId": "mine-ownership",
+      "buyPrice": 0,
+      "sellPrice": 7000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:10:56.750Z",
       "history": []
     }
   ]
