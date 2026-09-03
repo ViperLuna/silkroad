@@ -8,7 +8,29 @@
     }
   ],
   "roads": [],
-  "traders": [],
-  "items": [],
-  "listings": []
+  "traders": [
+    {
+      "id": "spice-merchant-eirene",
+      "name": "Spice Merchant Eirene",
+      "cityId": "tyre"
+    }
+  ],
+  "items": [
+    {
+      "id": "sea-salt",
+      "name": "Sea Salt"
+    }
+  ],
+  "listings": [
+    {
+      "id": "spice-merchant-eirene__sea-salt",
+      "traderId": "spice-merchant-eirene",
+      "itemId": "sea-salt",
+      "buyPrice": 0,
+      "sellPrice": 58,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:03:29.687Z",
+      "history": []
+    }
+  ]
 }
