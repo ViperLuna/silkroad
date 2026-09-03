@@ -1462,6 +1462,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:46:20.009Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-sarhad__honey",
+      "traderId": "agriculture-merchant-sarhad",
+      "itemId": "honey",
+      "buyPrice": 0,
+      "sellPrice": 38,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:46:32.682Z",
+      "history": []
     }
   ]
 }
