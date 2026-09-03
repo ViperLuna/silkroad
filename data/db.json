@@ -171,6 +171,22 @@
     {
       "id": "green-tunic",
       "name": "Green Tunic"
+    },
+    {
+      "id": "blue-tunic",
+      "name": "Blue Tunic"
+    },
+    {
+      "id": "embroidered-green-tunic",
+      "name": "Embroidered Green Tunic"
+    },
+    {
+      "id": "embroidered-blue-tunic",
+      "name": "Embroidered Blue Tunic"
+    },
+    {
+      "id": "greek-petasos-sunhat",
+      "name": "Greek Petasos Sunhat"
     }
   ],
   "listings": [
@@ -512,6 +528,46 @@
       "sellPrice": 50,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:34:38.960Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kyriakos__blue-tunic",
+      "traderId": "shopkeeper-kyriakos",
+      "itemId": "blue-tunic",
+      "buyPrice": 0,
+      "sellPrice": 60,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:34:54.174Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kyriakos__embroidered-green-tunic",
+      "traderId": "shopkeeper-kyriakos",
+      "itemId": "embroidered-green-tunic",
+      "buyPrice": 0,
+      "sellPrice": 100,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:35:11.958Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kyriakos__embroidered-blue-tunic",
+      "traderId": "shopkeeper-kyriakos",
+      "itemId": "embroidered-blue-tunic",
+      "buyPrice": 0,
+      "sellPrice": 130,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:35:28.085Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kyriakos__greek-petasos-sunhat",
+      "traderId": "shopkeeper-kyriakos",
+      "itemId": "greek-petasos-sunhat",
+      "buyPrice": 0,
+      "sellPrice": 200,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:35:50.652Z",
       "history": []
     }
   ]
