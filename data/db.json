@@ -33,6 +33,11 @@
       "id": "weaver-hasan",
       "name": "Weaver Hasan",
       "cityId": "tyre"
+    },
+    {
+      "id": "ironworker-agapetos",
+      "name": "Ironworker Agapetos",
+      "cityId": "tyre"
     }
   ],
   "items": [
@@ -107,6 +112,10 @@
     {
       "id": "tyrian-cape",
       "name": "Tyrian Cape"
+    },
+    {
+      "id": "copper-ingot",
+      "name": "Copper Ingot"
     }
   ],
   "listings": [
@@ -328,6 +337,26 @@
       "sellPrice": 26,
       "isLocal": false,
       "updatedAt": "2026-09-03T19:13:07.582Z",
+      "history": []
+    },
+    {
+      "id": "weaver-hasan__cotton-yarn",
+      "traderId": "weaver-hasan",
+      "itemId": "cotton-yarn",
+      "buyPrice": 0,
+      "sellPrice": 38,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:13:25.003Z",
+      "history": []
+    },
+    {
+      "id": "ironworker-agapetos__copper-ingot",
+      "traderId": "ironworker-agapetos",
+      "itemId": "copper-ingot",
+      "buyPrice": 0,
+      "sellPrice": 40,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:25:13.524Z",
       "history": []
     }
   ]
