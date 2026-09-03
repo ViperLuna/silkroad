@@ -11,6 +11,12 @@
       "name": "Coastal Pheonice",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "tafnis",
+      "name": "Tafnis",
+      "traits": "",
+      "category": "minor"
     }
   ],
   "roads": [
@@ -18,6 +24,11 @@
       "id": "coastal-pheonice__tyre",
       "a": "tyre",
       "b": "coastal-pheonice"
+    },
+    {
+      "id": "coastal-pheonice__tafnis",
+      "a": "coastal-pheonice",
+      "b": "tafnis"
     }
   ],
   "traders": [
