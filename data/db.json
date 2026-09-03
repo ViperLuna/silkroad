@@ -1916,11 +1916,17 @@
       "id": "blacksmith-hasan__weapons",
       "traderId": "blacksmith-hasan",
       "itemId": "weapons",
-      "buyPrice": 0,
+      "buyPrice": 169,
       "sellPrice": 117,
       "isLocal": false,
-      "updatedAt": "2026-09-03T23:00:17.308Z",
-      "history": []
+      "updatedAt": "2026-09-03T23:00:31.514Z",
+      "history": [
+        {
+          "buyPrice": 0,
+          "sellPrice": 117,
+          "at": "2026-09-03T23:00:17.308Z"
+        }
+      ]
     }
   ]
 }
