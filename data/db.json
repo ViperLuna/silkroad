@@ -1607,6 +1607,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:51:17.918Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-ogin__saffron",
+      "traderId": "spice-merchant-ogin",
+      "itemId": "saffron",
+      "buyPrice": 0,
+      "sellPrice": 265,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:51:29.852Z",
+      "history": []
     }
   ]
 }
