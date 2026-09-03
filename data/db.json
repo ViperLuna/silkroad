@@ -244,6 +244,11 @@
       "id": "ironworker-nikephoros",
       "name": "Ironworker Nikephoros",
       "cityId": "antioch"
+    },
+    {
+      "id": "blacksmith-hasan",
+      "name": "Blacksmith Hasan",
+      "cityId": "antioch"
     }
   ],
   "items": [
@@ -1895,6 +1900,16 @@
       "sellPrice": 50,
       "isLocal": false,
       "updatedAt": "2026-09-03T22:59:27.162Z",
+      "history": []
+    },
+    {
+      "id": "blacksmith-hasan__tools",
+      "traderId": "blacksmith-hasan",
+      "itemId": "tools",
+      "buyPrice": 0,
+      "sellPrice": 91,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:00:06.411Z",
       "history": []
     }
   ]
