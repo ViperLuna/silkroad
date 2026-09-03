@@ -240,6 +240,10 @@
     {
       "id": "water-cup-15",
       "name": "Water Cup (+15)"
+    },
+    {
+      "id": "cheese-20",
+      "name": "Cheese (+20)"
     }
   ],
   "listings": [
@@ -684,16 +688,6 @@
       "history": []
     },
     {
-      "id": "tavern-keep-demetrios__cheese",
-      "traderId": "tavern-keep-demetrios",
-      "itemId": "cheese",
-      "buyPrice": 0,
-      "sellPrice": 40,
-      "isLocal": true,
-      "updatedAt": "2026-09-03T19:40:12.493Z",
-      "history": []
-    },
-    {
       "id": "tavern-keep-demetrios__roasted-pork-35",
       "traderId": "tavern-keep-demetrios",
       "itemId": "roasted-pork-35",
@@ -721,6 +715,16 @@
       "sellPrice": 20,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:42:36.473Z",
+      "history": []
+    },
+    {
+      "id": "tavern-keep-demetrios__cheese-20",
+      "traderId": "tavern-keep-demetrios",
+      "itemId": "cheese-20",
+      "buyPrice": 0,
+      "sellPrice": 40,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:49:00.523Z",
       "history": []
     }
   ]
