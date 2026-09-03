@@ -23,6 +23,11 @@
       "id": "weaver-moschos",
       "name": "Weaver Moschos",
       "cityId": "tyre"
+    },
+    {
+      "id": "shopkeeper-alexios",
+      "name": "Shopkeeper Alexios",
+      "cityId": "tyre"
     }
   ],
   "items": [
@@ -77,6 +82,14 @@
     {
       "id": "hides",
       "name": "Hides"
+    },
+    {
+      "id": "cotton-yarn",
+      "name": "Cotton Yarn"
+    },
+    {
+      "id": "orange-cape",
+      "name": "Orange Cape"
     }
   ],
   "listings": [
@@ -208,6 +221,26 @@
       "sellPrice": 24,
       "isLocal": false,
       "updatedAt": "2026-09-03T19:08:48.827Z",
+      "history": []
+    },
+    {
+      "id": "weaver-moschos__cotton-yarn",
+      "traderId": "weaver-moschos",
+      "itemId": "cotton-yarn",
+      "buyPrice": 0,
+      "sellPrice": 36,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:09:05.529Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-alexios__orange-cape",
+      "traderId": "shopkeeper-alexios",
+      "itemId": "orange-cape",
+      "buyPrice": 0,
+      "sellPrice": 10000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:10:01.206Z",
       "history": []
     }
   ]
