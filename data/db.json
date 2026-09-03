@@ -220,6 +220,22 @@
     {
       "id": "flatbread",
       "name": "Flatbread"
+    },
+    {
+      "id": "water-cup",
+      "name": "Water Cup"
+    },
+    {
+      "id": "cheese",
+      "name": "Cheese"
+    },
+    {
+      "id": "roasted-pork-35",
+      "name": "Roasted Pork (+35)"
+    },
+    {
+      "id": "flatbread-10",
+      "name": "Flatbread (+10)"
     }
   ],
   "listings": [
@@ -671,6 +687,46 @@
       "sellPrice": 5,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:39:40.680Z",
+      "history": []
+    },
+    {
+      "id": "tavern-keep-demetrios__water-cup",
+      "traderId": "tavern-keep-demetrios",
+      "itemId": "water-cup",
+      "buyPrice": 0,
+      "sellPrice": 20,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:39:54.561Z",
+      "history": []
+    },
+    {
+      "id": "tavern-keep-demetrios__cheese",
+      "traderId": "tavern-keep-demetrios",
+      "itemId": "cheese",
+      "buyPrice": 0,
+      "sellPrice": 40,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:40:12.493Z",
+      "history": []
+    },
+    {
+      "id": "tavern-keep-demetrios__roasted-pork-35",
+      "traderId": "tavern-keep-demetrios",
+      "itemId": "roasted-pork-35",
+      "buyPrice": 0,
+      "sellPrice": 100,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:40:37.161Z",
+      "history": []
+    },
+    {
+      "id": "tavern-keep-demetrios__flatbread-10",
+      "traderId": "tavern-keep-demetrios",
+      "itemId": "flatbread-10",
+      "buyPrice": 0,
+      "sellPrice": 5,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:41:07.267Z",
       "history": []
     }
   ]
