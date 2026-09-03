@@ -80,6 +80,11 @@
       "id": "shopkeeper-hasan",
       "name": "Shopkeeper Hasan",
       "cityId": "tyre"
+    },
+    {
+      "id": "beekeeper-vardas",
+      "name": "Beekeeper Vardas",
+      "cityId": "coastal-pheonice"
     }
   ],
   "items": [
@@ -286,6 +291,10 @@
     {
       "id": "frame-pack-9",
       "name": "Frame Pack (+9)"
+    },
+    {
+      "id": "apiary-ownership",
+      "name": "Apiary Ownership"
     }
   ],
   "listings": [
@@ -817,6 +826,16 @@
       "sellPrice": 250,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:53:56.521Z",
+      "history": []
+    },
+    {
+      "id": "beekeeper-vardas__apiary-ownership",
+      "traderId": "beekeeper-vardas",
+      "itemId": "apiary-ownership",
+      "buyPrice": 0,
+      "sellPrice": 30000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T20:00:19.054Z",
       "history": []
     }
   ]
