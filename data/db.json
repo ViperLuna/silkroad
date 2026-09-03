@@ -1,6 +1,11 @@
 {
   "cities": [
-    { "id": "tyre", "name": "Tyre", "traits": "", "category": "major" }
+    {
+      "id": "tyre",
+      "name": "Tyre",
+      "traits": "Byzantine Culture - The city practices Christianity\nGreek Language\nPort City - 5% Price Bonus for all Goods.",
+      "category": "major"
+    }
   ],
   "roads": [],
   "traders": [],
