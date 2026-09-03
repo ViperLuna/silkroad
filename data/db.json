@@ -385,6 +385,10 @@
     {
       "id": "dromedary-camel-1",
       "name": "Dromedary Camel (1)"
+    },
+    {
+      "id": "dromedary-camel-2",
+      "name": "Dromedary Camel (2)"
     }
   ],
   "listings": [
@@ -1006,6 +1010,16 @@
       "sellPrice": 2000,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:22:56.857Z",
+      "history": []
+    },
+    {
+      "id": "camel-merchant-sarhad__dromedary-camel-2",
+      "traderId": "camel-merchant-sarhad",
+      "itemId": "dromedary-camel-2",
+      "buyPrice": 0,
+      "sellPrice": 4000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:23:30.235Z",
       "history": []
     }
   ]
