@@ -1155,16 +1155,6 @@
       "history": []
     },
     {
-      "id": "backpack-merchant__large-satchel-7",
-      "traderId": "backpack-merchant",
-      "itemId": "large-satchel-7",
-      "buyPrice": 0,
-      "sellPrice": 130,
-      "isLocal": true,
-      "updatedAt": "2026-09-03T21:31:50.948Z",
-      "history": []
-    },
-    {
       "id": "backpack-merchant__frame-pack-9",
       "traderId": "backpack-merchant",
       "itemId": "frame-pack-9",
