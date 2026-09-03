@@ -38,6 +38,11 @@
       "id": "ironworker-agapetos",
       "name": "Ironworker Agapetos",
       "cityId": "tyre"
+    },
+    {
+      "id": "glazier-photeinos",
+      "name": "Glazier Photeinos",
+      "cityId": "tyre"
     }
   ],
   "items": [
@@ -116,6 +121,14 @@
     {
       "id": "copper-ingot",
       "name": "Copper Ingot"
+    },
+    {
+      "id": "iron-ingot",
+      "name": "Iron Ingot"
+    },
+    {
+      "id": "clay",
+      "name": "Clay"
     }
   ],
   "listings": [
@@ -357,6 +370,26 @@
       "sellPrice": 40,
       "isLocal": false,
       "updatedAt": "2026-09-03T19:25:13.524Z",
+      "history": []
+    },
+    {
+      "id": "ironworker-agapetos__iron-ingot",
+      "traderId": "ironworker-agapetos",
+      "itemId": "iron-ingot",
+      "buyPrice": 0,
+      "sellPrice": 53,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:25:34.427Z",
+      "history": []
+    },
+    {
+      "id": "glazier-photeinos__clay",
+      "traderId": "glazier-photeinos",
+      "itemId": "clay",
+      "buyPrice": 0,
+      "sellPrice": 9,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:26:19.023Z",
       "history": []
     }
   ]
