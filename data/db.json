@@ -381,6 +381,10 @@
     {
       "id": "saddlebags",
       "name": "Saddlebags"
+    },
+    {
+      "id": "dromedary-camel-1",
+      "name": "Dromedary Camel (1)"
     }
   ],
   "listings": [
@@ -992,6 +996,16 @@
       "sellPrice": 500,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:20:28.193Z",
+      "history": []
+    },
+    {
+      "id": "camel-merchant-sarhad__dromedary-camel-1",
+      "traderId": "camel-merchant-sarhad",
+      "itemId": "dromedary-camel-1",
+      "buyPrice": 0,
+      "sellPrice": 2000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:22:56.857Z",
       "history": []
     }
   ]
