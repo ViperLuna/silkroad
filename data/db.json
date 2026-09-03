@@ -96,6 +96,11 @@
       "id": "beekeeper-vardas",
       "name": "Beekeeper Vardas",
       "cityId": "coastal-pheonice"
+    },
+    {
+      "id": "kale",
+      "name": "Kale",
+      "cityId": "tafnis"
     }
   ],
   "items": [
@@ -306,6 +311,10 @@
     {
       "id": "apiary-ownership",
       "name": "Apiary Ownership"
+    },
+    {
+      "id": "olive-tree-field",
+      "name": "Olive Tree Field"
     }
   ],
   "listings": [
@@ -847,6 +856,16 @@
       "sellPrice": 30000,
       "isLocal": true,
       "updatedAt": "2026-09-03T20:00:19.054Z",
+      "history": []
+    },
+    {
+      "id": "kale__olive-tree-field",
+      "traderId": "kale",
+      "itemId": "olive-tree-field",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T20:02:46.325Z",
       "history": []
     }
   ]
