@@ -528,6 +528,10 @@
     {
       "id": "purple-nobility-tunic",
       "name": "Purple Nobility Tunic"
+    },
+    {
+      "id": "black-chiton",
+      "name": "Black Chiton"
     }
   ],
   "listings": [
@@ -1756,6 +1760,16 @@
           "at": "2026-09-03T21:55:07.876Z"
         }
       ]
+    },
+    {
+      "id": "shopkeeper-awgin__black-chiton",
+      "traderId": "shopkeeper-awgin",
+      "itemId": "black-chiton",
+      "buyPrice": 0,
+      "sellPrice": 10000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:55:32.127Z",
+      "history": []
     }
   ]
 }
