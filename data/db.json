@@ -512,6 +512,10 @@
     {
       "id": "red-soldier-s-tunic",
       "name": "Red Soldier's Tunic"
+    },
+    {
+      "id": "orange-nobility-tunic",
+      "name": "Orange Nobility Tunic"
     }
   ],
   "listings": [
@@ -1693,6 +1697,16 @@
       "sellPrice": 200,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:53:57.323Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-awgin__orange-nobility-tunic",
+      "traderId": "shopkeeper-awgin",
+      "itemId": "orange-nobility-tunic",
+      "buyPrice": 0,
+      "sellPrice": 1500,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:54:11.820Z",
       "history": []
     }
   ]
