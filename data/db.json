@@ -2072,6 +2072,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T23:04:55.378Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-leo__sesame",
+      "traderId": "spice-merchant-leo",
+      "itemId": "sesame",
+      "buyPrice": 0,
+      "sellPrice": 91,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:05:09.531Z",
+      "history": []
     }
   ]
 }
