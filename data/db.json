@@ -2295,6 +2295,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T23:59:08.053Z",
       "history": []
+    },
+    {
+      "id": "weaver-kyriakos__cotton-yarn",
+      "traderId": "weaver-kyriakos",
+      "itemId": "cotton-yarn",
+      "buyPrice": 0,
+      "sellPrice": 37,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:59:22.929Z",
+      "history": []
     }
   ]
 }
