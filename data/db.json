@@ -183,6 +183,11 @@
       "id": "agriculture-merchant-ogin",
       "name": "Agriculture Merchant Ogin",
       "cityId": "damascus"
+    },
+    {
+      "id": "blacksmith-idiculla",
+      "name": "Blacksmith Idiculla",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1332,6 +1337,16 @@
       "sellPrice": 25,
       "isLocal": false,
       "updatedAt": "2026-09-03T21:41:16.351Z",
+      "history": []
+    },
+    {
+      "id": "blacksmith-idiculla__tools",
+      "traderId": "blacksmith-idiculla",
+      "itemId": "tools",
+      "buyPrice": 0,
+      "sellPrice": 77,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:41:54.526Z",
       "history": []
     }
   ]
