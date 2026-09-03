@@ -411,6 +411,10 @@
     {
       "id": "cross-necklace-50",
       "name": "Cross Necklace (50%)"
+    },
+    {
+      "id": "green-priest-robes",
+      "name": "Green Priest Robes"
     }
   ],
   "listings": [
@@ -1072,6 +1076,16 @@
       "sellPrice": 80,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:26:21.347Z",
+      "history": []
+    },
+    {
+      "id": "craftsman-sargon__green-priest-robes",
+      "traderId": "craftsman-sargon",
+      "itemId": "green-priest-robes",
+      "buyPrice": 0,
+      "sellPrice": 470,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:26:45.533Z",
       "history": []
     }
   ]
