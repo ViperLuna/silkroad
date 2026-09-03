@@ -173,6 +173,11 @@
       "id": "potter-oommen",
       "name": "Potter Oommen",
       "cityId": "damascus"
+    },
+    {
+      "id": "ironworker-aprim",
+      "name": "Ironworker Aprim",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1252,6 +1257,16 @@
       "sellPrice": 175,
       "isLocal": false,
       "updatedAt": "2026-09-03T21:37:37.175Z",
+      "history": []
+    },
+    {
+      "id": "ironworker-aprim__copper-ingot",
+      "traderId": "ironworker-aprim",
+      "itemId": "copper-ingot",
+      "buyPrice": 0,
+      "sellPrice": 28,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:39:01.884Z",
       "history": []
     }
   ]
