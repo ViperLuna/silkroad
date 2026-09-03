@@ -161,5 +161,6 @@ export function locationLabel(city, roads, cities) {
 }
 
 export function formatPrice(value) {
-  return value === null || value === undefined || value === 0 || value === '' ? '—' : String(value);
+  if (value === null || value === undefined || value === 0 || value === '') return '—';
+  return Number(value).toLocaleString('en-US');
 }
