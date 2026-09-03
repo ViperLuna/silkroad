@@ -43,6 +43,11 @@
       "id": "glazier-photeinos",
       "name": "Glazier Photeinos",
       "cityId": "tyre"
+    },
+    {
+      "id": "blacksmith-leo",
+      "name": "Blacksmith Leo",
+      "cityId": "tyre"
     }
   ],
   "items": [
@@ -149,6 +154,10 @@
     {
       "id": "paper",
       "name": "Paper"
+    },
+    {
+      "id": "tools",
+      "name": "Tools"
     }
   ],
   "listings": [
@@ -460,6 +469,16 @@
       "sellPrice": 53,
       "isLocal": false,
       "updatedAt": "2026-09-03T19:32:01.328Z",
+      "history": []
+    },
+    {
+      "id": "blacksmith-leo__tools",
+      "traderId": "blacksmith-leo",
+      "itemId": "tools",
+      "buyPrice": 0,
+      "sellPrice": 96,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:33:30.287Z",
       "history": []
     }
   ]
