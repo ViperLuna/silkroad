@@ -65,6 +65,18 @@
     {
       "id": "linen",
       "name": "Linen"
+    },
+    {
+      "id": "wool",
+      "name": "Wool"
+    },
+    {
+      "id": "leather",
+      "name": "Leather"
+    },
+    {
+      "id": "hides",
+      "name": "Hides"
     }
   ],
   "listings": [
@@ -166,6 +178,36 @@
       "sellPrice": 8,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:07:33.150Z",
+      "history": []
+    },
+    {
+      "id": "weaver-moschos__wool",
+      "traderId": "weaver-moschos",
+      "itemId": "wool",
+      "buyPrice": 0,
+      "sellPrice": 15,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:08:07.475Z",
+      "history": []
+    },
+    {
+      "id": "weaver-moschos__leather",
+      "traderId": "weaver-moschos",
+      "itemId": "leather",
+      "buyPrice": 0,
+      "sellPrice": 25,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:08:27.617Z",
+      "history": []
+    },
+    {
+      "id": "weaver-moschos__hides",
+      "traderId": "weaver-moschos",
+      "itemId": "hides",
+      "buyPrice": 0,
+      "sellPrice": 24,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:08:48.827Z",
       "history": []
     }
   ]
