@@ -1587,6 +1587,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:50:33.107Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-ogin__sea-salt",
+      "traderId": "spice-merchant-ogin",
+      "itemId": "sea-salt",
+      "buyPrice": 0,
+      "sellPrice": 74,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:51:00.861Z",
+      "history": []
     }
   ]
 }
