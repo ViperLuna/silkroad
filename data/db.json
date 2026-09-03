@@ -133,6 +133,22 @@
     {
       "id": "candles",
       "name": "Candles"
+    },
+    {
+      "id": "glassware",
+      "name": "Glassware"
+    },
+    {
+      "id": "books",
+      "name": "Books"
+    },
+    {
+      "id": "earthenware",
+      "name": "Earthenware"
+    },
+    {
+      "id": "paper",
+      "name": "Paper"
     }
   ],
   "listings": [
@@ -404,6 +420,46 @@
       "sellPrice": 656,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:30:52.752Z",
+      "history": []
+    },
+    {
+      "id": "glazier-photeinos__glassware",
+      "traderId": "glazier-photeinos",
+      "itemId": "glassware",
+      "buyPrice": 0,
+      "sellPrice": 164,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:31:07.222Z",
+      "history": []
+    },
+    {
+      "id": "glazier-photeinos__books",
+      "traderId": "glazier-photeinos",
+      "itemId": "books",
+      "buyPrice": 0,
+      "sellPrice": 440,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:31:21.066Z",
+      "history": []
+    },
+    {
+      "id": "glazier-photeinos__earthenware",
+      "traderId": "glazier-photeinos",
+      "itemId": "earthenware",
+      "buyPrice": 0,
+      "sellPrice": 26,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:31:48.063Z",
+      "history": []
+    },
+    {
+      "id": "glazier-photeinos__paper",
+      "traderId": "glazier-photeinos",
+      "itemId": "paper",
+      "buyPrice": 0,
+      "sellPrice": 53,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:32:01.328Z",
       "history": []
     }
   ]
