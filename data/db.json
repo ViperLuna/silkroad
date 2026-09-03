@@ -122,6 +122,11 @@
       "id": "mine-overseer-nikephoros",
       "name": "Mine Overseer Nikephoros",
       "cityId": "coastal-pheonice"
+    },
+    {
+      "id": "naramasin",
+      "name": "Naramasin",
+      "cityId": "coastal-pheonice"
     }
   ],
   "items": [
@@ -352,6 +357,10 @@
     {
       "id": "mine-ownership",
       "name": "Mine Ownership"
+    },
+    {
+      "id": "mining-cave",
+      "name": "Mining Cave"
     }
   ],
   "listings": [
@@ -943,6 +952,16 @@
       "sellPrice": 7000,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:10:56.750Z",
+      "history": []
+    },
+    {
+      "id": "naramasin__mining-cave",
+      "traderId": "naramasin",
+      "itemId": "mining-cave",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:11:35.433Z",
       "history": []
     }
   ]
