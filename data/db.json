@@ -2062,6 +2062,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T23:04:39.703Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-leo__coriander",
+      "traderId": "spice-merchant-leo",
+      "itemId": "coriander",
+      "buyPrice": 0,
+      "sellPrice": 101,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:04:55.378Z",
+      "history": []
     }
   ]
 }
