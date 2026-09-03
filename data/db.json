@@ -532,6 +532,10 @@
     {
       "id": "black-chiton",
       "name": "Black Chiton"
+    },
+    {
+      "id": "bishop-s-mitre",
+      "name": "Bishop's Mitre"
     }
   ],
   "listings": [
@@ -1769,6 +1773,16 @@
       "sellPrice": 10000,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:55:32.127Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-awgin__bishop-s-mitre",
+      "traderId": "shopkeeper-awgin",
+      "itemId": "bishop-s-mitre",
+      "buyPrice": 0,
+      "sellPrice": 35000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:55:46.951Z",
       "history": []
     }
   ]
