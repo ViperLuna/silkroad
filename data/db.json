@@ -299,6 +299,36 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T19:11:59.500Z",
       "history": []
+    },
+    {
+      "id": "weaver-hasan__wool",
+      "traderId": "weaver-hasan",
+      "itemId": "wool",
+      "buyPrice": 0,
+      "sellPrice": 16,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:12:25.482Z",
+      "history": []
+    },
+    {
+      "id": "weaver-hasan__leather",
+      "traderId": "weaver-hasan",
+      "itemId": "leather",
+      "buyPrice": 0,
+      "sellPrice": 26,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:12:42.876Z",
+      "history": []
+    },
+    {
+      "id": "weaver-hasan__hides",
+      "traderId": "weaver-hasan",
+      "itemId": "hides",
+      "buyPrice": 0,
+      "sellPrice": 26,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:13:07.582Z",
+      "history": []
     }
   ]
 }
