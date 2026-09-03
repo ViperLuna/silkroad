@@ -218,6 +218,11 @@
       "id": "shopkeeper-awgin",
       "name": "Shopkeeper Awgin",
       "cityId": "damascus"
+    },
+    {
+      "id": "tavern-manager-awgin",
+      "name": "Tavern Manager Awgin",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1783,6 +1788,16 @@
       "sellPrice": 35000,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:55:46.951Z",
+      "history": []
+    },
+    {
+      "id": "tavern-manager-awgin__tavern-ownership",
+      "traderId": "tavern-manager-awgin",
+      "itemId": "tavern-ownership",
+      "buyPrice": 0,
+      "sellPrice": 15000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:56:44.506Z",
       "history": []
     }
   ]
