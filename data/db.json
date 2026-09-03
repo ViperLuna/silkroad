@@ -2285,6 +2285,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T23:58:52.671Z",
       "history": []
+    },
+    {
+      "id": "weaver-kyriakos__linen",
+      "traderId": "weaver-kyriakos",
+      "itemId": "linen",
+      "buyPrice": 0,
+      "sellPrice": 15,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:59:08.053Z",
+      "history": []
     }
   ]
 }
