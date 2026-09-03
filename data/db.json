@@ -1962,6 +1962,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T23:01:41.617Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-strategos__honey",
+      "traderId": "agriculture-merchant-strategos",
+      "itemId": "honey",
+      "buyPrice": 0,
+      "sellPrice": 38,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:01:54.738Z",
+      "history": []
     }
   ]
 }
