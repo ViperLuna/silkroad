@@ -190,7 +190,6 @@ function sortRows(rows, key, dir, getters) {
 // ---------- rendering: city view ----------
 
 function renderCitySelect() {
-  const byName = (a, b) => a.name.localeCompare(b.name);
   const majors = App.state.cities.filter((c) => !isMinor(c)).sort(byName);
   const minors = App.state.cities.filter((c) => isMinor(c)).sort(byName);
   const opt = (c) => `<option value="${c.id}">${escapeHtml(locationLabel(c, App.state.roads, App.state.cities))}</option>`;
@@ -383,9 +382,23 @@ function escapeHtml(str) {
   return String(str).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
+function byName(a, b) {
+  return a.name.localeCompare(b.name);
+}
+
 // ---------- mutations ----------
 
+function sameName(a, b) {
+  return a.trim().toLowerCase() === b.trim().toLowerCase();
+}
+
+// Cities and items are global, so a name match anywhere reuses that entity
+// instead of creating a duplicate (this only covers creating a new one via
+// "+ New City" / "+ New Item" — renaming an existing entry to match another
+// isn't merged).
 function addCity(name, category = 'major') {
+  const existing = App.state.cities.find((c) => sameName(c.name, name));
+  if (existing) return existing.id;
   const ids = new Set(App.state.cities.map((c) => c.id));
   const id = uniqueId(slugify(name), ids);
   App.state.cities.push({ id, name, traits: '', category });
@@ -401,7 +414,11 @@ function categoryField(selected, groupName = 'f-city-category') {
   `;
 }
 
+// Traders are scoped to a city (the same name in a different city is a
+// different vendor), so the dedupe check only looks within that city.
 function addTrader(name, cityId) {
+  const existing = App.state.traders.find((t) => t.cityId === cityId && sameName(t.name, name));
+  if (existing) return existing.id;
   const ids = new Set(App.state.traders.map((t) => t.id));
   const id = uniqueId(slugify(name), ids);
   App.state.traders.push({ id, name, cityId });
@@ -409,6 +426,8 @@ function addTrader(name, cityId) {
 }
 
 function addItem(name) {
+  const existing = App.state.items.find((i) => sameName(i.name, name));
+  if (existing) return existing.id;
   const ids = new Set(App.state.items.map((i) => i.id));
   const id = uniqueId(slugify(name), ids);
   App.state.items.push({ id, name });
@@ -509,7 +528,7 @@ function openListingModal(existingId) {
   const trader = existing ? getTrader(existing.traderId) : null;
   const item = existing ? getItem(existing.itemId) : null;
 
-  const cityTraders = App.state.traders.filter((t) => t.cityId === App.currentCityId);
+  const cityTraders = App.state.traders.filter((t) => t.cityId === App.currentCityId).sort(byName);
   const vendorField = existing
     ? `<p><strong>Vendor:</strong> ${escapeHtml(trader.name)}</p>`
     : `
@@ -526,7 +545,7 @@ function openListingModal(existingId) {
     : `
       <label>Item
         <select id="f-item">
-          ${App.state.items.map((i) => `<option value="${i.id}">${escapeHtml(i.name)}</option>`).join('')}
+          ${[...App.state.items].sort(byName).map((i) => `<option value="${i.id}">${escapeHtml(i.name)}</option>`).join('')}
           <option value="__new__">+ New Item</option>
         </select>
       </label>
@@ -608,7 +627,6 @@ els.btnBackFromRoute.onclick = () => showView('city');
 // ---------- route planner ----------
 
 function renderRouteCitySelects() {
-  const byName = (a, b) => a.name.localeCompare(b.name);
   const majors = App.state.cities.filter((c) => !isMinor(c)).sort(byName);
   const minors = App.state.cities.filter((c) => isMinor(c)).sort(byName);
   const opt = (c) => `<option value="${c.id}">${escapeHtml(locationLabel(c, App.state.roads, App.state.cities))}</option>`;
@@ -734,7 +752,7 @@ els.cityList.addEventListener('click', async (e) => {
 });
 
 els.btnAddRoad.onclick = () => {
-  const options = App.state.cities.map((c) => `<option value="${c.id}">${escapeHtml(c.name)}</option>`).join('');
+  const options = [...App.state.cities].sort(byName).map((c) => `<option value="${c.id}">${escapeHtml(c.name)}</option>`).join('');
   openModal(`
     <h3>Add road</h3>
     <label>From
