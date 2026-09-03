@@ -264,6 +264,11 @@
       "id": "spice-merchant-leo",
       "name": "Spice Merchant Leo",
       "cityId": "antioch"
+    },
+    {
+      "id": "priest-kyriakos",
+      "name": "Priest Kyriakos",
+      "cityId": "antioch"
     }
   ],
   "items": [
@@ -582,6 +587,10 @@
     {
       "id": "bishop-s-mitre",
       "name": "Bishop's Mitre"
+    },
+    {
+      "id": "orthodox-church",
+      "name": "Orthodox Church"
     }
   ],
   "listings": [
@@ -2091,6 +2100,16 @@
       "sellPrice": 291,
       "isLocal": false,
       "updatedAt": "2026-09-03T23:05:22.539Z",
+      "history": []
+    },
+    {
+      "id": "priest-kyriakos__orthodox-church",
+      "traderId": "priest-kyriakos",
+      "itemId": "orthodox-church",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:06:24.830Z",
       "history": []
     }
   ]
