@@ -1952,6 +1952,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T23:01:29.202Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-strategos__olive-oil",
+      "traderId": "agriculture-merchant-strategos",
+      "itemId": "olive-oil",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:01:41.617Z",
+      "history": []
     }
   ]
 }
