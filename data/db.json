@@ -1452,6 +1452,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:46:05.469Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-sarhad__olive-oil",
+      "traderId": "agriculture-merchant-sarhad",
+      "itemId": "olive-oil",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:46:20.009Z",
+      "history": []
     }
   ]
 }
