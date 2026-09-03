@@ -2275,6 +2275,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T23:58:39.970Z",
       "history": []
+    },
+    {
+      "id": "weaver-kyriakos__leather",
+      "traderId": "weaver-kyriakos",
+      "itemId": "leather",
+      "buyPrice": 0,
+      "sellPrice": 25,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:58:52.671Z",
+      "history": []
     }
   ]
 }
