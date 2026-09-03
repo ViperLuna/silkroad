@@ -17,6 +17,12 @@
       "name": "Tafnis",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "paneas",
+      "name": "Paneas",
+      "traits": "",
+      "category": "minor"
     }
   ],
   "roads": [
@@ -29,6 +35,11 @@
       "id": "coastal-pheonice__tafnis",
       "a": "coastal-pheonice",
       "b": "tafnis"
+    },
+    {
+      "id": "coastal-pheonice__paneas",
+      "a": "coastal-pheonice",
+      "b": "paneas"
     }
   ],
   "traders": [
