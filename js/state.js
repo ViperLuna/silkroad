@@ -116,12 +116,16 @@ function joinNames(names) {
   return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
 }
 
-// A human label for a location: just its name for a major city, or
-// "Name (Between X and Y)" for a minor waypoint.
+// A human label for a location: just its name for a major city; for a
+// minor waypoint, "Name (Between X and Y)" when it sits between two or
+// more major cities, or "Name (Near X)" when only one side of the road has
+// been mapped so far (e.g. a dead end, or the next city just hasn't been
+// discovered/added yet).
 export function locationLabel(city, roads, cities) {
   if (!city || !isMinor(city)) return city ? city.name : '';
   const majors = nearbyMajors(city.id, roads, cities).map((c) => c.name).sort();
   if (majors.length === 0) return city.name;
+  if (majors.length === 1) return `${city.name} (Near ${majors[0]})`;
   return `${city.name} (Between ${joinNames(majors)})`;
 }
 
