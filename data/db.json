@@ -2017,6 +2017,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T23:03:13.533Z",
       "history": []
+    },
+    {
+      "id": "potter-photeinos__candles",
+      "traderId": "potter-photeinos",
+      "itemId": "candles",
+      "buyPrice": 0,
+      "sellPrice": 652,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:03:26.532Z",
+      "history": []
     }
   ]
 }
