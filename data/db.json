@@ -1348,6 +1348,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:41:54.526Z",
       "history": []
+    },
+    {
+      "id": "blacksmith-idiculla__weapons",
+      "traderId": "blacksmith-idiculla",
+      "itemId": "weapons",
+      "buyPrice": 0,
+      "sellPrice": 101,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:42:15.203Z",
+      "history": []
     }
   ]
 }
