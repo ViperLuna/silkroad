@@ -611,6 +611,10 @@
     {
       "id": "orthodox-church",
       "name": "Orthodox Church"
+    },
+    {
+      "id": "byzantine-silk",
+      "name": "Byzantine Silk"
     }
   ],
   "listings": [
@@ -2260,6 +2264,16 @@
       "sellPrice": 16,
       "isLocal": true,
       "updatedAt": "2026-09-03T23:58:17.016Z",
+      "history": []
+    },
+    {
+      "id": "weaver-kyriakos__byzantine-silk",
+      "traderId": "weaver-kyriakos",
+      "itemId": "byzantine-silk",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:58:39.970Z",
       "history": []
     }
   ]
