@@ -557,9 +557,11 @@ function openListingModal(existingId) {
     const vSel = document.getElementById('f-vendor');
     const vNew = document.getElementById('f-vendor-new');
     vSel.onchange = () => { vNew.hidden = vSel.value !== '__new__'; };
+    vNew.hidden = vSel.value !== '__new__';
     const iSel = document.getElementById('f-item');
     const iNew = document.getElementById('f-item-new');
     iSel.onchange = () => { iNew.hidden = iSel.value !== '__new__'; };
+    iNew.hidden = iSel.value !== '__new__';
   }
 
   document.getElementById('f-cancel').onclick = closeModal;
