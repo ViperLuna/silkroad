@@ -2156,6 +2156,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T23:07:53.240Z",
       "history": []
+    },
+    {
+      "id": "craftsman-thodoros__blue-priest-robes",
+      "traderId": "craftsman-thodoros",
+      "itemId": "blue-priest-robes",
+      "buyPrice": 0,
+      "sellPrice": 470,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:08:29.110Z",
+      "history": []
     }
   ]
 }
