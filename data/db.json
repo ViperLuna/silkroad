@@ -1646,6 +1646,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:52:38.727Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-awgin__embroidered-green-tunic",
+      "traderId": "shopkeeper-awgin",
+      "itemId": "embroidered-green-tunic",
+      "buyPrice": 0,
+      "sellPrice": 100,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:52:53.518Z",
+      "history": []
     }
   ]
 }
