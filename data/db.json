@@ -19,6 +19,18 @@
     {
       "id": "sea-salt",
       "name": "Sea Salt"
+    },
+    {
+      "id": "sesame",
+      "name": "Sesame"
+    },
+    {
+      "id": "coriander",
+      "name": "Coriander"
+    },
+    {
+      "id": "saffron",
+      "name": "Saffron"
     }
   ],
   "listings": [
@@ -30,6 +42,36 @@
       "sellPrice": 58,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:03:29.687Z",
+      "history": []
+    },
+    {
+      "id": "spice-merchant-eirene__sesame",
+      "traderId": "spice-merchant-eirene",
+      "itemId": "sesame",
+      "buyPrice": 0,
+      "sellPrice": 86,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:03:58.639Z",
+      "history": []
+    },
+    {
+      "id": "spice-merchant-eirene__coriander",
+      "traderId": "spice-merchant-eirene",
+      "itemId": "coriander",
+      "buyPrice": 0,
+      "sellPrice": 111,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:04:23.283Z",
+      "history": []
+    },
+    {
+      "id": "spice-merchant-eirene__saffron",
+      "traderId": "spice-merchant-eirene",
+      "itemId": "saffron",
+      "buyPrice": 0,
+      "sellPrice": 279,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T19:04:43.723Z",
       "history": []
     }
   ]
