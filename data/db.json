@@ -129,6 +129,10 @@
     {
       "id": "clay",
       "name": "Clay"
+    },
+    {
+      "id": "candles",
+      "name": "Candles"
     }
   ],
   "listings": [
@@ -390,6 +394,16 @@
       "sellPrice": 9,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:26:19.023Z",
+      "history": []
+    },
+    {
+      "id": "glazier-photeinos__candles",
+      "traderId": "glazier-photeinos",
+      "itemId": "candles",
+      "buyPrice": 0,
+      "sellPrice": 656,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:30:52.752Z",
       "history": []
     }
   ]
