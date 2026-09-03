@@ -158,6 +158,11 @@
       "id": "blacksmith-sarhad",
       "name": "Blacksmith Sarhad",
       "cityId": "damascus"
+    },
+    {
+      "id": "backpack-merchant",
+      "name": "Backpack Merchant",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1147,6 +1152,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:30:17.815Z",
+      "history": []
+    },
+    {
+      "id": "backpack-merchant__small-satchel-5",
+      "traderId": "backpack-merchant",
+      "itemId": "small-satchel-5",
+      "buyPrice": 0,
+      "sellPrice": 45,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:31:33.052Z",
       "history": []
     }
   ]
