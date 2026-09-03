@@ -684,16 +684,6 @@
       "history": []
     },
     {
-      "id": "tavern-keep-demetrios__water-cup",
-      "traderId": "tavern-keep-demetrios",
-      "itemId": "water-cup",
-      "buyPrice": 0,
-      "sellPrice": 20,
-      "isLocal": true,
-      "updatedAt": "2026-09-03T19:39:54.561Z",
-      "history": []
-    },
-    {
       "id": "tavern-keep-demetrios__cheese",
       "traderId": "tavern-keep-demetrios",
       "itemId": "cheese",
