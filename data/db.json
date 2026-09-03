@@ -1886,6 +1886,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T22:59:02.534Z",
       "history": []
+    },
+    {
+      "id": "ironworker-nikephoros__iron-ingot",
+      "traderId": "ironworker-nikephoros",
+      "itemId": "iron-ingot",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T22:59:27.162Z",
+      "history": []
     }
   ]
 }
