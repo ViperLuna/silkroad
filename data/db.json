@@ -284,6 +284,11 @@
       "id": "tavern-keep-joseph",
       "name": "Tavern Keep Joseph",
       "cityId": "antioch"
+    },
+    {
+      "id": "weaver-kyriakos",
+      "name": "Weaver Kyriakos",
+      "cityId": "antioch"
     }
   ],
   "items": [
@@ -2235,6 +2240,16 @@
       "sellPrice": 150,
       "isLocal": true,
       "updatedAt": "2026-09-03T23:46:20.508Z",
+      "history": []
+    },
+    {
+      "id": "weaver-kyriakos__wool",
+      "traderId": "weaver-kyriakos",
+      "itemId": "wool",
+      "buyPrice": 0,
+      "sellPrice": 8,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:58:05.622Z",
       "history": []
     }
   ]
