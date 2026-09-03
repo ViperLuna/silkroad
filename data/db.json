@@ -2206,6 +2206,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T23:45:35.432Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-joseph__cheese-20",
+      "traderId": "tavern-keep-joseph",
+      "itemId": "cheese-20",
+      "buyPrice": 0,
+      "sellPrice": 40,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:45:49.474Z",
+      "history": []
     }
   ]
 }
