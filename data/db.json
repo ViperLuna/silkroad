@@ -279,6 +279,11 @@
       "id": "tavern-manager-kyriakos",
       "name": "Tavern Manager Kyriakos",
       "cityId": "antioch"
+    },
+    {
+      "id": "tavern-keep-joseph",
+      "name": "Tavern Keep Joseph",
+      "cityId": "antioch"
     }
   ],
   "items": [
@@ -2180,6 +2185,16 @@
       "sellPrice": 15000,
       "isLocal": true,
       "updatedAt": "2026-09-03T23:44:52.898Z",
+      "history": []
+    },
+    {
+      "id": "tavern-keep-joseph__flatbread-10",
+      "traderId": "tavern-keep-joseph",
+      "itemId": "flatbread-10",
+      "buyPrice": 0,
+      "sellPrice": 5,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:45:23.214Z",
       "history": []
     }
   ]
