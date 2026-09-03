@@ -63,6 +63,11 @@
       "id": "tavern-manager-strategos",
       "name": "Tavern Manager Strategos",
       "cityId": "tyre"
+    },
+    {
+      "id": "shopkeeper-hasan",
+      "name": "Shopkeeper Hasan",
+      "cityId": "tyre"
     }
   ],
   "items": [
@@ -257,6 +262,10 @@
     {
       "id": "tavern-ownership",
       "name": "Tavern Ownership"
+    },
+    {
+      "id": "small-satchel-5",
+      "name": "Small Satchel (+5)"
     }
   ],
   "listings": [
@@ -758,6 +767,16 @@
       "sellPrice": 15000,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:51:45.117Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-hasan__small-satchel-5",
+      "traderId": "shopkeeper-hasan",
+      "itemId": "small-satchel-5",
+      "buyPrice": 0,
+      "sellPrice": 45,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:53:03.532Z",
       "history": []
     }
   ]
