@@ -239,6 +239,11 @@
       "id": "tavern-keep-yeshu",
       "name": "Tavern Keep Yeshu",
       "cityId": "damascus"
+    },
+    {
+      "id": "ironworker-nikephoros",
+      "name": "Ironworker Nikephoros",
+      "cityId": "antioch"
     }
   ],
   "items": [
@@ -1870,6 +1875,16 @@
       "sellPrice": 150,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:58:24.410Z",
+      "history": []
+    },
+    {
+      "id": "ironworker-nikephoros__copper-ingot",
+      "traderId": "ironworker-nikephoros",
+      "itemId": "copper-ingot",
+      "buyPrice": 0,
+      "sellPrice": 38,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T22:59:02.534Z",
       "history": []
     }
   ]
