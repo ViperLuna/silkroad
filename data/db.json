@@ -1972,6 +1972,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T23:01:54.738Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-strategos__dried-fish",
+      "traderId": "agriculture-merchant-strategos",
+      "itemId": "dried-fish",
+      "buyPrice": 0,
+      "sellPrice": 25,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:02:04.501Z",
+      "history": []
     }
   ]
 }
