@@ -1168,6 +1168,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:34:05.428Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem__large-satchel-7",
+      "traderId": "shopkeeper-ephrem",
+      "itemId": "large-satchel-7",
+      "buyPrice": 0,
+      "sellPrice": 130,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:34:22.335Z",
+      "history": []
     }
   ]
 }
