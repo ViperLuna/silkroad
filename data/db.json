@@ -873,11 +873,17 @@
       "id": "blacksmith-leo__weapons",
       "traderId": "blacksmith-leo",
       "itemId": "weapons",
-      "buyPrice": 0,
+      "buyPrice": 180,
       "sellPrice": 124,
       "isLocal": false,
-      "updatedAt": "2026-09-03T19:33:44.948Z",
-      "history": []
+      "updatedAt": "2026-09-03T22:09:02.913Z",
+      "history": [
+        {
+          "buyPrice": 0,
+          "sellPrice": 124,
+          "at": "2026-09-03T19:33:44.948Z"
+        }
+      ]
     },
     {
       "id": "shopkeeper-kyriakos__green-tunic",
