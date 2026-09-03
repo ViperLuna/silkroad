@@ -1223,6 +1223,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:36:48.138Z",
       "history": []
+    },
+    {
+      "id": "potter-oommen__clay",
+      "traderId": "potter-oommen",
+      "itemId": "clay",
+      "buyPrice": 0,
+      "sellPrice": 15,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:37:07.808Z",
+      "history": []
     }
   ]
 }
