@@ -1213,6 +1213,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:36:19.601Z",
       "history": []
+    },
+    {
+      "id": "potter-oommen__books",
+      "traderId": "potter-oommen",
+      "itemId": "books",
+      "buyPrice": 0,
+      "sellPrice": 415,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:36:48.138Z",
+      "history": []
     }
   ]
 }
