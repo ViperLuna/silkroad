@@ -203,6 +203,11 @@
       "id": "bladesmith-ogin",
       "name": "Bladesmith Ogin",
       "cityId": "damascus"
+    },
+    {
+      "id": "potter-givargis",
+      "name": "Potter Givargis",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1506,6 +1511,16 @@
       "sellPrice": 101,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:47:45.598Z",
+      "history": []
+    },
+    {
+      "id": "potter-givargis__earthenware",
+      "traderId": "potter-givargis",
+      "itemId": "earthenware",
+      "buyPrice": 0,
+      "sellPrice": 16,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:48:22.546Z",
       "history": []
     }
   ]
