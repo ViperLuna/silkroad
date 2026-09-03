@@ -236,6 +236,10 @@
     {
       "id": "flatbread-10",
       "name": "Flatbread (+10)"
+    },
+    {
+      "id": "water-cup-15",
+      "name": "Water Cup (+15)"
     }
   ],
   "listings": [
@@ -680,16 +684,6 @@
       "history": []
     },
     {
-      "id": "tavern-keep-demetrios__flatbread",
-      "traderId": "tavern-keep-demetrios",
-      "itemId": "flatbread",
-      "buyPrice": 0,
-      "sellPrice": 5,
-      "isLocal": true,
-      "updatedAt": "2026-09-03T19:39:40.680Z",
-      "history": []
-    },
-    {
       "id": "tavern-keep-demetrios__water-cup",
       "traderId": "tavern-keep-demetrios",
       "itemId": "water-cup",
@@ -727,6 +721,16 @@
       "sellPrice": 5,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:41:07.267Z",
+      "history": []
+    },
+    {
+      "id": "tavern-keep-demetrios__water-cup-15",
+      "traderId": "tavern-keep-demetrios",
+      "itemId": "water-cup-15",
+      "buyPrice": 0,
+      "sellPrice": 20,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:42:36.473Z",
       "history": []
     }
   ]
