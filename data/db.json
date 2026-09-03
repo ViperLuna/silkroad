@@ -112,6 +112,11 @@
       "id": "kale",
       "name": "Kale",
       "cityId": "tafnis"
+    },
+    {
+      "id": "merchant-leo",
+      "name": "Merchant Leo",
+      "cityId": "paneas"
     }
   ],
   "items": [
@@ -326,6 +331,18 @@
     {
       "id": "olive-tree-field",
       "name": "Olive Tree Field"
+    },
+    {
+      "id": "bronze-pickaxe",
+      "name": "Bronze Pickaxe"
+    },
+    {
+      "id": "iron-pickaxe",
+      "name": "Iron Pickaxe"
+    },
+    {
+      "id": "steel-pickaxe",
+      "name": "Steel Pickaxe"
     }
   ],
   "listings": [
@@ -877,6 +894,36 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-03T20:02:46.325Z",
+      "history": []
+    },
+    {
+      "id": "merchant-leo__bronze-pickaxe",
+      "traderId": "merchant-leo",
+      "itemId": "bronze-pickaxe",
+      "buyPrice": 0,
+      "sellPrice": 100,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:08:58.917Z",
+      "history": []
+    },
+    {
+      "id": "merchant-leo__iron-pickaxe",
+      "traderId": "merchant-leo",
+      "itemId": "iron-pickaxe",
+      "buyPrice": 0,
+      "sellPrice": 500,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:09:12.993Z",
+      "history": []
+    },
+    {
+      "id": "merchant-leo__steel-pickaxe",
+      "traderId": "merchant-leo",
+      "itemId": "steel-pickaxe",
+      "buyPrice": 0,
+      "sellPrice": 1000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:09:29.822Z",
       "history": []
     }
   ]
