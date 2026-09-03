@@ -13,6 +13,7 @@
     <input id="search-input" type="text" placeholder="Search items or vendors…" autocomplete="off">
     <div class="topbar-actions">
       <button id="btn-city-view" class="nav-btn active">City</button>
+      <button id="btn-route" class="nav-btn">🧭 Route</button>
       <button id="btn-map" class="nav-btn">Map</button>
       <button id="btn-settings" class="nav-btn">⚙️ Settings</button>
     </div>
@@ -63,6 +64,17 @@
     <button class="back-btn" id="btn-back-from-lookup">← Back to city</button>
     <h2 id="lookup-title"></h2>
     <table class="listing-table" id="lookup-table-wrap"></table>
+  </main>
+
+  <main id="view-route" class="view" hidden>
+    <button class="back-btn" id="btn-back-from-route">← Back to city</button>
+    <h2>Plan a route</h2>
+    <div class="route-form">
+      <label>From <select id="route-from"></select></label>
+      <label>To <select id="route-to"></select></label>
+      <button id="btn-find-route">Find route</button>
+    </div>
+    <div id="route-result"></div>
   </main>
 
   <main id="view-map" class="view" hidden>

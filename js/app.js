@@ -2,7 +2,7 @@ import { CONFIG } from './config.js';
 import { getCachedState, setCachedState } from './db.js';
 import * as GH from './github.js';
 import {
-  defaultState, slugify, uniqueId, roadId, listingId, hopsFrom, formatPrice, isMinor, locationLabel,
+  defaultState, slugify, uniqueId, roadId, listingId, hopsFrom, formatPrice, isMinor, locationLabel, routeTo,
 } from './state.js';
 import Fuse from './vendor/fuse.mjs';
 
@@ -12,6 +12,7 @@ const els = {
   viewCity: document.getElementById('view-city'),
   viewLookup: document.getElementById('view-lookup'),
   viewMap: document.getElementById('view-map'),
+  viewRoute: document.getElementById('view-route'),
   citySelect: document.getElementById('city-select'),
   traitsCityName: document.getElementById('traits-city-name'),
   traitsText: document.getElementById('traits-text'),
@@ -36,6 +37,12 @@ const els = {
   btnAddRoad: document.getElementById('btn-add-road'),
   modalOverlay: document.getElementById('modal-overlay'),
   modal: document.getElementById('modal'),
+  btnRoute: document.getElementById('btn-route'),
+  btnBackFromRoute: document.getElementById('btn-back-from-route'),
+  routeFrom: document.getElementById('route-from'),
+  routeTo: document.getElementById('route-to'),
+  btnFindRoute: document.getElementById('btn-find-route'),
+  routeResult: document.getElementById('route-result'),
 };
 
 const DIRTY_KEY = 'sr_dirty';
@@ -243,8 +250,10 @@ function showView(name) {
   els.viewCity.hidden = name !== 'city';
   els.viewLookup.hidden = name !== 'lookup';
   els.viewMap.hidden = name !== 'map';
+  els.viewRoute.hidden = name !== 'route';
   els.btnCityView.classList.toggle('active', name === 'city');
   els.btnMap.classList.toggle('active', name === 'map');
+  els.btnRoute.classList.toggle('active', name === 'route');
 }
 
 function openItemLookup(itemId) {
@@ -592,6 +601,52 @@ els.btnCityView.onclick = () => showView('city');
 els.btnMap.onclick = () => { showView('map'); renderMapView(); };
 els.btnBackFromLookup.onclick = () => showView('city');
 els.btnBackFromMap.onclick = () => showView('city');
+els.btnBackFromRoute.onclick = () => showView('city');
+
+// ---------- route planner ----------
+
+function renderRouteCitySelects() {
+  const byName = (a, b) => a.name.localeCompare(b.name);
+  const majors = App.state.cities.filter((c) => !isMinor(c)).sort(byName);
+  const minors = App.state.cities.filter((c) => isMinor(c)).sort(byName);
+  const opt = (c) => `<option value="${c.id}">${escapeHtml(locationLabel(c, App.state.roads, App.state.cities))}</option>`;
+  const groups = (majors.length ? `<optgroup label="Major Cities">${majors.map(opt).join('')}</optgroup>` : '')
+    + (minors.length ? `<optgroup label="Waypoints">${minors.map(opt).join('')}</optgroup>` : '');
+  els.routeFrom.innerHTML = groups;
+  els.routeTo.innerHTML = groups;
+  if (App.currentCityId) els.routeFrom.value = App.currentCityId;
+}
+
+function renderRoute() {
+  const fromId = els.routeFrom.value;
+  const toId = els.routeTo.value;
+  if (!fromId || !toId) return;
+  const path = routeTo(fromId, toId, App.state.roads, App.state.cities);
+  if (!path) {
+    els.routeResult.innerHTML = '<p class="empty-row">No known road connects these two.</p>';
+    return;
+  }
+  const majorCount = path.filter((c) => !isMinor(c)).length - 1;
+  els.routeResult.innerHTML = `
+    <p class="route-summary">${majorCount} hop${majorCount === 1 ? '' : 's'} — ${path.length} stop${path.length === 1 ? '' : 's'} on the road</p>
+    <ol class="route-steps">
+      ${path.map((c, i) => `
+        <li>
+          ${i > 0 ? '<span class="route-arrow">→</span>' : ''}
+          <span class="badge ${isMinor(c) ? 'badge-minor' : 'badge-major'}">${isMinor(c) ? 'Minor' : 'Major'}</span>
+          ${escapeHtml(locationLabel(c, App.state.roads, App.state.cities))}
+        </li>
+      `).join('')}
+    </ol>
+  `;
+}
+
+els.btnRoute.onclick = () => {
+  renderRouteCitySelects();
+  showView('route');
+  els.routeResult.innerHTML = '';
+};
+els.btnFindRoute.onclick = renderRoute;
 
 // ---------- map view: cities & roads ----------
 

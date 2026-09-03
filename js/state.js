@@ -59,13 +59,18 @@ function buildAdjacency(roads) {
 // Shortest-path search over the road graph, where arriving at a major city
 // costs 1 and arriving at a minor waypoint costs 0 — so passing through a
 // waypoint on the way to a major city doesn't inflate the hop count.
-// Returns a Map of cityId -> hop count from `fromCityId`; unreachable
-// cities are simply absent. Weights are only ever 0 or 1, so a 0-1 BFS
-// (a deque instead of a plain queue) finds shortest paths in linear time.
-export function hopsFrom(fromCityId, roads, cities) {
+// Weights are only ever 0 or 1, so a 0-1 BFS (a deque instead of a plain
+// queue) finds shortest paths in linear time, correctly across branches,
+// forks, and loops — there's no notion of "direction," so a way back
+// around a loop is found just as readily as the "forward" way.
+// Returns { dist, prev }: dist maps cityId -> hop count from `fromCityId`
+// (unreachable cities are simply absent), prev maps cityId -> the city
+// stepped from on some shortest path to it, for reconstructing a route.
+function shortestPaths(fromCityId, roads, cities) {
   const cityById = new Map(cities.map((c) => [c.id, c]));
   const adj = buildAdjacency(roads);
   const dist = new Map([[fromCityId, 0]]);
+  const prev = new Map();
   const deque = [fromCityId];
   while (deque.length) {
     const cur = deque.shift();
@@ -75,12 +80,38 @@ export function hopsFrom(fromCityId, roads, cities) {
       const nd = d + weight;
       if (!dist.has(next) || nd < dist.get(next)) {
         dist.set(next, nd);
+        prev.set(next, cur);
         if (weight === 0) deque.unshift(next);
         else deque.push(next);
       }
     }
   }
-  return dist;
+  return { dist, prev };
+}
+
+export function hopsFrom(fromCityId, roads, cities) {
+  return shortestPaths(fromCityId, roads, cities).dist;
+}
+
+// The actual sequence of cities on a shortest route from `fromCityId` to
+// `toCityId` (inclusive of both ends), or null if there's no path at all.
+// Ties are broken arbitrarily — any shortest route is equally valid.
+export function routeTo(fromCityId, toCityId, roads, cities) {
+  if (fromCityId === toCityId) {
+    const city = cities.find((c) => c.id === fromCityId);
+    return city ? [city] : null;
+  }
+  const cityById = new Map(cities.map((c) => [c.id, c]));
+  const { dist, prev } = shortestPaths(fromCityId, roads, cities);
+  if (!dist.has(toCityId)) return null;
+  const pathIds = [toCityId];
+  let cur = toCityId;
+  while (cur !== fromCityId) {
+    cur = prev.get(cur);
+    pathIds.push(cur);
+  }
+  pathIds.reverse();
+  return pathIds.map((id) => cityById.get(id));
 }
 
 // Finds the major cities that bound a minor waypoint — walking outward
