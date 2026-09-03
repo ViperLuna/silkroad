@@ -1522,6 +1522,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:48:22.546Z",
       "history": []
+    },
+    {
+      "id": "potter-givargis__paper",
+      "traderId": "potter-givargis",
+      "itemId": "paper",
+      "buyPrice": 0,
+      "sellPrice": 39,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:48:47.643Z",
+      "history": []
     }
   ]
 }
