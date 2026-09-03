@@ -23,6 +23,12 @@
       "name": "Paneas",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "damascus",
+      "name": "Damascus",
+      "traits": "",
+      "category": "major"
     }
   ],
   "roads": [
@@ -40,6 +46,11 @@
       "id": "coastal-pheonice__paneas",
       "a": "coastal-pheonice",
       "b": "paneas"
+    },
+    {
+      "id": "coastal-pheonice__damascus",
+      "a": "coastal-pheonice",
+      "b": "damascus"
     }
   ],
   "traders": [
