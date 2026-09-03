@@ -1542,6 +1542,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:49:05.245Z",
       "history": []
+    },
+    {
+      "id": "potter-givargis__clay",
+      "traderId": "potter-givargis",
+      "itemId": "clay",
+      "buyPrice": 0,
+      "sellPrice": 15,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:49:24.866Z",
+      "history": []
     }
   ]
 }
