@@ -28,6 +28,11 @@
       "id": "shopkeeper-alexios",
       "name": "Shopkeeper Alexios",
       "cityId": "tyre"
+    },
+    {
+      "id": "weaver-hasan",
+      "name": "Weaver Hasan",
+      "cityId": "tyre"
     }
   ],
   "items": [
@@ -90,6 +95,18 @@
     {
       "id": "orange-cape",
       "name": "Orange Cape"
+    },
+    {
+      "id": "gold-cape",
+      "name": "Gold Cape"
+    },
+    {
+      "id": "green-woven-cape",
+      "name": "Green Woven Cape"
+    },
+    {
+      "id": "tyrian-cape",
+      "name": "Tyrian Cape"
     }
   ],
   "listings": [
@@ -241,6 +258,46 @@
       "sellPrice": 10000,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:10:01.206Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-alexios__gold-cape",
+      "traderId": "shopkeeper-alexios",
+      "itemId": "gold-cape",
+      "buyPrice": 0,
+      "sellPrice": 80000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:10:21.381Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-alexios__green-woven-cape",
+      "traderId": "shopkeeper-alexios",
+      "itemId": "green-woven-cape",
+      "buyPrice": 0,
+      "sellPrice": 115000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:10:40.374Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-alexios__tyrian-cape",
+      "traderId": "shopkeeper-alexios",
+      "itemId": "tyrian-cape",
+      "buyPrice": 0,
+      "sellPrice": 150000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:11:01.084Z",
+      "history": []
+    },
+    {
+      "id": "weaver-hasan__linen",
+      "traderId": "weaver-hasan",
+      "itemId": "linen",
+      "buyPrice": 0,
+      "sellPrice": 9,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:11:59.500Z",
       "history": []
     }
   ]
