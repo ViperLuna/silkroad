@@ -1562,6 +1562,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:49:36.531Z",
       "history": []
+    },
+    {
+      "id": "potter-givargis__glassware",
+      "traderId": "potter-givargis",
+      "itemId": "glassware",
+      "buyPrice": 0,
+      "sellPrice": 175,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:49:47.583Z",
+      "history": []
     }
   ]
 }
