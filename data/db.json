@@ -1323,6 +1323,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:41:00.131Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-ogin__dried-fish",
+      "traderId": "agriculture-merchant-ogin",
+      "itemId": "dried-fish",
+      "buyPrice": 0,
+      "sellPrice": 25,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:41:16.351Z",
+      "history": []
     }
   ]
 }
