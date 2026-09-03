@@ -1387,6 +1387,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:44:05.387Z",
       "history": []
+    },
+    {
+      "id": "weaver-sarbel__leather",
+      "traderId": "weaver-sarbel",
+      "itemId": "leather",
+      "buyPrice": 0,
+      "sellPrice": 15,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:44:19.304Z",
+      "history": []
     }
   ]
 }
