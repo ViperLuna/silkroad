@@ -249,6 +249,11 @@
       "id": "blacksmith-hasan",
       "name": "Blacksmith Hasan",
       "cityId": "antioch"
+    },
+    {
+      "id": "agriculture-merchant-strategos",
+      "name": "Agriculture Merchant Strategos",
+      "cityId": "antioch"
     }
   ],
   "items": [
@@ -1927,6 +1932,16 @@
           "at": "2026-09-03T23:00:17.308Z"
         }
       ]
+    },
+    {
+      "id": "agriculture-merchant-strategos__wheat",
+      "traderId": "agriculture-merchant-strategos",
+      "itemId": "wheat",
+      "buyPrice": 0,
+      "sellPrice": 25,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:01:10.400Z",
+      "history": []
     }
   ]
 }
