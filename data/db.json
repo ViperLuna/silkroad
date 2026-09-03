@@ -193,6 +193,11 @@
       "id": "weaver-sarbel",
       "name": "Weaver Sarbel",
       "cityId": "damascus"
+    },
+    {
+      "id": "agriculture-merchant-sarhad",
+      "name": "Agriculture Merchant Sarhad",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1426,6 +1431,16 @@
       "sellPrice": 25,
       "isLocal": false,
       "updatedAt": "2026-09-03T21:45:04.321Z",
+      "history": []
+    },
+    {
+      "id": "agriculture-merchant-sarhad__barley",
+      "traderId": "agriculture-merchant-sarhad",
+      "itemId": "barley",
+      "buyPrice": 0,
+      "sellPrice": 8,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:45:51.433Z",
       "history": []
     }
   ]
