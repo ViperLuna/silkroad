@@ -1,6 +1,6 @@
 {
   "cities": [
-    { "id": "tyre", "name": "Tyre", "traits": "" }
+    { "id": "tyre", "name": "Tyre", "traits": "", "category": "major" }
   ],
   "roads": [],
   "traders": [],

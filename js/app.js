@@ -2,7 +2,7 @@ import { CONFIG } from './config.js';
 import { getCachedState, setCachedState } from './db.js';
 import * as GH from './github.js';
 import {
-  defaultState, slugify, uniqueId, roadId, listingId, hopsFrom, formatPrice,
+  defaultState, slugify, uniqueId, roadId, listingId, hopsFrom, formatPrice, isMinor, locationLabel,
 } from './state.js';
 import Fuse from './vendor/fuse.mjs';
 
@@ -183,15 +183,19 @@ function sortRows(rows, key, dir, getters) {
 // ---------- rendering: city view ----------
 
 function renderCitySelect() {
-  const sorted = [...App.state.cities].sort((a, b) => a.name.localeCompare(b.name));
-  els.citySelect.innerHTML = sorted.map((c) => `<option value="${c.id}">${escapeHtml(c.name)}</option>`).join('');
+  const byName = (a, b) => a.name.localeCompare(b.name);
+  const majors = App.state.cities.filter((c) => !isMinor(c)).sort(byName);
+  const minors = App.state.cities.filter((c) => isMinor(c)).sort(byName);
+  const opt = (c) => `<option value="${c.id}">${escapeHtml(locationLabel(c, App.state.roads, App.state.cities))}</option>`;
+  els.citySelect.innerHTML = (majors.length ? `<optgroup label="Major Cities">${majors.map(opt).join('')}</optgroup>` : '')
+    + (minors.length ? `<optgroup label="Waypoints">${minors.map(opt).join('')}</optgroup>` : '');
   els.citySelect.value = App.currentCityId || '';
 }
 
 function renderTraits() {
   const city = getCity(App.currentCityId);
   if (!city) return;
-  els.traitsCityName.textContent = city.name;
+  els.traitsCityName.textContent = locationLabel(city, App.state.roads, App.state.cities);
   els.traitsText.textContent = city.traits && city.traits.trim() ? city.traits : 'No notes yet.';
 }
 
@@ -250,7 +254,7 @@ function openItemLookup(itemId) {
   els.lookupTitle.textContent = `Best places to trade: ${item.name}`;
 
   const rows = itemListingRows(itemId);
-  const hops = hopsFrom(App.currentCityId, App.state.roads);
+  const hops = hopsFrom(App.currentCityId, App.state.roads, App.state.cities);
   const withHops = rows.map((r) => ({ ...r, hops: hops.has(r.city.id) ? hops.get(r.city.id) : Infinity }));
 
   const { key, dir } = App.sort.lookup;
@@ -275,7 +279,7 @@ function openItemLookup(itemId) {
       ${sorted.map((r) => `
         <tr>
           <td>${r.hops === Infinity ? '—' : r.hops}</td>
-          <td class="vendor-link" data-jump-city="${r.city.id}">${escapeHtml(r.city.name)}</td>
+          <td class="vendor-link" data-jump-city="${r.city.id}">${escapeHtml(locationLabel(r.city, App.state.roads, App.state.cities))}</td>
           <td class="vendor-link" data-jump-trader="${r.trader.id}" data-jump-city="${r.city.id}">${escapeHtml(r.trader.name)}</td>
           <td>${formatPrice(r.listing.buyPrice)}</td>
           <td>${formatPrice(r.listing.sellPrice)}</td>
@@ -316,9 +320,12 @@ function jumpToCity(cityId, highlightTraderId) {
 function renderMapView() {
   els.cityList.innerHTML = App.state.cities.map((c) => `
     <li>
-      <span>${escapeHtml(c.name)}</span>
+      <span>
+        <span class="badge ${isMinor(c) ? 'badge-minor' : 'badge-major'}">${isMinor(c) ? 'Minor' : 'Major'}</span>
+        ${escapeHtml(locationLabel(c, App.state.roads, App.state.cities))}
+      </span>
       <span class="entity-actions">
-        <button class="icon-btn" data-edit-city="${c.id}" title="Rename">✏️</button>
+        <button class="icon-btn" data-edit-city="${c.id}" title="Edit">✏️</button>
         <button class="icon-btn" data-delete-city="${c.id}" title="Delete">🗑️</button>
       </span>
     </li>
@@ -326,7 +333,7 @@ function renderMapView() {
 
   els.roadList.innerHTML = App.state.roads.map((r) => `
     <li>
-      <span>${escapeHtml(getCity(r.a)?.name || '?')} ↔ ${escapeHtml(getCity(r.b)?.name || '?')}</span>
+      <span>${escapeHtml(locationLabel(getCity(r.a), App.state.roads, App.state.cities) || '?')} ↔ ${escapeHtml(locationLabel(getCity(r.b), App.state.roads, App.state.cities) || '?')}</span>
       <span class="entity-actions">
         <button class="icon-btn" data-delete-road="${r.id}" title="Delete">🗑️</button>
       </span>
@@ -369,11 +376,20 @@ function escapeHtml(str) {
 
 // ---------- mutations ----------
 
-function addCity(name) {
+function addCity(name, category = 'major') {
   const ids = new Set(App.state.cities.map((c) => c.id));
   const id = uniqueId(slugify(name), ids);
-  App.state.cities.push({ id, name, traits: '' });
+  App.state.cities.push({ id, name, traits: '', category });
   return id;
+}
+
+function categoryField(selected, groupName = 'f-city-category') {
+  return `
+    <label class="radio-row">
+      <span><input type="radio" name="${groupName}" value="major" ${selected !== 'minor' ? 'checked' : ''}> Major City</span>
+      <span><input type="radio" name="${groupName}" value="minor" ${selected === 'minor' ? 'checked' : ''}> Minor / Waypoint</span>
+    </label>
+  `;
 }
 
 function addTrader(name, cityId) {
@@ -591,6 +607,7 @@ els.btnAddCity.onclick = () => {
   openModal(`
     <h3>Add city</h3>
     <label>Name <input id="f-city-name" type="text"></label>
+    ${categoryField('major')}
     <div class="modal-actions">
       <button id="f-save">Save</button>
       <button id="f-cancel">Cancel</button>
@@ -600,7 +617,8 @@ els.btnAddCity.onclick = () => {
   document.getElementById('f-save').onclick = async () => {
     const name = document.getElementById('f-city-name').value.trim();
     if (!name) return;
-    const id = addCity(name);
+    const category = document.querySelector('input[name="f-city-category"]:checked').value;
+    const id = addCity(name, category);
     closeModal();
     renderMapView();
     renderCitySelect();
@@ -614,8 +632,9 @@ els.cityList.addEventListener('click', async (e) => {
   if (editBtn) {
     const city = getCity(editBtn.dataset.editCity);
     openModal(`
-      <h3>Rename city</h3>
+      <h3>Edit city</h3>
       <label>Name <input id="f-city-name" type="text" value="${escapeHtml(city.name)}"></label>
+      ${categoryField(city.category)}
       <div class="modal-actions">
         <button id="f-save">Save</button>
         <button id="f-cancel">Cancel</button>
@@ -626,10 +645,11 @@ els.cityList.addEventListener('click', async (e) => {
       const name = document.getElementById('f-city-name').value.trim();
       if (!name) return;
       city.name = name;
+      city.category = document.querySelector('input[name="f-city-category"]:checked').value;
       closeModal();
       renderMapView();
       renderCityView();
-      await persist(`Rename city to ${name}`);
+      await persist(`Edit city ${name}`);
     };
     return;
   }
@@ -664,10 +684,12 @@ els.btnAddRoad.onclick = () => {
       <select id="f-road-a">${options}<option value="__new__">+ New City</option></select>
     </label>
     <input id="f-road-a-new" type="text" placeholder="New city name" hidden>
+    <div id="f-road-a-new-cat" hidden>${categoryField('major', 'f-city-category-a')}</div>
     <label>To
       <select id="f-road-b">${options}<option value="__new__">+ New City</option></select>
     </label>
     <input id="f-road-b-new" type="text" placeholder="New city name" hidden>
+    <div id="f-road-b-new-cat" hidden>${categoryField('major', 'f-city-category-b')}</div>
     <div class="modal-actions">
       <button id="f-save">Save</button>
       <button id="f-cancel">Cancel</button>
@@ -675,10 +697,12 @@ els.btnAddRoad.onclick = () => {
   `);
   const aSel = document.getElementById('f-road-a');
   const aNew = document.getElementById('f-road-a-new');
-  aSel.onchange = () => { aNew.hidden = aSel.value !== '__new__'; };
+  const aNewCat = document.getElementById('f-road-a-new-cat');
+  aSel.onchange = () => { aNew.hidden = aNewCat.hidden = aSel.value !== '__new__'; };
   const bSel = document.getElementById('f-road-b');
   const bNew = document.getElementById('f-road-b-new');
-  bSel.onchange = () => { bNew.hidden = bSel.value !== '__new__'; };
+  const bNewCat = document.getElementById('f-road-b-new-cat');
+  bSel.onchange = () => { bNew.hidden = bNewCat.hidden = bSel.value !== '__new__'; };
 
   document.getElementById('f-cancel').onclick = closeModal;
   document.getElementById('f-save').onclick = async () => {
@@ -686,13 +710,13 @@ els.btnAddRoad.onclick = () => {
     if (a === '__new__') {
       const name = aNew.value.trim();
       if (!name) return;
-      a = addCity(name);
+      a = addCity(name, aNewCat.querySelector('input[name="f-city-category-a"]:checked').value);
     }
     let b = bSel.value;
     if (b === '__new__') {
       const name = bNew.value.trim();
       if (!name) return;
-      b = addCity(name);
+      b = addCity(name, bNewCat.querySelector('input[name="f-city-category-b"]:checked').value);
     }
     if (a === b) return;
     const id = roadId(a, b);
@@ -777,7 +801,7 @@ els.search.addEventListener('input', () => {
         if (it.type === 'item') {
           return `<tr><td>🔹</td><td class="vendor-link" data-search-item="${it.id}">${escapeHtml(it.name)}</td><td>item</td></tr>`;
         }
-        return `<tr><td>👤</td><td class="vendor-link" data-search-trader="${it.id}" data-search-city="${it.cityId}">${escapeHtml(it.name)}</td><td>vendor — ${escapeHtml(getCity(it.cityId)?.name || '')}</td></tr>`;
+        return `<tr><td>👤</td><td class="vendor-link" data-search-trader="${it.id}" data-search-city="${it.cityId}">${escapeHtml(it.name)}</td><td>vendor — ${escapeHtml(locationLabel(getCity(it.cityId), App.state.roads, App.state.cities))}</td></tr>`;
       }).join('') || '<tr><td class="empty-row" colspan="3">No matches.</td></tr>'}
     </tbody>
   `;

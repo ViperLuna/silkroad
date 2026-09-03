@@ -3,12 +3,19 @@
 
 export function defaultState() {
   return {
-    cities: [{ id: 'tyre', name: 'Tyre', traits: '' }],
+    cities: [{ id: 'tyre', name: 'Tyre', traits: '', category: 'major' }],
     roads: [],
     traders: [],
     items: [],
     listings: [],
   };
+}
+
+// A location is a "minor" waypoint only if explicitly marked so; anything
+// else (including older data saved before this field existed) counts as
+// a major city.
+export function isMinor(city) {
+  return !!city && city.category === 'minor';
 }
 
 export function slugify(name) {
@@ -49,23 +56,73 @@ function buildAdjacency(roads) {
   return adj;
 }
 
-// Breadth-first search over the road graph. Returns a Map of cityId -> hop
-// count from `fromCityId`. Cities with no known route are simply absent.
-export function hopsFrom(fromCityId, roads) {
+// Shortest-path search over the road graph, where arriving at a major city
+// costs 1 and arriving at a minor waypoint costs 0 — so passing through a
+// waypoint on the way to a major city doesn't inflate the hop count.
+// Returns a Map of cityId -> hop count from `fromCityId`; unreachable
+// cities are simply absent. Weights are only ever 0 or 1, so a 0-1 BFS
+// (a deque instead of a plain queue) finds shortest paths in linear time.
+export function hopsFrom(fromCityId, roads, cities) {
+  const cityById = new Map(cities.map((c) => [c.id, c]));
   const adj = buildAdjacency(roads);
   const dist = new Map([[fromCityId, 0]]);
-  const queue = [fromCityId];
-  while (queue.length) {
-    const cur = queue.shift();
+  const deque = [fromCityId];
+  while (deque.length) {
+    const cur = deque.shift();
     const d = dist.get(cur);
     for (const next of adj.get(cur) || []) {
-      if (!dist.has(next)) {
-        dist.set(next, d + 1);
-        queue.push(next);
+      const weight = isMinor(cityById.get(next)) ? 0 : 1;
+      const nd = d + weight;
+      if (!dist.has(next) || nd < dist.get(next)) {
+        dist.set(next, nd);
+        if (weight === 0) deque.unshift(next);
+        else deque.push(next);
       }
     }
   }
   return dist;
+}
+
+// Finds the major cities that bound a minor waypoint — walking outward
+// through any chain of other minor waypoints until a major city is hit on
+// each branch, and stopping there (majors act as walls, not pass-throughs).
+// Used to describe a waypoint as "Between Tyre and Damascus".
+export function nearbyMajors(cityId, roads, cities) {
+  const cityById = new Map(cities.map((c) => [c.id, c]));
+  const adj = buildAdjacency(roads);
+  const foundIds = new Set();
+  const visitedMinors = new Set([cityId]);
+  const queue = [...(adj.get(cityId) || [])];
+  while (queue.length) {
+    const cur = queue.shift();
+    const city = cityById.get(cur);
+    if (!city) continue;
+    if (!isMinor(city)) {
+      foundIds.add(cur);
+      continue;
+    }
+    if (visitedMinors.has(cur)) continue;
+    visitedMinors.add(cur);
+    for (const next of adj.get(cur) || []) {
+      if (!visitedMinors.has(next)) queue.push(next);
+    }
+  }
+  return [...foundIds].map((id) => cityById.get(id)).filter(Boolean);
+}
+
+function joinNames(names) {
+  if (names.length <= 1) return names.join('');
+  if (names.length === 2) return `${names[0]} and ${names[1]}`;
+  return `${names.slice(0, -1).join(', ')}, and ${names[names.length - 1]}`;
+}
+
+// A human label for a location: just its name for a major city, or
+// "Name (Between X and Y)" for a minor waypoint.
+export function locationLabel(city, roads, cities) {
+  if (!city || !isMinor(city)) return city ? city.name : '';
+  const majors = nearbyMajors(city.id, roads, cities).map((c) => c.name).sort();
+  if (majors.length === 0) return city.name;
+  return `${city.name} (Between ${joinNames(majors)})`;
 }
 
 export function formatPrice(value) {
