@@ -1532,6 +1532,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:48:47.643Z",
       "history": []
+    },
+    {
+      "id": "potter-givargis__books",
+      "traderId": "potter-givargis",
+      "itemId": "books",
+      "buyPrice": 0,
+      "sellPrice": 415,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:49:05.245Z",
+      "history": []
     }
   ]
 }
