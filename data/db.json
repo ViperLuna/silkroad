@@ -1442,6 +1442,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:45:51.433Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-sarhad__wheat",
+      "traderId": "agriculture-merchant-sarhad",
+      "itemId": "wheat",
+      "buyPrice": 0,
+      "sellPrice": 15,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:46:05.469Z",
+      "history": []
     }
   ]
 }
