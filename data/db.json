@@ -508,6 +508,10 @@
     {
       "id": "embroidered-red-tunic",
       "name": "Embroidered Red Tunic"
+    },
+    {
+      "id": "red-soldier-s-tunic",
+      "name": "Red Soldier's Tunic"
     }
   ],
   "listings": [
@@ -1679,6 +1683,16 @@
       "sellPrice": 200,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:53:37.219Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-awgin__red-soldier-s-tunic",
+      "traderId": "shopkeeper-awgin",
+      "itemId": "red-soldier-s-tunic",
+      "buyPrice": 0,
+      "sellPrice": 200,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:53:57.323Z",
       "history": []
     }
   ]
