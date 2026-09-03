@@ -419,6 +419,10 @@
     {
       "id": "red-priest-robes",
       "name": "Red Priest Robes"
+    },
+    {
+      "id": "purple-priest-robes",
+      "name": "Purple Priest Robes"
     }
   ],
   "listings": [
@@ -1100,6 +1104,16 @@
       "sellPrice": 470,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:27:04.414Z",
+      "history": []
+    },
+    {
+      "id": "craftsman-sargon__purple-priest-robes",
+      "traderId": "craftsman-sargon",
+      "itemId": "purple-priest-robes",
+      "buyPrice": 0,
+      "sellPrice": 470,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:27:21.363Z",
       "history": []
     }
   ]
