@@ -13,6 +13,11 @@
       "id": "spice-merchant-eirene",
       "name": "Spice Merchant Eirene",
       "cityId": "tyre"
+    },
+    {
+      "id": "oil-merchant-samonas",
+      "name": "Oil Merchant Samonas",
+      "cityId": "tyre"
     }
   ],
   "items": [
@@ -31,6 +36,14 @@
     {
       "id": "saffron",
       "name": "Saffron"
+    },
+    {
+      "id": "olive-oil",
+      "name": "Olive Oil"
+    },
+    {
+      "id": "honey",
+      "name": "Honey"
     }
   ],
   "listings": [
@@ -72,6 +85,26 @@
       "sellPrice": 279,
       "isLocal": false,
       "updatedAt": "2026-09-03T19:04:43.723Z",
+      "history": []
+    },
+    {
+      "id": "oil-merchant-samonas__olive-oil",
+      "traderId": "oil-merchant-samonas",
+      "itemId": "olive-oil",
+      "buyPrice": 0,
+      "sellPrice": 37,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:05:33.335Z",
+      "history": []
+    },
+    {
+      "id": "oil-merchant-samonas__honey",
+      "traderId": "oil-merchant-samonas",
+      "itemId": "honey",
+      "buyPrice": 0,
+      "sellPrice": 27,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:05:56.435Z",
       "history": []
     }
   ]
