@@ -2082,6 +2082,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T23:05:09.531Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-leo__saffron",
+      "traderId": "spice-merchant-leo",
+      "itemId": "saffron",
+      "buyPrice": 0,
+      "sellPrice": 291,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T23:05:22.539Z",
+      "history": []
     }
   ]
 }
