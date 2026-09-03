@@ -168,6 +168,11 @@
       "id": "shopkeeper-ephrem",
       "name": "Shopkeeper Ephrem",
       "cityId": "damascus"
+    },
+    {
+      "id": "potter-oommen",
+      "name": "Potter Oommen",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1187,6 +1192,16 @@
       "sellPrice": 250,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:34:38.296Z",
+      "history": []
+    },
+    {
+      "id": "potter-oommen__earthenware",
+      "traderId": "potter-oommen",
+      "itemId": "earthenware",
+      "buyPrice": 0,
+      "sellPrice": 16,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:36:01.416Z",
       "history": []
     }
   ]
