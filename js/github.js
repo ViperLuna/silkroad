@@ -54,10 +54,8 @@ export async function verifyToken() {
   return res.ok;
 }
 
-export async function saveState(data, message) {
-  if (!hasToken()) throw new Error('no-token');
-  const { sha } = await fetchViaApi();
-  const res = await fetch(`${API_BASE}/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${CONFIG.dataPath}`, {
+async function putContents(data, message, sha) {
+  return fetch(`${API_BASE}/repos/${CONFIG.owner}/${CONFIG.repo}/contents/${CONFIG.dataPath}`, {
     method: 'PUT',
     headers: { ...authHeaders(), 'Content-Type': 'application/json' },
     body: JSON.stringify({
@@ -67,6 +65,23 @@ export async function saveState(data, message) {
       branch: CONFIG.branch,
     }),
   });
+}
+
+// GitHub requires the file's current version ("sha") on every write, and
+// rejects the write (409/422) if that sha is stale by the time the request
+// lands — which happens if two saves overlap (e.g. two edits in quick
+// succession). Since `data` here is always the app's full current state,
+// not a partial diff, retrying with a freshly-fetched sha is always safe:
+// it just re-sends the same up-to-date data under the version GitHub
+// actually has now.
+export async function saveState(data, message) {
+  if (!hasToken()) throw new Error('no-token');
+  const first = await fetchViaApi();
+  let res = await putContents(data, message, first.sha);
+  if (res.status === 409 || res.status === 422) {
+    const retry = await fetchViaApi();
+    res = await putContents(data, message, retry.sha);
+  }
   if (!res.ok) {
     const err = await res.json().catch(() => ({}));
     throw new Error(`save-failed:${res.status}:${err.message || ''}`);

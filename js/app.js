@@ -51,6 +51,7 @@ const App = {
   state: defaultState(),
   currentCityId: null,
   dirty: localStorage.getItem(DIRTY_KEY) === '1',
+  lastSyncError: null,
   sort: {
     city: { key: 'item', dir: 'asc' },
     lookup: { key: 'buy', dir: 'desc' },
@@ -111,6 +112,14 @@ function setCurrentCity(cityId) {
 
 // ---------- persistence ----------
 
+// Chains every save behind the previous one so two edits made in quick
+// succession can never both be mid-flight at once — each fully finishes
+// (GitHub write included) before the next starts. Without this, two
+// overlapping saves could race for the same file version and the one that
+// loses would mark things "unsynced" even though the other one already
+// wrote the complete, correct data.
+let saveChain = Promise.resolve();
+
 async function persist(message) {
   await setCachedState(App.state);
   if (!GH.hasToken()) {
@@ -118,13 +127,18 @@ async function persist(message) {
     updateBanner();
     return;
   }
-  try {
-    await GH.saveState(App.state, message);
-    setDirty(false);
-  } catch (e) {
-    setDirty(true);
-  }
-  updateBanner();
+  saveChain = saveChain.then(async () => {
+    try {
+      await GH.saveState(App.state, message);
+      setDirty(false);
+      App.lastSyncError = null;
+    } catch (e) {
+      setDirty(true);
+      App.lastSyncError = e.message || String(e);
+    }
+    updateBanner();
+  });
+  await saveChain;
 }
 
 function updateBanner() {
@@ -137,7 +151,8 @@ function updateBanner() {
     els.banner.innerHTML = 'Changes are saved on this device only. <button id="banner-settings">Add a GitHub token</button> to sync them for real.';
     document.getElementById('banner-settings').onclick = openSettingsModal;
   } else {
-    els.banner.innerHTML = 'Could not sync to GitHub. <button id="banner-retry">Retry sync</button>';
+    const detail = App.lastSyncError ? ` (${escapeHtml(App.lastSyncError)})` : '';
+    els.banner.innerHTML = `Could not sync to GitHub${detail}. <button id="banner-retry">Retry sync</button>`;
     document.getElementById('banner-retry').onclick = async () => {
       await persist('Retry sync');
       renderAll();
