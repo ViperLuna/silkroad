@@ -797,6 +797,23 @@ els.roadList.addEventListener('click', async (e) => {
 
 // ---------- settings modal ----------
 
+function exportData() {
+  const blob = new Blob([JSON.stringify(App.state, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  const stamp = new Date().toISOString().slice(0, 10);
+  a.href = url;
+  a.download = `silkroad-trade-data-${stamp}.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(url);
+}
+
+function isValidExportShape(obj) {
+  return !!obj && ['cities', 'roads', 'traders', 'items', 'listings'].every((k) => Array.isArray(obj[k]));
+}
+
 function openSettingsModal() {
   openModal(`
     <h3>GitHub Sync Settings</h3>
@@ -808,6 +825,15 @@ function openSettingsModal() {
       <button id="f-clear" class="danger">Clear token</button>
       <button id="f-cancel">Close</button>
     </div>
+
+    <h3>Move data between devices</h3>
+    <p class="hint">Save the current data to a file you can carry to another device (AirDrop, email, USB, whatever) and load it there — no token needed.</p>
+    <div class="modal-actions">
+      <button id="f-export">⬇️ Export to file</button>
+      <button id="f-import-trigger">⬆️ Import from file</button>
+    </div>
+    <input id="f-import-file" type="file" accept="application/json" hidden>
+    <p id="f-import-status"></p>
   `);
   document.getElementById('f-cancel').onclick = closeModal;
   document.getElementById('f-clear').onclick = () => {
@@ -826,6 +852,33 @@ function openSettingsModal() {
       await persist('Sync pending changes');
     }
     updateBanner();
+  };
+
+  document.getElementById('f-export').onclick = exportData;
+  document.getElementById('f-import-trigger').onclick = () => document.getElementById('f-import-file').click();
+  document.getElementById('f-import-file').onchange = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    let parsed;
+    try {
+      parsed = JSON.parse(await file.text());
+    } catch (err) {
+      document.getElementById('f-import-status').textContent = 'That file is not valid JSON.';
+      e.target.value = '';
+      return;
+    }
+    if (!isValidExportShape(parsed)) {
+      document.getElementById('f-import-status').textContent = "That file doesn't look like a Silk Road Trade Log export.";
+      e.target.value = '';
+      return;
+    }
+    e.target.value = '';
+    const ok = await confirmDialog('Replace all data on this device with the imported file? This cannot be undone.');
+    if (!ok) return;
+    App.state = parsed;
+    restoreCurrentCity();
+    renderAll();
+    await persist('Import data from file');
   };
 }
 
