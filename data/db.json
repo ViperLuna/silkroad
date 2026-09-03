@@ -188,6 +188,11 @@
       "id": "blacksmith-idiculla",
       "name": "Blacksmith Idiculla",
       "cityId": "damascus"
+    },
+    {
+      "id": "weaver-sarbel",
+      "name": "Weaver Sarbel",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1371,6 +1376,16 @@
       "sellPrice": 0,
       "isLocal": false,
       "updatedAt": "2026-09-03T21:43:20.239Z",
+      "history": []
+    },
+    {
+      "id": "weaver-sarbel__wool",
+      "traderId": "weaver-sarbel",
+      "itemId": "wool",
+      "buyPrice": 0,
+      "sellPrice": 15,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:44:05.387Z",
       "history": []
     }
   ]
