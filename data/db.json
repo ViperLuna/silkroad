@@ -1203,6 +1203,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:36:01.416Z",
       "history": []
+    },
+    {
+      "id": "potter-oommen__paper",
+      "traderId": "potter-oommen",
+      "itemId": "paper",
+      "buyPrice": 0,
+      "sellPrice": 39,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:36:19.601Z",
+      "history": []
     }
   ]
 }
