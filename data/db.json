@@ -1670,6 +1670,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:53:20.351Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-awgin__greek-petasos-sunhat",
+      "traderId": "shopkeeper-awgin",
+      "itemId": "greek-petasos-sunhat",
+      "buyPrice": 0,
+      "sellPrice": 200,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:53:37.219Z",
+      "history": []
     }
   ]
 }
