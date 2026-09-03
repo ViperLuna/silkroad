@@ -1597,6 +1597,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:51:00.861Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-ogin__coriander",
+      "traderId": "spice-merchant-ogin",
+      "itemId": "coriander",
+      "buyPrice": 0,
+      "sellPrice": 117,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:51:17.918Z",
+      "history": []
     }
   ]
 }
