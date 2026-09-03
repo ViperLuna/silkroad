@@ -466,6 +466,10 @@
     {
       "id": "forge",
       "name": "Forge"
+    },
+    {
+      "id": "beeswax",
+      "name": "Beeswax"
     }
   ],
   "listings": [
@@ -1357,6 +1361,16 @@
       "sellPrice": 101,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:42:15.203Z",
+      "history": []
+    },
+    {
+      "id": "agriculture-merchant-ogin__beeswax",
+      "traderId": "agriculture-merchant-ogin",
+      "itemId": "beeswax",
+      "buyPrice": 132,
+      "sellPrice": 0,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:43:20.239Z",
       "history": []
     }
   ]
