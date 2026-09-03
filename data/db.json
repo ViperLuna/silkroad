@@ -1746,10 +1746,16 @@
       "traderId": "shopkeeper-awgin",
       "itemId": "purple-nobility-tunic",
       "buyPrice": 0,
-      "sellPrice": 2500,
+      "sellPrice": 3500,
       "isLocal": true,
-      "updatedAt": "2026-09-03T21:55:07.876Z",
-      "history": []
+      "updatedAt": "2026-09-03T21:55:19.117Z",
+      "history": [
+        {
+          "buyPrice": 0,
+          "sellPrice": 2500,
+          "at": "2026-09-03T21:55:07.876Z"
+        }
+      ]
     }
   ]
 }
