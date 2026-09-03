@@ -208,6 +208,11 @@
       "id": "potter-givargis",
       "name": "Potter Givargis",
       "cityId": "damascus"
+    },
+    {
+      "id": "spice-merchant-ogin",
+      "name": "Spice Merchant Ogin",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1571,6 +1576,16 @@
       "sellPrice": 175,
       "isLocal": false,
       "updatedAt": "2026-09-03T21:49:47.583Z",
+      "history": []
+    },
+    {
+      "id": "spice-merchant-ogin__sesame",
+      "traderId": "spice-merchant-ogin",
+      "itemId": "sesame",
+      "buyPrice": 0,
+      "sellPrice": 77,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:50:33.107Z",
       "history": []
     }
   ]
