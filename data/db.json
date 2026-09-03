@@ -213,6 +213,11 @@
       "id": "spice-merchant-ogin",
       "name": "Spice Merchant Ogin",
       "cityId": "damascus"
+    },
+    {
+      "id": "shopkeeper-awgin",
+      "name": "Shopkeeper Awgin",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1616,6 +1621,16 @@
       "sellPrice": 265,
       "isLocal": false,
       "updatedAt": "2026-09-03T21:51:29.852Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-awgin__green-tunic",
+      "traderId": "shopkeeper-awgin",
+      "itemId": "green-tunic",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:52:20.045Z",
       "history": []
     }
   ]
