@@ -259,6 +259,11 @@
       "id": "potter-photeinos",
       "name": "Potter Photeinos",
       "cityId": "antioch"
+    },
+    {
+      "id": "spice-merchant-leo",
+      "name": "Spice Merchant Leo",
+      "cityId": "antioch"
     }
   ],
   "items": [
@@ -2046,6 +2051,16 @@
       "sellPrice": 50,
       "isLocal": false,
       "updatedAt": "2026-09-03T23:03:47.937Z",
+      "history": []
+    },
+    {
+      "id": "spice-merchant-leo__sea-salt",
+      "traderId": "spice-merchant-leo",
+      "itemId": "sea-salt",
+      "buyPrice": 0,
+      "sellPrice": 62,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:04:39.703Z",
       "history": []
     }
   ]
