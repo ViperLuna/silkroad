@@ -254,6 +254,11 @@
       "id": "agriculture-merchant-strategos",
       "name": "Agriculture Merchant Strategos",
       "cityId": "antioch"
+    },
+    {
+      "id": "potter-photeinos",
+      "name": "Potter Photeinos",
+      "cityId": "antioch"
     }
   ],
   "items": [
@@ -1981,6 +1986,16 @@
       "sellPrice": 25,
       "isLocal": false,
       "updatedAt": "2026-09-03T23:02:04.501Z",
+      "history": []
+    },
+    {
+      "id": "potter-photeinos__books",
+      "traderId": "potter-photeinos",
+      "itemId": "books",
+      "buyPrice": 0,
+      "sellPrice": 385,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:02:45.104Z",
       "history": []
     }
   ]
