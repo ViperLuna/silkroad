@@ -1268,6 +1268,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:39:01.884Z",
       "history": []
+    },
+    {
+      "id": "ironworker-aprim__iron-ingot",
+      "traderId": "ironworker-aprim",
+      "itemId": "iron-ingot",
+      "buyPrice": 0,
+      "sellPrice": 39,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:39:26.631Z",
+      "history": []
     }
   ]
 }
