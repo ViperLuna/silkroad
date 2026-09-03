@@ -2126,6 +2126,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T23:06:59.521Z",
       "history": []
+    },
+    {
+      "id": "craftsman-thodoros__green-priest-robes",
+      "traderId": "craftsman-thodoros",
+      "itemId": "green-priest-robes",
+      "buyPrice": 0,
+      "sellPrice": 470,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T23:07:22.761Z",
+      "history": []
     }
   ]
 }
