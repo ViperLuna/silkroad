@@ -187,6 +187,22 @@
     {
       "id": "greek-petasos-sunhat",
       "name": "Greek Petasos Sunhat"
+    },
+    {
+      "id": "blue-soldier-s-tunic",
+      "name": "Blue Soldier's Tunic"
+    },
+    {
+      "id": "cardinal-s-hat",
+      "name": "Cardinal's Hat"
+    },
+    {
+      "id": "blue-stripe-chiton",
+      "name": "Blue Stripe Chiton"
+    },
+    {
+      "id": "green-nobility-tunic",
+      "name": "Green Nobility Tunic"
     }
   ],
   "listings": [
@@ -568,6 +584,46 @@
       "sellPrice": 200,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:35:50.652Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kyriakos__blue-soldier-s-tunic",
+      "traderId": "shopkeeper-kyriakos",
+      "itemId": "blue-soldier-s-tunic",
+      "buyPrice": 0,
+      "sellPrice": 200,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:36:10.557Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kyriakos__cardinal-s-hat",
+      "traderId": "shopkeeper-kyriakos",
+      "itemId": "cardinal-s-hat",
+      "buyPrice": 0,
+      "sellPrice": 500,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:36:25.627Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kyriakos__blue-stripe-chiton",
+      "traderId": "shopkeeper-kyriakos",
+      "itemId": "blue-stripe-chiton",
+      "buyPrice": 0,
+      "sellPrice": 1000,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:36:44.625Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kyriakos__green-nobility-tunic",
+      "traderId": "shopkeeper-kyriakos",
+      "itemId": "green-nobility-tunic",
+      "buyPrice": 0,
+      "sellPrice": 2500,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:37:01.724Z",
       "history": []
     }
   ]
