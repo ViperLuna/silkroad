@@ -29,6 +29,12 @@
       "name": "Damascus",
       "traits": "Syriac Culture - Christianity\nAramaic Language\nDesert City - 10% Price Increase for food items.\n",
       "category": "major"
+    },
+    {
+      "id": "antioch",
+      "name": "Antioch",
+      "traits": "",
+      "category": "major"
     }
   ],
   "roads": [
@@ -51,6 +57,11 @@
       "id": "coastal-pheonice__damascus",
       "a": "coastal-pheonice",
       "b": "damascus"
+    },
+    {
+      "id": "antioch__coastal-pheonice",
+      "a": "coastal-pheonice",
+      "b": "antioch"
     }
   ],
   "traders": [
