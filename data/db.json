@@ -138,6 +138,11 @@
       "id": "naramasin",
       "name": "Naramasin",
       "cityId": "coastal-pheonice"
+    },
+    {
+      "id": "camel-merchant-sarhad",
+      "name": "Camel Merchant Sarhad",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -372,6 +377,10 @@
     {
       "id": "mining-cave",
       "name": "Mining Cave"
+    },
+    {
+      "id": "saddlebags",
+      "name": "Saddlebags"
     }
   ],
   "listings": [
@@ -973,6 +982,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:11:35.433Z",
+      "history": []
+    },
+    {
+      "id": "camel-merchant-sarhad__saddlebags",
+      "traderId": "camel-merchant-sarhad",
+      "itemId": "saddlebags",
+      "buyPrice": 0,
+      "sellPrice": 500,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:19:22.291Z",
       "history": []
     }
   ]
