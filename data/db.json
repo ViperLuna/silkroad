@@ -1814,6 +1814,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:57:29.215Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-yeshu__water-cup-15",
+      "traderId": "tavern-keep-yeshu",
+      "itemId": "water-cup-15",
+      "buyPrice": 0,
+      "sellPrice": 20,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:57:43.993Z",
+      "history": []
     }
   ]
 }
