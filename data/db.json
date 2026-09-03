@@ -1472,6 +1472,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:46:32.682Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-sarhad__dried-fish",
+      "traderId": "agriculture-merchant-sarhad",
+      "itemId": "dried-fish",
+      "buyPrice": 0,
+      "sellPrice": 25,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:46:47.214Z",
+      "history": []
     }
   ]
 }
