@@ -178,6 +178,11 @@
       "id": "ironworker-aprim",
       "name": "Ironworker Aprim",
       "cityId": "damascus"
+    },
+    {
+      "id": "agriculture-merchant-ogin",
+      "name": "Agriculture Merchant Ogin",
+      "cityId": "damascus"
     }
   ],
   "items": [
@@ -1277,6 +1282,16 @@
       "sellPrice": 39,
       "isLocal": true,
       "updatedAt": "2026-09-03T21:39:26.631Z",
+      "history": []
+    },
+    {
+      "id": "agriculture-merchant-ogin__barley",
+      "traderId": "agriculture-merchant-ogin",
+      "itemId": "barley",
+      "buyPrice": 0,
+      "sellPrice": 8,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:40:11.424Z",
       "history": []
     }
   ]
