@@ -1,0 +1,9 @@
+{
+  "cities": [
+    { "id": "tyre", "name": "Tyre", "traits": "" }
+  ],
+  "roads": [],
+  "traders": [],
+  "items": [],
+  "listings": []
+}

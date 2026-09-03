@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Silk Road Trade Log</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐫</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1 class="brand">🐫 Silk Road Trade Log</h1>
+    <input id="search-input" type="text" placeholder="Search items or vendors…" autocomplete="off">
+    <div class="topbar-actions">
+      <button id="btn-city-view" class="nav-btn active">City</button>
+      <button id="btn-map" class="nav-btn">Map</button>
+      <button id="btn-settings" class="nav-btn">⚙️ Settings</button>
+    </div>
+  </header>
+
+  <div id="banner" class="banner" hidden></div>
+
+  <main id="view-city" class="view">
+    <div class="city-header">
+      <div class="city-select-row">
+        <label for="city-select">Current City:</label>
+        <select id="city-select"></select>
+      </div>
+      <div class="traits-block">
+        <div class="traits-header">
+          <h2 id="traits-city-name"></h2>
+          <div class="traits-actions">
+            <button id="btn-edit-traits" class="icon-btn" title="Edit traits">✏️</button>
+            <button id="btn-clear-traits" class="icon-btn" title="Clear traits">🗑️</button>
+          </div>
+        </div>
+        <pre id="traits-text" class="traits-text"></pre>
+        <textarea id="traits-textarea" class="traits-textarea" hidden rows="5"></textarea>
+        <div id="traits-edit-actions" class="modal-actions" hidden>
+          <button id="btn-save-traits">Save</button>
+          <button id="btn-cancel-traits">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <table class="listing-table">
+      <thead>
+        <tr>
+          <th data-sort="vendor">Vendor</th>
+          <th data-sort="item">Item</th>
+          <th data-sort="buy">Buy Price</th>
+          <th data-sort="sell">Sell Price</th>
+          <th>Local/Import</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="listing-body"></tbody>
+    </table>
+    <button id="btn-add-listing" class="add-btn">+ Add item to this city</button>
+  </main>
+
+  <main id="view-lookup" class="view" hidden>
+    <button class="back-btn" id="btn-back-from-lookup">← Back to city</button>
+    <h2 id="lookup-title"></h2>
+    <table class="listing-table" id="lookup-table-wrap"></table>
+  </main>
+
+  <main id="view-map" class="view" hidden>
+    <button class="back-btn" id="btn-back-from-map">← Back to city</button>
+    <h2>Cities</h2>
+    <ul id="city-list" class="entity-list"></ul>
+    <button id="btn-add-city" class="add-btn">+ Add city</button>
+
+    <h2>Roads</h2>
+    <ul id="road-list" class="entity-list"></ul>
+    <button id="btn-add-road" class="add-btn">+ Add road</button>
+  </main>
+
+  <div id="modal-overlay" class="modal-overlay" hidden>
+    <div id="modal" class="modal"></div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
