@@ -1497,6 +1497,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:47:21.057Z",
       "history": []
+    },
+    {
+      "id": "bladesmith-ogin__weapons",
+      "traderId": "bladesmith-ogin",
+      "itemId": "weapons",
+      "buyPrice": 0,
+      "sellPrice": 101,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:47:45.598Z",
+      "history": []
     }
   ]
 }
