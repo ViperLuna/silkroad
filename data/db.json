@@ -1552,6 +1552,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:49:24.866Z",
       "history": []
+    },
+    {
+      "id": "potter-givargis__candles",
+      "traderId": "potter-givargis",
+      "itemId": "candles",
+      "buyPrice": 0,
+      "sellPrice": 652,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:49:36.531Z",
+      "history": []
     }
   ]
 }
