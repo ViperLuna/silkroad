@@ -1824,6 +1824,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-03T21:57:43.993Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-yeshu__cheese-20",
+      "traderId": "tavern-keep-yeshu",
+      "itemId": "cheese-20",
+      "buyPrice": 0,
+      "sellPrice": 40,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T21:57:57.972Z",
+      "history": []
     }
   ]
 }
