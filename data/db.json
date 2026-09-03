@@ -1233,6 +1233,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:37:07.808Z",
       "history": []
+    },
+    {
+      "id": "potter-oommen__candles",
+      "traderId": "potter-oommen",
+      "itemId": "candles",
+      "buyPrice": 0,
+      "sellPrice": 652,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:37:23.742Z",
+      "history": []
     }
   ]
 }
