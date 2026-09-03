@@ -244,6 +244,10 @@
     {
       "id": "cheese-20",
       "name": "Cheese (+20)"
+    },
+    {
+      "id": "stew-50",
+      "name": "Stew (+50)"
     }
   ],
   "listings": [
@@ -725,6 +729,16 @@
       "sellPrice": 40,
       "isLocal": true,
       "updatedAt": "2026-09-03T19:49:00.523Z",
+      "history": []
+    },
+    {
+      "id": "tavern-keep-demetrios__stew-50",
+      "traderId": "tavern-keep-demetrios",
+      "itemId": "stew-50",
+      "buyPrice": 0,
+      "sellPrice": 150,
+      "isLocal": true,
+      "updatedAt": "2026-09-03T19:50:44.817Z",
       "history": []
     }
   ]
