@@ -1397,6 +1397,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-03T21:44:19.304Z",
       "history": []
+    },
+    {
+      "id": "weaver-sarbel__linen",
+      "traderId": "weaver-sarbel",
+      "itemId": "linen",
+      "buyPrice": 0,
+      "sellPrice": 15,
+      "isLocal": false,
+      "updatedAt": "2026-09-03T21:44:32.381Z",
+      "history": []
     }
   ]
 }
