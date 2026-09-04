@@ -407,6 +407,11 @@
       "id": "tavern-keep-isho",
       "name": "Tavern Keep Isho",
       "cityId": "palmyra"
+    },
+    {
+      "id": "agriculture-merchant-sarhad-2",
+      "name": "Agriculture Merchant Sarhad",
+      "cityId": "tigris-river-valley"
     }
   ],
   "items": [
@@ -793,6 +798,10 @@
     {
       "id": "venetoi-cape",
       "name": "Venetoi Cape"
+    },
+    {
+      "id": "cotton-farm",
+      "name": "Cotton Farm"
     }
   ],
   "listings": [
@@ -3068,6 +3077,16 @@
       "sellPrice": 150,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:38:44.288Z",
+      "history": []
+    },
+    {
+      "id": "agriculture-merchant-sarhad-2__cotton-farm",
+      "traderId": "agriculture-merchant-sarhad-2",
+      "itemId": "cotton-farm",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:15:33.838Z",
       "history": []
     }
   ]
