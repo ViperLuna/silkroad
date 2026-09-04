@@ -4061,6 +4061,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:04:28.596Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-ardeshir__cheese-20",
+      "traderId": "tavern-keep-ardeshir",
+      "itemId": "cheese-20",
+      "buyPrice": 0,
+      "sellPrice": 40,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:04:40.254Z",
+      "history": []
     }
   ]
 }
