@@ -4176,6 +4176,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:08:10.964Z",
       "history": []
+    },
+    {
+      "id": "craftsman-arash__books",
+      "traderId": "craftsman-arash",
+      "itemId": "books",
+      "buyPrice": 0,
+      "sellPrice": 595,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:08:34.122Z",
+      "history": []
     }
   ]
 }
