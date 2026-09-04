@@ -2650,6 +2650,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:26:43.294Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-aprim__greek-petasos-sunhat",
+      "traderId": "shopkeeper-aprim",
+      "itemId": "greek-petasos-sunhat",
+      "buyPrice": 0,
+      "sellPrice": 200,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:26:59.330Z",
+      "history": []
     }
   ]
 }
