@@ -310,6 +310,11 @@
       "id": "aprim",
       "name": "Aprim",
       "cityId": "levant-frontier"
+    },
+    {
+      "id": "farmer-dariush",
+      "name": "Farmer Dariush",
+      "cityId": "levant-frontier"
     }
   ],
   "items": [
@@ -640,6 +645,10 @@
     {
       "id": "wheat-farm",
       "name": "Wheat Farm"
+    },
+    {
+      "id": "wheat-farm-ownership",
+      "name": "Wheat Farm Ownership"
     }
   ],
   "listings": [
@@ -2349,6 +2358,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:14:22.654Z",
+      "history": []
+    },
+    {
+      "id": "farmer-dariush__wheat-farm-ownership",
+      "traderId": "farmer-dariush",
+      "itemId": "wheat-farm-ownership",
+      "buyPrice": 0,
+      "sellPrice": 7500,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:15:16.733Z",
       "history": []
     }
   ]
