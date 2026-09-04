@@ -834,6 +834,10 @@
     {
       "id": "scythian-gold-tiara",
       "name": "Scythian Gold Tiara"
+    },
+    {
+      "id": "crimson-robes",
+      "name": "Crimson Robes"
     }
   ],
   "listings": [
@@ -3239,6 +3243,16 @@
       "sellPrice": 30000,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:25:07.667Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__crimson-robes",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "crimson-robes",
+      "buyPrice": 0,
+      "sellPrice": 30000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:25:18.401Z",
       "history": []
     }
   ]
