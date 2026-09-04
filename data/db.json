@@ -346,6 +346,11 @@
       "id": "bladesmith-aprim",
       "name": "Bladesmith Aprim",
       "cityId": "palmyra"
+    },
+    {
+      "id": "potter-givargis-2",
+      "name": "Potter Givargis",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -2539,6 +2544,16 @@
       "sellPrice": 117,
       "isLocal": false,
       "updatedAt": "2026-09-04T00:22:52.951Z",
+      "history": []
+    },
+    {
+      "id": "potter-givargis-2__books",
+      "traderId": "potter-givargis-2",
+      "itemId": "books",
+      "buyPrice": 606,
+      "sellPrice": 496,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:23:43.289Z",
       "history": []
     }
   ]
