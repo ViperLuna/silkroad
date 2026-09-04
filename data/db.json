@@ -2530,6 +2530,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T00:22:37.024Z",
       "history": []
+    },
+    {
+      "id": "bladesmith-aprim__weapons",
+      "traderId": "bladesmith-aprim",
+      "itemId": "weapons",
+      "buyPrice": 0,
+      "sellPrice": 117,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:22:52.951Z",
+      "history": []
     }
   ]
 }
