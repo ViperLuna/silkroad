@@ -541,6 +541,11 @@
       "id": "shopkeeper-takhelisho",
       "name": "Shopkeeper Takhelisho",
       "cityId": "barley-farm"
+    },
+    {
+      "id": "farmer-kourosh",
+      "name": "Farmer Kourosh",
+      "cityId": "barley-farm"
     }
   ],
   "items": [
@@ -995,6 +1000,10 @@
     {
       "id": "fire-temple-of-ctesiphon",
       "name": "Fire Temple of Ctesiphon"
+    },
+    {
+      "id": "barley-farm",
+      "name": "Barley Farm"
     }
   ],
   "listings": [
@@ -3830,6 +3839,16 @@
       "sellPrice": 240,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:53:40.019Z",
+      "history": []
+    },
+    {
+      "id": "farmer-kourosh__barley-farm",
+      "traderId": "farmer-kourosh",
+      "itemId": "barley-farm",
+      "buyPrice": 0,
+      "sellPrice": 7500,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:54:19.993Z",
       "history": []
     }
   ]
