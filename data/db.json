@@ -4151,6 +4151,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:07:16.441Z",
       "history": []
+    },
+    {
+      "id": "blacksmith-khashayar-2__tools",
+      "traderId": "blacksmith-khashayar-2",
+      "itemId": "tools",
+      "buyPrice": 0,
+      "sellPrice": 127,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:07:32.291Z",
+      "history": []
     }
   ]
 }
