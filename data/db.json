@@ -59,6 +59,12 @@
       "name": "Ctesiphon",
       "traits": "Persian Culture - Zoroastrianism\nPersian Language\nCapital City - 10% Increase for luxury goods.",
       "category": "major"
+    },
+    {
+      "id": "zagros-mountains",
+      "name": "Zagros Mountains",
+      "traits": "",
+      "category": "minor"
     }
   ],
   "roads": [
@@ -106,6 +112,11 @@
       "id": "ctesiphon__tigris-river-valley",
       "a": "tigris-river-valley",
       "b": "ctesiphon"
+    },
+    {
+      "id": "ctesiphon__zagros-mountains",
+      "a": "ctesiphon",
+      "b": "zagros-mountains"
     }
   ],
   "traders": [
