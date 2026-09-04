@@ -3018,6 +3018,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:37:52.542Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-isho__water-cup-15",
+      "traderId": "tavern-keep-isho",
+      "itemId": "water-cup-15",
+      "buyPrice": 0,
+      "sellPrice": 20,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:38:07.425Z",
+      "history": []
     }
   ]
 }
