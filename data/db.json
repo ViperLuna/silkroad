@@ -3048,6 +3048,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:38:31.887Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-isho__stew-50",
+      "traderId": "tavern-keep-isho",
+      "itemId": "stew-50",
+      "buyPrice": 0,
+      "sellPrice": 150,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:38:44.288Z",
+      "history": []
     }
   ]
 }
