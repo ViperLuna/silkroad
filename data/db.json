@@ -587,6 +587,11 @@
       "id": "tavern-keep-ardeshir",
       "name": "Tavern Keep Ardeshir",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "spice-merchant-roxanna",
+      "name": "Spice Merchant Roxanna",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -4090,6 +4095,16 @@
       "sellPrice": 150,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:05:10.980Z",
+      "history": []
+    },
+    {
+      "id": "spice-merchant-roxanna__saffron",
+      "traderId": "spice-merchant-roxanna",
+      "itemId": "saffron",
+      "buyPrice": 0,
+      "sellPrice": 283,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:05:50.203Z",
       "history": []
     }
   ]
