@@ -818,6 +818,10 @@
     {
       "id": "cotton-farm",
       "name": "Cotton Farm"
+    },
+    {
+      "id": "persian-noble-turban",
+      "name": "Persian Noble Turban"
     }
   ],
   "listings": [
@@ -3153,6 +3157,16 @@
       "sellPrice": 200,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:23:29.942Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__persian-noble-turban",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "persian-noble-turban",
+      "buyPrice": 0,
+      "sellPrice": 300,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:23:47.614Z",
       "history": []
     }
   ]
