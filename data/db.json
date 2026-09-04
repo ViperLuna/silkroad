@@ -89,6 +89,12 @@
       "name": "Zagros Foothills",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "susa",
+      "name": "Susa",
+      "traits": "",
+      "category": "major"
     }
   ],
   "roads": [
@@ -161,6 +167,11 @@
       "id": "zagros-foothills__zagros-mountains",
       "a": "zagros-mountains",
       "b": "zagros-foothills"
+    },
+    {
+      "id": "susa__zagros-foothills",
+      "a": "zagros-foothills",
+      "b": "susa"
     }
   ],
   "traders": [
