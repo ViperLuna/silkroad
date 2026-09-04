@@ -4206,6 +4206,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T04:09:13.806Z",
       "history": []
+    },
+    {
+      "id": "craftsman-arash__glassware",
+      "traderId": "craftsman-arash",
+      "itemId": "glassware",
+      "buyPrice": 0,
+      "sellPrice": 247,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:09:24.861Z",
+      "history": []
     }
   ]
 }
