@@ -2900,6 +2900,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T00:34:12.730Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-awgin__dried-fish",
+      "traderId": "agriculture-merchant-awgin",
+      "itemId": "dried-fish",
+      "buyPrice": 0,
+      "sellPrice": 39,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:34:22.116Z",
+      "history": []
     }
   ]
 }
