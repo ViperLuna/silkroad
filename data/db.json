@@ -443,6 +443,11 @@
       "id": "manichaean-elect-vorak",
       "name": "Manichaean Elect Vorak",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "craftsman-tashvarn",
+      "name": "Craftsman Tashvarn",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -865,6 +870,10 @@
     {
       "id": "temple-of-light",
       "name": "Temple of Light"
+    },
+    {
+      "id": "pendant-of-the-living-light",
+      "name": "Pendant of the Living Light"
     }
   ],
   "listings": [
@@ -3310,6 +3319,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:29:19.861Z",
+      "history": []
+    },
+    {
+      "id": "craftsman-tashvarn__pendant-of-the-living-light",
+      "traderId": "craftsman-tashvarn",
+      "itemId": "pendant-of-the-living-light",
+      "buyPrice": 0,
+      "sellPrice": 80,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:29:51.095Z",
       "history": []
     }
   ]
