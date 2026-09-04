@@ -4216,6 +4216,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T04:09:24.861Z",
       "history": []
+    },
+    {
+      "id": "craftsman-arash__paper",
+      "traderId": "craftsman-arash",
+      "itemId": "paper",
+      "buyPrice": 0,
+      "sellPrice": 68,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:09:35.587Z",
+      "history": []
     }
   ]
 }
