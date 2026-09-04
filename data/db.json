@@ -361,6 +361,11 @@
       "id": "ironworker-ogin",
       "name": "Ironworker Ogin",
       "cityId": "palmyra"
+    },
+    {
+      "id": "danho",
+      "name": "Danho",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -735,6 +740,10 @@
     {
       "id": "bronze-diadem",
       "name": "Bronze Diadem"
+    },
+    {
+      "id": "mill",
+      "name": "Mill"
     }
   ],
   "listings": [
@@ -2774,6 +2783,16 @@
       "sellPrice": 55,
       "isLocal": false,
       "updatedAt": "2026-09-04T00:30:05.313Z",
+      "history": []
+    },
+    {
+      "id": "danho__mill",
+      "traderId": "danho",
+      "itemId": "mill",
+      "buyPrice": 0,
+      "sellPrice": 10,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:30:54.343Z",
       "history": []
     }
   ]
