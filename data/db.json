@@ -597,6 +597,11 @@
       "id": "blacksmith-khashayar-2",
       "name": "Blacksmith Khashayar",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "craftsman-arash",
+      "name": "Craftsman Arash",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -4160,6 +4165,16 @@
       "sellPrice": 127,
       "isLocal": false,
       "updatedAt": "2026-09-04T04:07:32.291Z",
+      "history": []
+    },
+    {
+      "id": "craftsman-arash__candles",
+      "traderId": "craftsman-arash",
+      "itemId": "candles",
+      "buyPrice": 0,
+      "sellPrice": 904,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:08:10.964Z",
       "history": []
     }
   ]
