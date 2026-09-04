@@ -4071,6 +4071,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:04:40.254Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-ardeshir__roasted-pork-35",
+      "traderId": "tavern-keep-ardeshir",
+      "itemId": "roasted-pork-35",
+      "buyPrice": 0,
+      "sellPrice": 100,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:04:55.188Z",
+      "history": []
     }
   ]
 }
