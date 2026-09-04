@@ -4011,10 +4011,16 @@
       "traderId": "naramsin",
       "itemId": "mill",
       "buyPrice": 0,
-      "sellPrice": 0,
+      "sellPrice": 10,
       "isLocal": true,
-      "updatedAt": "2026-09-04T04:02:51.959Z",
-      "history": []
+      "updatedAt": "2026-09-04T04:03:03.460Z",
+      "history": [
+        {
+          "buyPrice": 0,
+          "sellPrice": 0,
+          "at": "2026-09-04T04:02:51.959Z"
+        }
+      ]
     }
   ]
 }
