@@ -448,6 +448,11 @@
       "id": "craftsman-tashvarn",
       "name": "Craftsman Tashvarn",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "craftsman-khashayar",
+      "name": "Craftsman Khashayar",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -3329,6 +3334,16 @@
       "sellPrice": 80,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:29:51.095Z",
+      "history": []
+    },
+    {
+      "id": "craftsman-khashayar__earthenware",
+      "traderId": "craftsman-khashayar",
+      "itemId": "earthenware",
+      "buyPrice": 0,
+      "sellPrice": 18,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:30:55.154Z",
       "history": []
     }
   ]
