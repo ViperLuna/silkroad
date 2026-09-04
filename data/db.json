@@ -493,6 +493,11 @@
       "id": "craftsman-de",
       "name": "Craftsman De",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "priest-arash",
+      "name": "Priest Arash",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -943,6 +948,10 @@
     {
       "id": "kushti-cord-50",
       "name": "Kushti Cord (+50%)"
+    },
+    {
+      "id": "fire-temple-of-ctesiphon",
+      "name": "Fire Temple of Ctesiphon"
     }
   ],
   "listings": [
@@ -3728,6 +3737,16 @@
       "sellPrice": 80,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:44:47.401Z",
+      "history": []
+    },
+    {
+      "id": "priest-arash__fire-temple-of-ctesiphon",
+      "traderId": "priest-arash",
+      "itemId": "fire-temple-of-ctesiphon",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:45:19.746Z",
       "history": []
     }
   ]
