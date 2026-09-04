@@ -627,6 +627,11 @@
       "id": "manichaean-elect-xamir",
       "name": "Manichaean Elect Xamir",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "craftsman-daxanak",
+      "name": "Craftsman Daxanak",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -4414,6 +4419,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:16:08.587Z",
+      "history": []
+    },
+    {
+      "id": "craftsman-daxanak__pendant-of-the-living-light",
+      "traderId": "craftsman-daxanak",
+      "itemId": "pendant-of-the-living-light",
+      "buyPrice": 0,
+      "sellPrice": 80,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:16:40.006Z",
       "history": []
     }
   ]
