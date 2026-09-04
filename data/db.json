@@ -3469,6 +3469,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T03:34:28.377Z",
       "history": []
+    },
+    {
+      "id": "weaver-dariush__linen",
+      "traderId": "weaver-dariush",
+      "itemId": "linen",
+      "buyPrice": 0,
+      "sellPrice": 16,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:34:41.671Z",
+      "history": []
     }
   ]
 }
