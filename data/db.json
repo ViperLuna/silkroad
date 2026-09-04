@@ -612,6 +612,11 @@
       "id": "weaver-kourash",
       "name": "Weaver Kourash",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "ironworker-khashayar-2",
+      "name": "Ironworker Khashayar",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -4335,6 +4340,16 @@
       "sellPrice": 31,
       "isLocal": false,
       "updatedAt": "2026-09-04T04:12:44.097Z",
+      "history": []
+    },
+    {
+      "id": "ironworker-khashayar-2__copper-ingot",
+      "traderId": "ironworker-khashayar-2",
+      "itemId": "copper-ingot",
+      "buyPrice": 0,
+      "sellPrice": 41,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:13:29.255Z",
       "history": []
     }
   ]
