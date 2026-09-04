@@ -759,6 +759,10 @@
     {
       "id": "mill",
       "name": "Mill"
+    },
+    {
+      "id": "black-cape",
+      "name": "Black Cape"
     }
   ],
   "listings": [
@@ -2924,6 +2928,16 @@
       "sellPrice": 10000,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:34:48.900Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-isho__black-cape",
+      "traderId": "shopkeeper-isho",
+      "itemId": "black-cape",
+      "buyPrice": 0,
+      "sellPrice": 70000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:35:06.066Z",
       "history": []
     }
   ]
