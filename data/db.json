@@ -726,6 +726,10 @@
     {
       "id": "nomadic-ak-kalpak-cap",
       "name": "Nomadic Ak-kalpak Cap"
+    },
+    {
+      "id": "bronze-diadem",
+      "name": "Bronze Diadem"
     }
   ],
   "listings": [
@@ -2735,6 +2739,16 @@
       "sellPrice": 15000,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:28:55.113Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-aprim__bronze-diadem",
+      "traderId": "shopkeeper-aprim",
+      "itemId": "bronze-diadem",
+      "buyPrice": 0,
+      "sellPrice": 30000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:29:13.460Z",
       "history": []
     }
   ]
