@@ -428,6 +428,11 @@
       "id": "shopkeeper-ephrem-2",
       "name": "Shopkeeper Ephrem",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "rabbi-dariush",
+      "name": "Rabbi Dariush",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -838,6 +843,10 @@
     {
       "id": "crimson-robes",
       "name": "Crimson Robes"
+    },
+    {
+      "id": "temple",
+      "name": "Temple"
     }
   ],
   "listings": [
@@ -3253,6 +3262,16 @@
       "sellPrice": 30000,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:25:18.401Z",
+      "history": []
+    },
+    {
+      "id": "rabbi-dariush__temple",
+      "traderId": "rabbi-dariush",
+      "itemId": "temple",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:26:30.081Z",
       "history": []
     }
   ]
