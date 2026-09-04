@@ -830,6 +830,10 @@
     {
       "id": "scythian-queen-s-crown",
       "name": "Scythian Queen's Crown"
+    },
+    {
+      "id": "scythian-gold-tiara",
+      "name": "Scythian Gold Tiara"
     }
   ],
   "listings": [
@@ -3215,6 +3219,16 @@
       "sellPrice": 8000,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:24:44.919Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__scythian-gold-tiara",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "scythian-gold-tiara",
+      "buyPrice": 0,
+      "sellPrice": 20000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:24:57.607Z",
       "history": []
     }
   ]
