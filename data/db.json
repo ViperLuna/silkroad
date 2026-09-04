@@ -386,6 +386,11 @@
       "id": "shopkeeper-kiriyan",
       "name": "Shopkeeper Kiriyan",
       "cityId": "palmyra"
+    },
+    {
+      "id": "tavern-manager-kiriyan",
+      "name": "Tavern Manager Kiriyan",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -2987,6 +2992,16 @@
       "sellPrice": 240,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:36:27.978Z",
+      "history": []
+    },
+    {
+      "id": "tavern-manager-kiriyan__tavern-ownership",
+      "traderId": "tavern-manager-kiriyan",
+      "itemId": "tavern-ownership",
+      "buyPrice": 0,
+      "sellPrice": 15000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:37:23.019Z",
       "history": []
     }
   ]
