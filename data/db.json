@@ -341,6 +341,11 @@
       "id": "spice-merchant-yeshu",
       "name": "Spice Merchant Yeshu",
       "cityId": "palmyra"
+    },
+    {
+      "id": "bladesmith-aprim",
+      "name": "Bladesmith Aprim",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -2514,6 +2519,16 @@
       "sellPrice": 264,
       "isLocal": false,
       "updatedAt": "2026-09-04T00:22:01.635Z",
+      "history": []
+    },
+    {
+      "id": "bladesmith-aprim__tools",
+      "traderId": "bladesmith-aprim",
+      "itemId": "tools",
+      "buyPrice": 0,
+      "sellPrice": 91,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:22:37.024Z",
       "history": []
     }
   ]
