@@ -536,6 +536,11 @@
       "id": "givargis",
       "name": "Givargis",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "shopkeeper-takhelisho",
+      "name": "Shopkeeper Takhelisho",
+      "cityId": "barley-farm"
     }
   ],
   "items": [
@@ -3795,6 +3800,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:47:03.563Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-takhelisho__bronze-sickle",
+      "traderId": "shopkeeper-takhelisho",
+      "itemId": "bronze-sickle",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:53:15.463Z",
       "history": []
     }
   ]
