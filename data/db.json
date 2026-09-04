@@ -2839,6 +2839,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:32:08.669Z",
       "history": []
+    },
+    {
+      "id": "weaver-ramsin__hides",
+      "traderId": "weaver-ramsin",
+      "itemId": "hides",
+      "buyPrice": 0,
+      "sellPrice": 39,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:32:21.168Z",
+      "history": []
     }
   ]
 }
