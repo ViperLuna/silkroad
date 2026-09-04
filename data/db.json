@@ -3534,6 +3534,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T03:36:02.098Z",
       "history": []
+    },
+    {
+      "id": "oil-merchant-rustam__dried-fish",
+      "traderId": "oil-merchant-rustam",
+      "itemId": "dried-fish",
+      "buyPrice": 0,
+      "sellPrice": 54,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:36:11.708Z",
+      "history": []
     }
   ]
 }
