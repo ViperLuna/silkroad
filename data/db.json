@@ -4081,6 +4081,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:04:55.188Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-ardeshir__stew-50",
+      "traderId": "tavern-keep-ardeshir",
+      "itemId": "stew-50",
+      "buyPrice": 0,
+      "sellPrice": 150,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:05:10.980Z",
+      "history": []
     }
   ]
 }
