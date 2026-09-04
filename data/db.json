@@ -582,6 +582,11 @@
       "id": "tavern-manager-ardeshir",
       "name": "Tavern Manager Ardeshir",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "tavern-keep-ardeshir",
+      "name": "Tavern Keep Ardeshir",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -4035,6 +4040,16 @@
       "sellPrice": 15000,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:03:47.331Z",
+      "history": []
+    },
+    {
+      "id": "tavern-keep-ardeshir__flatbread-10",
+      "traderId": "tavern-keep-ardeshir",
+      "itemId": "flatbread-10",
+      "buyPrice": 0,
+      "sellPrice": 5,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:04:16.713Z",
       "history": []
     }
   ]
