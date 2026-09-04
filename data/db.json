@@ -826,6 +826,10 @@
     {
       "id": "persian-warrior-s-helmet",
       "name": "Persian Warrior's Helmet"
+    },
+    {
+      "id": "scythian-queen-s-crown",
+      "name": "Scythian Queen's Crown"
     }
   ],
   "listings": [
@@ -3201,6 +3205,16 @@
       "sellPrice": 3500,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:24:30.811Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__scythian-queen-s-crown",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "scythian-queen-s-crown",
+      "buyPrice": 0,
+      "sellPrice": 8000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:24:44.919Z",
       "history": []
     }
   ]
