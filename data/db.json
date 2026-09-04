@@ -371,6 +371,11 @@
       "id": "weaver-ramsin",
       "name": "Weaver Ramsin",
       "cityId": "palmyra"
+    },
+    {
+      "id": "agriculture-merchant-awgin",
+      "name": "Agriculture Merchant Awgin",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -2855,6 +2860,16 @@
           "at": "2026-09-04T00:32:21.168Z"
         }
       ]
+    },
+    {
+      "id": "agriculture-merchant-awgin__wheat",
+      "traderId": "agriculture-merchant-awgin",
+      "itemId": "wheat",
+      "buyPrice": 0,
+      "sellPrice": 9,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:33:34.622Z",
+      "history": []
     }
   ]
 }
