@@ -2446,6 +2446,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:19:54.508Z",
       "history": []
+    },
+    {
+      "id": "mule-merchant-ashur__saddlebags",
+      "traderId": "mule-merchant-ashur",
+      "itemId": "saddlebags",
+      "buyPrice": 0,
+      "sellPrice": 500,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:20:07.495Z",
+      "history": []
     }
   ]
 }
