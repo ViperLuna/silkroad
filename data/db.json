@@ -722,6 +722,10 @@
     {
       "id": "liripipe",
       "name": "Liripipe"
+    },
+    {
+      "id": "nomadic-ak-kalpak-cap",
+      "name": "Nomadic Ak-kalpak Cap"
     }
   ],
   "listings": [
@@ -2721,6 +2725,16 @@
       "sellPrice": 5000,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:28:32.404Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-aprim__nomadic-ak-kalpak-cap",
+      "traderId": "shopkeeper-aprim",
+      "itemId": "nomadic-ak-kalpak-cap",
+      "buyPrice": 0,
+      "sellPrice": 15000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:28:55.113Z",
       "history": []
     }
   ]
