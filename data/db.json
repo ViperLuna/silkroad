@@ -714,6 +714,10 @@
     {
       "id": "green-soldier-s-tunic",
       "name": "Green Soldier's Tunic"
+    },
+    {
+      "id": "immortal-guards-helmet",
+      "name": "Immortal Guards Helmet"
     }
   ],
   "listings": [
@@ -2683,6 +2687,16 @@
       "sellPrice": 200,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:27:36.090Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-aprim__immortal-guards-helmet",
+      "traderId": "shopkeeper-aprim",
+      "itemId": "immortal-guards-helmet",
+      "buyPrice": 0,
+      "sellPrice": 2000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:27:58.564Z",
       "history": []
     }
   ]
