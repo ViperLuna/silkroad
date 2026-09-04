@@ -3345,6 +3345,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:30:55.154Z",
       "history": []
+    },
+    {
+      "id": "craftsman-khashayar__glassware",
+      "traderId": "craftsman-khashayar",
+      "itemId": "glassware",
+      "buyPrice": 0,
+      "sellPrice": 186,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:31:13.430Z",
+      "history": []
     }
   ]
 }
