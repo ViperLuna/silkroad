@@ -35,6 +35,12 @@
       "name": "Antioch",
       "traits": "Byzantine Culture - Christianity\nGreek Language\nPentarchy City - 10% Price Bonus for Christians\nEarthquake Prone - 10% Price Increase for Tools\nCapital City - 10% Price Increase for Luxury Goods",
       "category": "major"
+    },
+    {
+      "id": "levant-frontier",
+      "name": "Levant Frontier",
+      "traits": "",
+      "category": "minor"
     }
   ],
   "roads": [
@@ -62,6 +68,11 @@
       "id": "antioch__coastal-pheonice",
       "a": "coastal-pheonice",
       "b": "antioch"
+    },
+    {
+      "id": "damascus__levant-frontier",
+      "a": "damascus",
+      "b": "levant-frontier"
     }
   ],
   "traders": [
