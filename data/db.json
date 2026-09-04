@@ -3439,6 +3439,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:33:35.683Z",
       "history": []
+    },
+    {
+      "id": "weaver-dariush__cotton-yarn",
+      "traderId": "weaver-dariush",
+      "itemId": "cotton-yarn",
+      "buyPrice": 0,
+      "sellPrice": 18,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:33:53.731Z",
+      "history": []
     }
   ]
 }
