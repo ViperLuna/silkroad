@@ -3875,10 +3875,16 @@
       "traderId": "farmer-kourosh",
       "itemId": "barley-farm-ownership",
       "buyPrice": 0,
-      "sellPrice": 0,
+      "sellPrice": 7500,
       "isLocal": true,
-      "updatedAt": "2026-09-04T03:55:39.690Z",
-      "history": []
+      "updatedAt": "2026-09-04T03:55:48.162Z",
+      "history": [
+        {
+          "buyPrice": 0,
+          "sellPrice": 0,
+          "at": "2026-09-04T03:55:39.690Z"
+        }
+      ]
     }
   ]
 }
