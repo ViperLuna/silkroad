@@ -3028,6 +3028,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:38:07.425Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-isho__cheese-20",
+      "traderId": "tavern-keep-isho",
+      "itemId": "cheese-20",
+      "buyPrice": 0,
+      "sellPrice": 40,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:38:21.990Z",
+      "history": []
     }
   ]
 }
