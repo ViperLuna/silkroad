@@ -4116,6 +4116,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T04:06:05.153Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-roxanna__sesame",
+      "traderId": "spice-merchant-roxanna",
+      "itemId": "sesame",
+      "buyPrice": 0,
+      "sellPrice": 127,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:06:20.940Z",
+      "history": []
     }
   ]
 }
