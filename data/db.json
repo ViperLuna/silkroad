@@ -381,6 +381,11 @@
       "id": "shopkeeper-isho",
       "name": "Shopkeeper Isho",
       "cityId": "palmyra"
+    },
+    {
+      "id": "shopkeeper-kiriyan",
+      "name": "Shopkeeper Kiriyan",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -2952,6 +2957,16 @@
       "sellPrice": 100000,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:35:22.454Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-kiriyan__bronze-sickle",
+      "traderId": "shopkeeper-kiriyan",
+      "itemId": "bronze-sickle",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:36:00.432Z",
       "history": []
     }
   ]
