@@ -607,6 +607,11 @@
       "id": "agriculture-merchant-ardeshir",
       "name": "Agriculture Merchant Ardeshir",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "weaver-kourash",
+      "name": "Weaver Kourash",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -4280,6 +4285,16 @@
       "sellPrice": 58,
       "isLocal": false,
       "updatedAt": "2026-09-04T04:11:09.167Z",
+      "history": []
+    },
+    {
+      "id": "weaver-kourash__wool",
+      "traderId": "weaver-kourash",
+      "itemId": "wool",
+      "buyPrice": 0,
+      "sellPrice": 11,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:11:52.152Z",
       "history": []
     }
   ]
