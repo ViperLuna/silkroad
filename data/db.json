@@ -686,6 +686,10 @@
     {
       "id": "pack-mule",
       "name": "Pack Mule"
+    },
+    {
+      "id": "saddle-mule",
+      "name": "Saddle Mule"
     }
   ],
   "listings": [
@@ -2455,6 +2459,16 @@
       "sellPrice": 500,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:20:07.495Z",
+      "history": []
+    },
+    {
+      "id": "mule-merchant-ashur__saddle-mule",
+      "traderId": "mule-merchant-ashur",
+      "itemId": "saddle-mule",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:20:34.336Z",
       "history": []
     }
   ]
