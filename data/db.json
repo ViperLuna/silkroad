@@ -438,6 +438,11 @@
       "id": "craftsman-vardas",
       "name": "Craftsman Vardas",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "manichaean-elect-vorak",
+      "name": "Manichaean Elect Vorak",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -856,6 +861,10 @@
     {
       "id": "kamea-necklace-50",
       "name": "Kamea Necklace (50%)"
+    },
+    {
+      "id": "temple-of-light",
+      "name": "Temple of Light"
     }
   ],
   "listings": [
@@ -3291,6 +3300,16 @@
       "sellPrice": 80,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:27:28.935Z",
+      "history": []
+    },
+    {
+      "id": "manichaean-elect-vorak__temple-of-light",
+      "traderId": "manichaean-elect-vorak",
+      "itemId": "temple-of-light",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:29:19.861Z",
       "history": []
     }
   ]
