@@ -3821,6 +3821,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:53:27.744Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-takhelisho__steel-sickle",
+      "traderId": "shopkeeper-takhelisho",
+      "itemId": "steel-sickle",
+      "buyPrice": 0,
+      "sellPrice": 240,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:53:40.019Z",
+      "history": []
     }
   ]
 }
