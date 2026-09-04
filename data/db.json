@@ -3524,6 +3524,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T03:35:50.615Z",
       "history": []
+    },
+    {
+      "id": "oil-merchant-rustam__honey",
+      "traderId": "oil-merchant-rustam",
+      "itemId": "honey",
+      "buyPrice": 0,
+      "sellPrice": 44,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:36:02.098Z",
+      "history": []
     }
   ]
 }
