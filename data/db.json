@@ -3365,6 +3365,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:31:26.202Z",
       "history": []
+    },
+    {
+      "id": "craftsman-khashayar__books",
+      "traderId": "craftsman-khashayar",
+      "itemId": "books",
+      "buyPrice": 0,
+      "sellPrice": 526,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:31:40.406Z",
+      "history": []
     }
   ]
 }
