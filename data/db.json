@@ -1029,6 +1029,10 @@
     {
       "id": "barley-farm-ownership",
       "name": "Barley Farm Ownership"
+    },
+    {
+      "id": "teal-cape",
+      "name": "Teal Cape"
     }
   ],
   "listings": [
@@ -3900,6 +3904,16 @@
       "sellPrice": 10000,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:58:55.442Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-dariush__teal-cape",
+      "traderId": "shopkeeper-dariush",
+      "itemId": "teal-cape",
+      "buyPrice": 0,
+      "sellPrice": 30000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:59:07.195Z",
       "history": []
     }
   ]
