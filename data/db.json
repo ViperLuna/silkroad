@@ -4126,6 +4126,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T04:06:20.940Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-roxanna__coriander",
+      "traderId": "spice-merchant-roxanna",
+      "itemId": "coriander",
+      "buyPrice": 0,
+      "sellPrice": 163,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:06:41.052Z",
+      "history": []
     }
   ]
 }
