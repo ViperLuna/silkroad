@@ -351,6 +351,11 @@
       "id": "potter-givargis-2",
       "name": "Potter Givargis",
       "cityId": "palmyra"
+    },
+    {
+      "id": "shopkeeper-aprim",
+      "name": "Shopkeeper Aprim",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -2604,6 +2609,16 @@
       "sellPrice": 55,
       "isLocal": false,
       "updatedAt": "2026-09-04T00:25:19.040Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-aprim__green-tunic",
+      "traderId": "shopkeeper-aprim",
+      "itemId": "green-tunic",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:26:00.108Z",
       "history": []
     }
   ]
