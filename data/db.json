@@ -41,6 +41,12 @@
       "name": "Levant Frontier",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "palmyra",
+      "name": "Palmyra",
+      "traits": "",
+      "category": "major"
     }
   ],
   "roads": [
@@ -73,6 +79,11 @@
       "id": "damascus__levant-frontier",
       "a": "damascus",
       "b": "levant-frontier"
+    },
+    {
+      "id": "levant-frontier__palmyra",
+      "a": "levant-frontier",
+      "b": "palmyra"
     }
   ],
   "traders": [
