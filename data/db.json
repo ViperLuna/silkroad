@@ -763,6 +763,10 @@
     {
       "id": "black-cape",
       "name": "Black Cape"
+    },
+    {
+      "id": "venetoi-cape",
+      "name": "Venetoi Cape"
     }
   ],
   "listings": [
@@ -2938,6 +2942,16 @@
       "sellPrice": 70000,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:35:06.066Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-isho__venetoi-cape",
+      "traderId": "shopkeeper-isho",
+      "itemId": "venetoi-cape",
+      "buyPrice": 0,
+      "sellPrice": 100000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:35:22.454Z",
       "history": []
     }
   ]
