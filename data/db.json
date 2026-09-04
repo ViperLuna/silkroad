@@ -478,6 +478,11 @@
       "id": "spice-merchant-anahita",
       "name": "Spice Merchant Anahita",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "ironworker-khashayar",
+      "name": "Ironworker Khashayar",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -3651,6 +3656,16 @@
       "sellPrice": 255,
       "isLocal": false,
       "updatedAt": "2026-09-04T03:39:59.708Z",
+      "history": []
+    },
+    {
+      "id": "ironworker-khashayar__iron-ingot",
+      "traderId": "ironworker-khashayar",
+      "itemId": "iron-ingot",
+      "buyPrice": 0,
+      "sellPrice": 47,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:40:36.197Z",
       "history": []
     }
   ]
