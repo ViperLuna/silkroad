@@ -632,6 +632,11 @@
       "id": "craftsman-daxanak",
       "name": "Craftsman Daxanak",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "priest-kourosh",
+      "name": "Priest Kourosh",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -1122,6 +1127,10 @@
     {
       "id": "ecbatana-temple-of-light",
       "name": "Ecbatana Temple of Light"
+    },
+    {
+      "id": "fire-temple-of-ecbatana",
+      "name": "Fire Temple of Ecbatana"
     }
   ],
   "listings": [
@@ -4429,6 +4438,16 @@
       "sellPrice": 80,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:16:40.006Z",
+      "history": []
+    },
+    {
+      "id": "priest-kourosh__fire-temple-of-ecbatana",
+      "traderId": "priest-kourosh",
+      "itemId": "fire-temple-of-ecbatana",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:19:02.974Z",
       "history": []
     }
   ]
