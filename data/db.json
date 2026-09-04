@@ -1050,6 +1050,10 @@
     {
       "id": "white-nisean-horse",
       "name": "White Nisean Horse"
+    },
+    {
+      "id": "dzungarian-horse",
+      "name": "Dzungarian Horse"
     }
   ],
   "listings": [
@@ -3971,6 +3975,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:00:50.365Z",
+      "history": []
+    },
+    {
+      "id": "horse-merchant-khashayar__dzungarian-horse",
+      "traderId": "horse-merchant-khashayar",
+      "itemId": "dzungarian-horse",
+      "buyPrice": 0,
+      "sellPrice": 1500,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:01:06.443Z",
       "history": []
     }
   ]
