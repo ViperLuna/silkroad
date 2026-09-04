@@ -3449,6 +3449,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:33:53.731Z",
       "history": []
+    },
+    {
+      "id": "weaver-dariush__wool",
+      "traderId": "weaver-dariush",
+      "itemId": "wool",
+      "buyPrice": 0,
+      "sellPrice": 16,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:34:11.502Z",
+      "history": []
     }
   ]
 }
