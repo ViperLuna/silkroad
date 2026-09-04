@@ -300,6 +300,11 @@
       "id": "weaver-kyriakos",
       "name": "Weaver Kyriakos",
       "cityId": "antioch"
+    },
+    {
+      "id": "mine-overseer-demetrios",
+      "name": "Mine Overseer Demetrios",
+      "cityId": "levant-frontier"
     }
   ],
   "items": [
@@ -2315,6 +2320,16 @@
       "sellPrice": 37,
       "isLocal": false,
       "updatedAt": "2026-09-03T23:59:22.929Z",
+      "history": []
+    },
+    {
+      "id": "mine-overseer-demetrios__mine-ownership",
+      "traderId": "mine-overseer-demetrios",
+      "itemId": "mine-ownership",
+      "buyPrice": 0,
+      "sellPrice": 7000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:11:54.380Z",
       "history": []
     }
   ]
