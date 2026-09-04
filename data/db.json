@@ -903,6 +903,10 @@
     {
       "id": "persian-carpets",
       "name": "Persian Carpets"
+    },
+    {
+      "id": "extra-storage-gamepass",
+      "name": "Extra Storage Gamepass"
     }
   ],
   "listings": [
@@ -3568,6 +3572,16 @@
       "sellPrice": 130,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:37:06.294Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-georgios__extra-storage-gamepass",
+      "traderId": "shopkeeper-georgios",
+      "itemId": "extra-storage-gamepass",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:37:25.038Z",
       "history": []
     }
   ]
