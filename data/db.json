@@ -4196,6 +4196,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T04:08:58.384Z",
       "history": []
+    },
+    {
+      "id": "craftsman-arash__clay",
+      "traderId": "craftsman-arash",
+      "itemId": "clay",
+      "buyPrice": 0,
+      "sellPrice": 18,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:09:13.806Z",
+      "history": []
     }
   ]
 }
