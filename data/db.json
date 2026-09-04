@@ -331,6 +331,11 @@
       "id": "shopkeeper-awgin-2",
       "name": "Shopkeeper Awgin",
       "cityId": "levant-frontier"
+    },
+    {
+      "id": "mule-merchant-ashur",
+      "name": "Mule Merchant Ashur",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -677,6 +682,10 @@
     {
       "id": "steel-sickle",
       "name": "Steel Sickle"
+    },
+    {
+      "id": "pack-mule",
+      "name": "Pack Mule"
     }
   ],
   "listings": [
@@ -2426,6 +2435,16 @@
       "sellPrice": 240,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:16:28.602Z",
+      "history": []
+    },
+    {
+      "id": "mule-merchant-ashur__pack-mule",
+      "traderId": "mule-merchant-ashur",
+      "itemId": "pack-mule",
+      "buyPrice": 0,
+      "sellPrice": 1000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:19:54.508Z",
       "history": []
     }
   ]
