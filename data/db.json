@@ -498,6 +498,11 @@
       "id": "priest-arash",
       "name": "Priest Arash",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "givargis",
+      "name": "Givargis",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -3747,6 +3752,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:45:19.746Z",
+      "history": []
+    },
+    {
+      "id": "givargis__mill",
+      "traderId": "givargis",
+      "itemId": "mill",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:47:03.563Z",
       "history": []
     }
   ]
