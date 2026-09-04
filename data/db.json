@@ -3355,6 +3355,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:31:13.430Z",
       "history": []
+    },
+    {
+      "id": "craftsman-khashayar__paper",
+      "traderId": "craftsman-khashayar",
+      "itemId": "paper",
+      "buyPrice": 0,
+      "sellPrice": 47,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:31:26.202Z",
+      "history": []
     }
   ]
 }
