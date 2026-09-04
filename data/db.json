@@ -4106,6 +4106,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:05:50.203Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-roxanna__sea-salt",
+      "traderId": "spice-merchant-roxanna",
+      "itemId": "sea-salt",
+      "buyPrice": 0,
+      "sellPrice": 131,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:06:05.153Z",
+      "history": []
     }
   ]
 }
