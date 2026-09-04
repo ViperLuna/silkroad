@@ -3144,6 +3144,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:23:19.357Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__red-soldier-s-tunic",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "red-soldier-s-tunic",
+      "buyPrice": 0,
+      "sellPrice": 200,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:23:29.942Z",
+      "history": []
     }
   ]
 }
