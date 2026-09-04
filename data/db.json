@@ -592,6 +592,11 @@
       "id": "spice-merchant-roxanna",
       "name": "Spice Merchant Roxanna",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "blacksmith-khashayar-2",
+      "name": "Blacksmith Khashayar",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -4135,6 +4140,16 @@
       "sellPrice": 163,
       "isLocal": false,
       "updatedAt": "2026-09-04T04:06:41.052Z",
+      "history": []
+    },
+    {
+      "id": "blacksmith-khashayar-2__weapons",
+      "traderId": "blacksmith-khashayar-2",
+      "itemId": "weapons",
+      "buyPrice": 0,
+      "sellPrice": 147,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:07:16.441Z",
       "history": []
     }
   ]
