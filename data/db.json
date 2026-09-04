@@ -3375,6 +3375,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T03:31:40.406Z",
       "history": []
+    },
+    {
+      "id": "craftsman-khashayar__clay",
+      "traderId": "craftsman-khashayar",
+      "itemId": "clay",
+      "buyPrice": 0,
+      "sellPrice": 26,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:31:52.241Z",
+      "history": []
     }
   ]
 }
