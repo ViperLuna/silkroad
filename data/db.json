@@ -4051,6 +4051,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:04:16.713Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-ardeshir__water-cup-15",
+      "traderId": "tavern-keep-ardeshir",
+      "itemId": "water-cup-15",
+      "buyPrice": 0,
+      "sellPrice": 20,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:04:28.596Z",
+      "history": []
     }
   ]
 }
