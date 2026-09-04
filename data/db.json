@@ -473,6 +473,11 @@
       "id": "shopkeeper-georgios",
       "name": "Shopkeeper Georgios",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "spice-merchant-anahita",
+      "name": "Spice Merchant Anahita",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -3606,6 +3611,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:38:07.905Z",
+      "history": []
+    },
+    {
+      "id": "spice-merchant-anahita__sesame",
+      "traderId": "spice-merchant-anahita",
+      "itemId": "sesame",
+      "buyPrice": 0,
+      "sellPrice": 93,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:39:01.457Z",
       "history": []
     }
   ]
