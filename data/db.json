@@ -562,6 +562,11 @@
       "id": "beekeeper-arash",
       "name": "Beekeeper Arash",
       "cityId": "barley-farm"
+    },
+    {
+      "id": "shopkeeper-dariush",
+      "name": "Shopkeeper Dariush",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -3886,6 +3891,16 @@
           "at": "2026-09-04T03:55:39.690Z"
         }
       ]
+    },
+    {
+      "id": "shopkeeper-dariush__orange-cape",
+      "traderId": "shopkeeper-dariush",
+      "itemId": "orange-cape",
+      "buyPrice": 0,
+      "sellPrice": 10000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:58:55.442Z",
+      "history": []
     }
   ]
 }
