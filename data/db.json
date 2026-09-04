@@ -2880,6 +2880,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T00:33:47.503Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-awgin__olive-oil",
+      "traderId": "agriculture-merchant-awgin",
+      "itemId": "olive-oil",
+      "buyPrice": 0,
+      "sellPrice": 55,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:34:01.601Z",
+      "history": []
     }
   ]
 }
