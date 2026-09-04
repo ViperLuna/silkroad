@@ -4251,6 +4251,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:10:35.401Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-ardeshir__wheat",
+      "traderId": "agriculture-merchant-ardeshir",
+      "itemId": "wheat",
+      "buyPrice": 0,
+      "sellPrice": 18,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:10:47.571Z",
+      "history": []
     }
   ]
 }
