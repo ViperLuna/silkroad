@@ -3514,6 +3514,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:35:38.190Z",
       "history": []
+    },
+    {
+      "id": "oil-merchant-rustam__barley",
+      "traderId": "oil-merchant-rustam",
+      "itemId": "barley",
+      "buyPrice": 0,
+      "sellPrice": 16,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:35:50.615Z",
+      "history": []
     }
   ]
 }
