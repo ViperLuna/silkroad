@@ -315,6 +315,11 @@
       "id": "farmer-dariush",
       "name": "Farmer Dariush",
       "cityId": "levant-frontier"
+    },
+    {
+      "id": "shopkeeper-awgin-2",
+      "name": "Shopkeeper Awgin",
+      "cityId": "levant-frontier"
     }
   ],
   "items": [
@@ -649,6 +654,10 @@
     {
       "id": "wheat-farm-ownership",
       "name": "Wheat Farm Ownership"
+    },
+    {
+      "id": "bronze-sickle",
+      "name": "Bronze Sickle"
     }
   ],
   "listings": [
@@ -2368,6 +2377,16 @@
       "sellPrice": 7500,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:15:16.733Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-awgin-2__bronze-sickle",
+      "traderId": "shopkeeper-awgin-2",
+      "itemId": "bronze-sickle",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:15:57.126Z",
       "history": []
     }
   ]
