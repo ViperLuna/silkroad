@@ -2890,6 +2890,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T00:34:01.601Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-awgin__honey",
+      "traderId": "agriculture-merchant-awgin",
+      "itemId": "honey",
+      "buyPrice": 0,
+      "sellPrice": 54,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:34:12.730Z",
+      "history": []
     }
   ]
 }
