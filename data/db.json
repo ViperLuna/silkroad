@@ -577,6 +577,11 @@
       "id": "naramsin",
       "name": "Naramsin",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "tavern-manager-ardeshir",
+      "name": "Tavern Manager Ardeshir",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -4021,6 +4026,16 @@
           "at": "2026-09-04T04:02:51.959Z"
         }
       ]
+    },
+    {
+      "id": "tavern-manager-ardeshir__tavern-ownership",
+      "traderId": "tavern-manager-ardeshir",
+      "itemId": "tavern-ownership",
+      "buyPrice": 0,
+      "sellPrice": 15000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:03:47.331Z",
+      "history": []
     }
   ]
 }
