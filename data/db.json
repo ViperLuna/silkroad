@@ -3504,6 +3504,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:35:21.153Z",
       "history": []
+    },
+    {
+      "id": "oil-merchant-rustam__olive-oil",
+      "traderId": "oil-merchant-rustam",
+      "itemId": "olive-oil",
+      "buyPrice": 0,
+      "sellPrice": 47,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:35:38.190Z",
+      "history": []
     }
   ]
 }
