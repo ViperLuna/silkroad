@@ -662,6 +662,10 @@
     {
       "id": "iron-sickle",
       "name": "Iron Sickle"
+    },
+    {
+      "id": "steel-sickle",
+      "name": "Steel Sickle"
     }
   ],
   "listings": [
@@ -2401,6 +2405,16 @@
       "sellPrice": 130,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:16:10.972Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-awgin-2__steel-sickle",
+      "traderId": "shopkeeper-awgin-2",
+      "itemId": "steel-sickle",
+      "buyPrice": 0,
+      "sellPrice": 240,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:16:28.602Z",
       "history": []
     }
   ]
