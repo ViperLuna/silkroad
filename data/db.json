@@ -3192,6 +3192,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:24:17.311Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__purple-nobility-tunic",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "purple-nobility-tunic",
+      "buyPrice": 0,
+      "sellPrice": 3500,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:24:30.811Z",
+      "history": []
     }
   ]
 }
