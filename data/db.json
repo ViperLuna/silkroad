@@ -3459,6 +3459,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T03:34:11.502Z",
       "history": []
+    },
+    {
+      "id": "weaver-dariush__leather",
+      "traderId": "weaver-dariush",
+      "itemId": "leather",
+      "buyPrice": 0,
+      "sellPrice": 16,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:34:28.377Z",
+      "history": []
     }
   ]
 }
