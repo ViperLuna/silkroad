@@ -468,6 +468,11 @@
       "id": "oil-merchant-rustam",
       "name": "Oil Merchant Rustam",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "shopkeeper-georgios",
+      "name": "Shopkeeper Georgios",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -3543,6 +3548,16 @@
       "sellPrice": 54,
       "isLocal": false,
       "updatedAt": "2026-09-04T03:36:11.708Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-georgios__small-satchel-5",
+      "traderId": "shopkeeper-georgios",
+      "itemId": "small-satchel-5",
+      "buyPrice": 0,
+      "sellPrice": 45,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:36:50.079Z",
       "history": []
     }
   ]
