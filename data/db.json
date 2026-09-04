@@ -2844,11 +2844,17 @@
       "id": "weaver-ramsin__hides",
       "traderId": "weaver-ramsin",
       "itemId": "hides",
-      "buyPrice": 0,
+      "buyPrice": 36,
       "sellPrice": 39,
       "isLocal": false,
-      "updatedAt": "2026-09-04T00:32:21.168Z",
-      "history": []
+      "updatedAt": "2026-09-04T00:32:53.892Z",
+      "history": [
+        {
+          "buyPrice": 0,
+          "sellPrice": 39,
+          "at": "2026-09-04T00:32:21.168Z"
+        }
+      ]
     }
   ]
 }
