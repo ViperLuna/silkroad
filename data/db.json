@@ -53,6 +53,12 @@
       "name": "Tigris River Valley",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "ctesiphon",
+      "name": "Ctesiphon",
+      "traits": "",
+      "category": "major"
     }
   ],
   "roads": [
@@ -95,6 +101,11 @@
       "id": "palmyra__tigris-river-valley",
       "a": "palmyra",
       "b": "tigris-river-valley"
+    },
+    {
+      "id": "ctesiphon__tigris-river-valley",
+      "a": "tigris-river-valley",
+      "b": "ctesiphon"
     }
   ],
   "traders": [
