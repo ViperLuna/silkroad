@@ -617,6 +617,11 @@
       "id": "ironworker-khashayar-2",
       "name": "Ironworker Khashayar",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "merchant-kourosh",
+      "name": "Merchant Kourosh",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -4360,6 +4365,16 @@
       "sellPrice": 68,
       "isLocal": false,
       "updatedAt": "2026-09-04T04:13:57.213Z",
+      "history": []
+    },
+    {
+      "id": "merchant-kourosh__bronze-pickaxe",
+      "traderId": "merchant-kourosh",
+      "itemId": "bronze-pickaxe",
+      "buyPrice": 0,
+      "sellPrice": 100,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:14:33.368Z",
       "history": []
     }
   ]
