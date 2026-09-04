@@ -3559,6 +3559,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:36:50.079Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-georgios__large-satchel-7",
+      "traderId": "shopkeeper-georgios",
+      "itemId": "large-satchel-7",
+      "buyPrice": 0,
+      "sellPrice": 130,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:37:06.294Z",
+      "history": []
     }
   ]
 }
