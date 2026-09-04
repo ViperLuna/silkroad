@@ -939,6 +939,10 @@
     {
       "id": "jade-lotus-pendant",
       "name": "Jade Lotus Pendant"
+    },
+    {
+      "id": "kushti-cord-50",
+      "name": "Kushti Cord (+50%)"
     }
   ],
   "listings": [
@@ -3714,6 +3718,16 @@
       "sellPrice": 80,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:43:48.350Z",
+      "history": []
+    },
+    {
+      "id": "craftsman-khashayar__kushti-cord-50",
+      "traderId": "craftsman-khashayar",
+      "itemId": "kushti-cord-50",
+      "buyPrice": 0,
+      "sellPrice": 80,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:44:47.401Z",
       "history": []
     }
   ]
