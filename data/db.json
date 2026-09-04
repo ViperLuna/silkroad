@@ -2495,6 +2495,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T00:21:28.400Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-yeshu__coriander",
+      "traderId": "spice-merchant-yeshu",
+      "itemId": "coriander",
+      "buyPrice": 0,
+      "sellPrice": 130,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:21:47.524Z",
+      "history": []
     }
   ]
 }
