@@ -2765,6 +2765,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T00:29:50.783Z",
       "history": []
+    },
+    {
+      "id": "ironworker-ogin__iron-ingot",
+      "traderId": "ironworker-ogin",
+      "itemId": "iron-ingot",
+      "buyPrice": 0,
+      "sellPrice": 55,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:30:05.313Z",
+      "history": []
     }
   ]
 }
