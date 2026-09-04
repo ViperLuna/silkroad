@@ -2978,6 +2978,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:36:11.634Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-kiriyan__steel-sickle",
+      "traderId": "shopkeeper-kiriyan",
+      "itemId": "steel-sickle",
+      "buyPrice": 0,
+      "sellPrice": 240,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:36:27.978Z",
+      "history": []
     }
   ]
 }
