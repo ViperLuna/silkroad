@@ -1033,6 +1033,10 @@
     {
       "id": "teal-cape",
       "name": "Teal Cape"
+    },
+    {
+      "id": "amaranth-cape",
+      "name": "Amaranth Cape"
     }
   ],
   "listings": [
@@ -3914,6 +3918,16 @@
       "sellPrice": 30000,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:59:07.195Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-dariush__amaranth-cape",
+      "traderId": "shopkeeper-dariush",
+      "itemId": "amaranth-cape",
+      "buyPrice": 0,
+      "sellPrice": 50000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:59:27.909Z",
       "history": []
     }
   ]
