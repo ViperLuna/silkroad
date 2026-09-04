@@ -4271,6 +4271,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T04:10:59.059Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-ardeshir__dried-fish",
+      "traderId": "agriculture-merchant-ardeshir",
+      "itemId": "dried-fish",
+      "buyPrice": 0,
+      "sellPrice": 58,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:11:09.167Z",
+      "history": []
     }
   ]
 }
