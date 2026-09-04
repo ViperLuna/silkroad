@@ -47,6 +47,12 @@
       "name": "Palmyra",
       "traits": "Syriac Culture - Christianity\nAramaic Language\nFrontier City - 10% Price Bonus for Tools and Weapons\nCosmopolitan City - 10% Price Bonus for traders from foreign cultures.",
       "category": "major"
+    },
+    {
+      "id": "tigris-river-valley",
+      "name": "Tigris River Valley",
+      "traits": "",
+      "category": "minor"
     }
   ],
   "roads": [
@@ -84,6 +90,11 @@
       "id": "levant-frontier__palmyra",
       "a": "levant-frontier",
       "b": "palmyra"
+    },
+    {
+      "id": "palmyra__tigris-river-valley",
+      "a": "palmyra",
+      "b": "tigris-river-valley"
     }
   ],
   "traders": [
