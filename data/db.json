@@ -4186,6 +4186,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T04:08:34.122Z",
       "history": []
+    },
+    {
+      "id": "craftsman-arash__earthenware",
+      "traderId": "craftsman-arash",
+      "itemId": "earthenware",
+      "buyPrice": 0,
+      "sellPrice": 31,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:08:58.384Z",
+      "history": []
     }
   ]
 }
