@@ -3168,6 +3168,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:23:47.614Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__orange-nobility-tunic",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "orange-nobility-tunic",
+      "buyPrice": 0,
+      "sellPrice": 1500,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:23:58.467Z",
+      "history": []
     }
   ]
 }
