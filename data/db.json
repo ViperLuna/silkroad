@@ -572,6 +572,11 @@
       "id": "horse-merchant-khashayar",
       "name": "Horse Merchant Khashayar",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "naramsin",
+      "name": "Naramsin",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -3999,6 +4004,16 @@
       "sellPrice": 50000,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:01:24.350Z",
+      "history": []
+    },
+    {
+      "id": "naramsin__mill",
+      "traderId": "naramsin",
+      "itemId": "mill",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:02:51.959Z",
       "history": []
     }
   ]
