@@ -822,6 +822,10 @@
     {
       "id": "persian-noble-turban",
       "name": "Persian Noble Turban"
+    },
+    {
+      "id": "persian-warrior-s-helmet",
+      "name": "Persian Warrior's Helmet"
     }
   ],
   "listings": [
@@ -3177,6 +3181,16 @@
       "sellPrice": 1500,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:23:58.467Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__persian-warrior-s-helmet",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "persian-warrior-s-helmet",
+      "buyPrice": 0,
+      "sellPrice": 2000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:24:17.311Z",
       "history": []
     }
   ]
