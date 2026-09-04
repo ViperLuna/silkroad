@@ -4306,6 +4306,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:12:04.276Z",
       "history": []
+    },
+    {
+      "id": "weaver-kourash__hides",
+      "traderId": "weaver-kourash",
+      "itemId": "hides",
+      "buyPrice": 0,
+      "sellPrice": 22,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:12:15.351Z",
+      "history": []
     }
   ]
 }
