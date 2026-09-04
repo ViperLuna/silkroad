@@ -71,6 +71,12 @@
       "name": "Cotton Farm",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "barley-farm",
+      "name": "Barley Farm",
+      "traits": "",
+      "category": "minor"
     }
   ],
   "roads": [
@@ -128,6 +134,11 @@
       "id": "cotton-farm__zagros-mountains",
       "a": "zagros-mountains",
       "b": "cotton-farm"
+    },
+    {
+      "id": "barley-farm__zagros-mountains",
+      "a": "zagros-mountains",
+      "b": "barley-farm"
     }
   ],
   "traders": [
