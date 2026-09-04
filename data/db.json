@@ -77,6 +77,12 @@
       "name": "Barley Farm",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "ecbatana",
+      "name": "Ecbatana",
+      "traits": "",
+      "category": "major"
     }
   ],
   "roads": [
@@ -139,6 +145,11 @@
       "id": "barley-farm__zagros-mountains",
       "a": "zagros-mountains",
       "b": "barley-farm"
+    },
+    {
+      "id": "ecbatana__zagros-mountains",
+      "a": "zagros-mountains",
+      "b": "ecbatana"
     }
   ],
   "traders": [
