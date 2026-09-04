@@ -3479,6 +3479,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T03:34:41.671Z",
       "history": []
+    },
+    {
+      "id": "weaver-dariush__hides",
+      "traderId": "weaver-dariush",
+      "itemId": "hides",
+      "buyPrice": 0,
+      "sellPrice": 27,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:34:52.116Z",
+      "history": []
     }
   ]
 }
