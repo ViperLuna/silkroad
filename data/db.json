@@ -4386,6 +4386,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:14:47.337Z",
       "history": []
+    },
+    {
+      "id": "ironworker-khashayar-2__steel-pickaxe",
+      "traderId": "ironworker-khashayar-2",
+      "itemId": "steel-pickaxe",
+      "buyPrice": 0,
+      "sellPrice": 1000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:15:06.955Z",
+      "history": []
     }
   ]
 }
