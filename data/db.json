@@ -1054,6 +1054,10 @@
     {
       "id": "dzungarian-horse",
       "name": "Dzungarian Horse"
+    },
+    {
+      "id": "nisean-horse",
+      "name": "Nisean Horse"
     }
   ],
   "listings": [
@@ -3985,6 +3989,16 @@
       "sellPrice": 1500,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:01:06.443Z",
+      "history": []
+    },
+    {
+      "id": "horse-merchant-khashayar__nisean-horse",
+      "traderId": "horse-merchant-khashayar",
+      "itemId": "nisean-horse",
+      "buyPrice": 0,
+      "sellPrice": 50000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:01:24.350Z",
       "history": []
     }
   ]
