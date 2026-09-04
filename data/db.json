@@ -4326,6 +4326,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T04:12:27.138Z",
       "history": []
+    },
+    {
+      "id": "weaver-kourash__cotton-yarn",
+      "traderId": "weaver-kourash",
+      "itemId": "cotton-yarn",
+      "buyPrice": 0,
+      "sellPrice": 31,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:12:44.097Z",
+      "history": []
     }
   ]
 }
