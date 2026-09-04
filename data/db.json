@@ -710,6 +710,10 @@
     {
       "id": "saddle-mule",
       "name": "Saddle Mule"
+    },
+    {
+      "id": "green-soldier-s-tunic",
+      "name": "Green Soldier's Tunic"
     }
   ],
   "listings": [
@@ -2659,6 +2663,16 @@
       "sellPrice": 200,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:26:59.330Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-aprim__green-soldier-s-tunic",
+      "traderId": "shopkeeper-aprim",
+      "itemId": "green-soldier-s-tunic",
+      "buyPrice": 0,
+      "sellPrice": 200,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:27:20.997Z",
       "history": []
     }
   ]
