@@ -3124,6 +3124,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:22:48.307Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__embroidered-green-tunic",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "embroidered-green-tunic",
+      "buyPrice": 0,
+      "sellPrice": 100,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:23:06.319Z",
+      "history": []
     }
   ]
 }
