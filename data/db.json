@@ -376,6 +376,11 @@
       "id": "agriculture-merchant-awgin",
       "name": "Agriculture Merchant Awgin",
       "cityId": "palmyra"
+    },
+    {
+      "id": "shopkeeper-isho",
+      "name": "Shopkeeper Isho",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -2909,6 +2914,16 @@
       "sellPrice": 39,
       "isLocal": false,
       "updatedAt": "2026-09-04T00:34:22.116Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-isho__orange-cape",
+      "traderId": "shopkeeper-isho",
+      "itemId": "orange-cape",
+      "buyPrice": 0,
+      "sellPrice": 10000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:34:48.900Z",
       "history": []
     }
   ]
