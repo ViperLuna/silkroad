@@ -3038,6 +3038,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:38:21.990Z",
       "history": []
+    },
+    {
+      "id": "tavern-keep-isho__roasted-pork-35",
+      "traderId": "tavern-keep-isho",
+      "itemId": "roasted-pork-35",
+      "buyPrice": 0,
+      "sellPrice": 100,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:38:31.887Z",
+      "history": []
     }
   ]
 }
