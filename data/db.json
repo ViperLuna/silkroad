@@ -1046,6 +1046,10 @@
     {
       "id": "cape-of-advent",
       "name": "Cape of Advent"
+    },
+    {
+      "id": "white-nisean-horse",
+      "name": "White Nisean Horse"
     }
   ],
   "listings": [
@@ -3957,6 +3961,16 @@
       "sellPrice": 500,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:00:33.558Z",
+      "history": []
+    },
+    {
+      "id": "horse-merchant-khashayar__white-nisean-horse",
+      "traderId": "horse-merchant-khashayar",
+      "itemId": "white-nisean-horse",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:00:50.365Z",
       "history": []
     }
   ]
