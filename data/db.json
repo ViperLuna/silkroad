@@ -2809,6 +2809,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:31:24.665Z",
       "history": []
+    },
+    {
+      "id": "weaver-ramsin__leather",
+      "traderId": "weaver-ramsin",
+      "itemId": "leather",
+      "buyPrice": 0,
+      "sellPrice": 9,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:31:38.483Z",
+      "history": []
     }
   ]
 }
