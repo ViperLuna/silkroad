@@ -65,6 +65,12 @@
       "name": "Zagros Mountains",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "cotton-farm",
+      "name": "Cotton Farm",
+      "traits": "",
+      "category": "minor"
     }
   ],
   "roads": [
@@ -117,6 +123,11 @@
       "id": "ctesiphon__zagros-mountains",
       "a": "ctesiphon",
       "b": "zagros-mountains"
+    },
+    {
+      "id": "cotton-farm__zagros-mountains",
+      "a": "zagros-mountains",
+      "b": "cotton-farm"
     }
   ],
   "traders": [
