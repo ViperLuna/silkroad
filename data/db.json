@@ -4296,6 +4296,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:11:52.152Z",
       "history": []
+    },
+    {
+      "id": "weaver-kourash__leather",
+      "traderId": "weaver-kourash",
+      "itemId": "leather",
+      "buyPrice": 0,
+      "sellPrice": 11,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:12:04.276Z",
+      "history": []
     }
   ]
 }
