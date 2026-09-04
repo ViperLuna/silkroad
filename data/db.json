@@ -3667,6 +3667,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:40:36.197Z",
       "history": []
+    },
+    {
+      "id": "ironworker-khashayar__copper-ingot",
+      "traderId": "ironworker-khashayar",
+      "itemId": "copper-ingot",
+      "buyPrice": 0,
+      "sellPrice": 44,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:40:57.734Z",
+      "history": []
     }
   ]
 }
