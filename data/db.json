@@ -2674,6 +2674,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:27:20.997Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-aprim__red-soldier-s-tunic",
+      "traderId": "shopkeeper-aprim",
+      "itemId": "red-soldier-s-tunic",
+      "buyPrice": 0,
+      "sellPrice": 200,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:27:36.090Z",
+      "history": []
     }
   ]
 }
