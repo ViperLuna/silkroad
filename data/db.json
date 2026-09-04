@@ -483,6 +483,11 @@
       "id": "ironworker-khashayar",
       "name": "Ironworker Khashayar",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "monk-sheng",
+      "name": "Monk Sheng",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -921,6 +926,10 @@
     {
       "id": "basket-backpack-9",
       "name": "Basket Backpack (+9)"
+    },
+    {
+      "id": "ctesiphon-monastery",
+      "name": "Ctesiphon Monastery"
     }
   ],
   "listings": [
@@ -3676,6 +3685,16 @@
       "sellPrice": 44,
       "isLocal": false,
       "updatedAt": "2026-09-04T03:40:57.734Z",
+      "history": []
+    },
+    {
+      "id": "monk-sheng__ctesiphon-monastery",
+      "traderId": "monk-sheng",
+      "itemId": "ctesiphon-monastery",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:43:11.997Z",
       "history": []
     }
   ]
