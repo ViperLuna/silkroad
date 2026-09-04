@@ -488,6 +488,11 @@
       "id": "monk-sheng",
       "name": "Monk Sheng",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "craftsman-de",
+      "name": "Craftsman De",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -930,6 +935,10 @@
     {
       "id": "ctesiphon-monastery",
       "name": "Ctesiphon Monastery"
+    },
+    {
+      "id": "jade-lotus-pendant",
+      "name": "Jade Lotus Pendant"
     }
   ],
   "listings": [
@@ -3695,6 +3704,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:43:11.997Z",
+      "history": []
+    },
+    {
+      "id": "craftsman-de__jade-lotus-pendant",
+      "traderId": "craftsman-de",
+      "itemId": "jade-lotus-pendant",
+      "buyPrice": 0,
+      "sellPrice": 80,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:43:48.350Z",
       "history": []
     }
   ]
