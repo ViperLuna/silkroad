@@ -336,6 +336,11 @@
       "id": "mule-merchant-ashur",
       "name": "Mule Merchant Ashur",
       "cityId": "palmyra"
+    },
+    {
+      "id": "spice-merchant-yeshu",
+      "name": "Spice Merchant Yeshu",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -2469,6 +2474,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:20:34.336Z",
+      "history": []
+    },
+    {
+      "id": "spice-merchant-yeshu__sea-salt",
+      "traderId": "spice-merchant-yeshu",
+      "itemId": "sea-salt",
+      "buyPrice": 0,
+      "sellPrice": 95,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:21:15.750Z",
       "history": []
     }
   ]
