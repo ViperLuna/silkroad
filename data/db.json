@@ -3114,6 +3114,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T03:22:36.047Z",
       "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__red-tunic",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "red-tunic",
+      "buyPrice": 0,
+      "sellPrice": 70,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:22:48.307Z",
+      "history": []
     }
   ]
 }
