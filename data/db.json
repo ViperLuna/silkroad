@@ -423,6 +423,11 @@
       "id": "agriculture-merchant-sarhad-2",
       "name": "Agriculture Merchant Sarhad",
       "cityId": "tigris-river-valley"
+    },
+    {
+      "id": "shopkeeper-ephrem-2",
+      "name": "Shopkeeper Ephrem",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -3098,6 +3103,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:15:33.838Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-ephrem-2__green-tunic",
+      "traderId": "shopkeeper-ephrem-2",
+      "itemId": "green-tunic",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:22:36.047Z",
       "history": []
     }
   ]
