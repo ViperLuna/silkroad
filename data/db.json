@@ -4351,6 +4351,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:13:29.255Z",
       "history": []
+    },
+    {
+      "id": "ironworker-khashayar-2__iron-ingot",
+      "traderId": "ironworker-khashayar-2",
+      "itemId": "iron-ingot",
+      "buyPrice": 0,
+      "sellPrice": 68,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T04:13:57.213Z",
+      "history": []
     }
   ]
 }
