@@ -1037,6 +1037,10 @@
     {
       "id": "amaranth-cape",
       "name": "Amaranth Cape"
+    },
+    {
+      "id": "cape-of-advent",
+      "name": "Cape of Advent"
     }
   ],
   "listings": [
@@ -3928,6 +3932,16 @@
       "sellPrice": 50000,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:59:27.909Z",
+      "history": []
+    },
+    {
+      "id": "shopkeeper-dariush__cape-of-advent",
+      "traderId": "shopkeeper-dariush",
+      "itemId": "cape-of-advent",
+      "buyPrice": 0,
+      "sellPrice": 130000,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:59:43.576Z",
       "history": []
     }
   ]
