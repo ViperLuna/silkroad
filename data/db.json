@@ -83,6 +83,12 @@
       "name": "Ecbatana",
       "traits": "Persian Culture - ZoroAstrianism\nPersian Language\nHomogenous City - 10% Price Penalty for traders from foreign cultures.",
       "category": "major"
+    },
+    {
+      "id": "zagros-foothills",
+      "name": "Zagros Foothills",
+      "traits": "",
+      "category": "minor"
     }
   ],
   "roads": [
@@ -150,6 +156,11 @@
       "id": "ecbatana__zagros-mountains",
       "a": "zagros-mountains",
       "b": "ecbatana"
+    },
+    {
+      "id": "zagros-foothills__zagros-mountains",
+      "a": "zagros-mountains",
+      "b": "zagros-foothills"
     }
   ],
   "traders": [
