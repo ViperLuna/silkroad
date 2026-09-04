@@ -637,6 +637,11 @@
       "id": "priest-kourosh",
       "name": "Priest Kourosh",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "priest-dariush",
+      "name": "Priest Dariush",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -1131,6 +1136,10 @@
     {
       "id": "fire-temple-of-ecbatana",
       "name": "Fire Temple of Ecbatana"
+    },
+    {
+      "id": "church",
+      "name": "Church"
     }
   ],
   "listings": [
@@ -4448,6 +4457,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:19:02.974Z",
+      "history": []
+    },
+    {
+      "id": "priest-dariush__church",
+      "traderId": "priest-dariush",
+      "itemId": "church",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:20:50.859Z",
       "history": []
     }
   ]
