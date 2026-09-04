@@ -602,6 +602,11 @@
       "id": "craftsman-arash",
       "name": "Craftsman Arash",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "agriculture-merchant-ardeshir",
+      "name": "Agriculture Merchant Ardeshir",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -4225,6 +4230,16 @@
       "sellPrice": 68,
       "isLocal": false,
       "updatedAt": "2026-09-04T04:09:35.587Z",
+      "history": []
+    },
+    {
+      "id": "agriculture-merchant-ardeshir__barley",
+      "traderId": "agriculture-merchant-ardeshir",
+      "itemId": "barley",
+      "buyPrice": 0,
+      "sellPrice": 11,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:10:14.938Z",
       "history": []
     }
   ]
