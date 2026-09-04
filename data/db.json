@@ -463,6 +463,11 @@
       "id": "weaver-dariush",
       "name": "Weaver Dariush",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "oil-merchant-rustam",
+      "name": "Oil Merchant Rustam",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -3488,6 +3493,16 @@
       "sellPrice": 27,
       "isLocal": false,
       "updatedAt": "2026-09-04T03:34:52.116Z",
+      "history": []
+    },
+    {
+      "id": "oil-merchant-rustam__wheat",
+      "traderId": "oil-merchant-rustam",
+      "itemId": "wheat",
+      "buyPrice": 0,
+      "sellPrice": 9,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:35:21.153Z",
       "history": []
     }
   ]
