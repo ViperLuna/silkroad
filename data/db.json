@@ -356,6 +356,11 @@
       "id": "shopkeeper-aprim",
       "name": "Shopkeeper Aprim",
       "cityId": "palmyra"
+    },
+    {
+      "id": "ironworker-ogin",
+      "name": "Ironworker Ogin",
+      "cityId": "palmyra"
     }
   ],
   "items": [
@@ -2749,6 +2754,16 @@
       "sellPrice": 30000,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:29:13.460Z",
+      "history": []
+    },
+    {
+      "id": "ironworker-ogin__copper-ingot",
+      "traderId": "ironworker-ogin",
+      "itemId": "copper-ingot",
+      "buyPrice": 0,
+      "sellPrice": 41,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T00:29:50.783Z",
       "history": []
     }
   ]
