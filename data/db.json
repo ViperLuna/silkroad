@@ -567,6 +567,11 @@
       "id": "shopkeeper-dariush",
       "name": "Shopkeeper Dariush",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "horse-merchant-khashayar",
+      "name": "Horse Merchant Khashayar",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -3942,6 +3947,16 @@
       "sellPrice": 130000,
       "isLocal": true,
       "updatedAt": "2026-09-04T03:59:43.576Z",
+      "history": []
+    },
+    {
+      "id": "horse-merchant-khashayar__saddlebags",
+      "traderId": "horse-merchant-khashayar",
+      "itemId": "saddlebags",
+      "buyPrice": 0,
+      "sellPrice": 500,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:00:33.558Z",
       "history": []
     }
   ]
