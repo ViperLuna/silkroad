@@ -622,6 +622,11 @@
       "id": "merchant-kourosh",
       "name": "Merchant Kourosh",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "manichaean-elect-xamir",
+      "name": "Manichaean Elect Xamir",
+      "cityId": "ecbatana"
     }
   ],
   "items": [
@@ -1108,6 +1113,10 @@
     {
       "id": "nisean-horse",
       "name": "Nisean Horse"
+    },
+    {
+      "id": "ecbatana-temple-of-light",
+      "name": "Ecbatana Temple of Light"
     }
   ],
   "listings": [
@@ -4395,6 +4404,16 @@
       "sellPrice": 1000,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:15:06.955Z",
+      "history": []
+    },
+    {
+      "id": "manichaean-elect-xamir__ecbatana-temple-of-light",
+      "traderId": "manichaean-elect-xamir",
+      "itemId": "ecbatana-temple-of-light",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:16:08.587Z",
       "history": []
     }
   ]
