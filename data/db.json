@@ -305,6 +305,11 @@
       "id": "mine-overseer-demetrios",
       "name": "Mine Overseer Demetrios",
       "cityId": "levant-frontier"
+    },
+    {
+      "id": "aprim",
+      "name": "Aprim",
+      "cityId": "levant-frontier"
     }
   ],
   "items": [
@@ -631,6 +636,10 @@
     {
       "id": "byzantine-silk",
       "name": "Byzantine Silk"
+    },
+    {
+      "id": "wheat-farm",
+      "name": "Wheat Farm"
     }
   ],
   "listings": [
@@ -2330,6 +2339,16 @@
       "sellPrice": 7000,
       "isLocal": true,
       "updatedAt": "2026-09-04T00:11:54.380Z",
+      "history": []
+    },
+    {
+      "id": "aprim__wheat-farm",
+      "traderId": "aprim",
+      "itemId": "wheat-farm",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:14:22.654Z",
       "history": []
     }
   ]
