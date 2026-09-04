@@ -458,6 +458,11 @@
       "id": "blacksmith-khashayar",
       "name": "Blacksmith Khashayar",
       "cityId": "ctesiphon"
+    },
+    {
+      "id": "weaver-dariush",
+      "name": "Weaver Dariush",
+      "cityId": "ctesiphon"
     }
   ],
   "items": [
@@ -884,6 +889,10 @@
     {
       "id": "pendant-of-the-living-light",
       "name": "Pendant of the Living Light"
+    },
+    {
+      "id": "persian-carpets",
+      "name": "Persian Carpets"
     }
   ],
   "listings": [
@@ -3419,6 +3428,16 @@
       "sellPrice": 137,
       "isLocal": false,
       "updatedAt": "2026-09-04T03:32:59.990Z",
+      "history": []
+    },
+    {
+      "id": "weaver-dariush__persian-carpets",
+      "traderId": "weaver-dariush",
+      "itemId": "persian-carpets",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T03:33:35.683Z",
       "history": []
     }
   ]
