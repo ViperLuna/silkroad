@@ -3385,6 +3385,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-04T03:31:52.241Z",
       "history": []
+    },
+    {
+      "id": "craftsman-khashayar__candles",
+      "traderId": "craftsman-khashayar",
+      "itemId": "candles",
+      "buyPrice": 0,
+      "sellPrice": 780,
+      "isLocal": false,
+      "updatedAt": "2026-09-04T03:32:02.102Z",
+      "history": []
     }
   ]
 }
