@@ -4376,6 +4376,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T04:14:33.368Z",
       "history": []
+    },
+    {
+      "id": "merchant-kourosh__iron-pickaxe",
+      "traderId": "merchant-kourosh",
+      "itemId": "iron-pickaxe",
+      "buyPrice": 0,
+      "sellPrice": 500,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T04:14:47.337Z",
+      "history": []
     }
   ]
 }
