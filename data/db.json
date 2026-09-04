@@ -2829,6 +2829,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-04T00:31:54.450Z",
       "history": []
+    },
+    {
+      "id": "weaver-ramsin__cotton-yarn",
+      "traderId": "weaver-ramsin",
+      "itemId": "cotton-yarn",
+      "buyPrice": 0,
+      "sellPrice": 18,
+      "isLocal": true,
+      "updatedAt": "2026-09-04T00:32:08.669Z",
+      "history": []
     }
   ]
 }
