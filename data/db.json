@@ -107,6 +107,12 @@
       "name": "Persepolis",
       "traits": "",
       "category": "major"
+    },
+    {
+      "id": "central-spahan",
+      "name": "Central Spahan",
+      "traits": "",
+      "category": "minor"
     }
   ],
   "roads": [
@@ -194,6 +200,11 @@
       "id": "marvdasht-plain__persepolis",
       "a": "marvdasht-plain",
       "b": "persepolis"
+    },
+    {
+      "id": "central-spahan__marvdasht-plain",
+      "a": "marvdasht-plain",
+      "b": "central-spahan"
     }
   ],
   "traders": [
