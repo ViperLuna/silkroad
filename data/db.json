@@ -778,6 +778,11 @@
       "id": "agriculture-merchant-khashayar",
       "name": "Agriculture Merchant Khashayar",
       "cityId": "isfahan"
+    },
+    {
+      "id": "blacksmith-dariush",
+      "name": "Blacksmith Dariush",
+      "cityId": "isfahan"
     }
   ],
   "items": [
@@ -5171,6 +5176,16 @@
       "sellPrice": 76,
       "isLocal": false,
       "updatedAt": "2026-09-05T03:20:28.736Z",
+      "history": []
+    },
+    {
+      "id": "blacksmith-dariush__tools",
+      "traderId": "blacksmith-dariush",
+      "itemId": "tools",
+      "buyPrice": 0,
+      "sellPrice": 100,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:20:57.699Z",
       "history": []
     }
   ]
