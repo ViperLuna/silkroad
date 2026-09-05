@@ -5007,6 +5007,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T03:15:46.854Z",
       "history": []
+    },
+    {
+      "id": "glazier-kourosh-2__books",
+      "traderId": "glazier-kourosh-2",
+      "itemId": "books",
+      "buyPrice": 0,
+      "sellPrice": 561,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T03:15:59.596Z",
+      "history": []
     }
   ]
 }
