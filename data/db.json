@@ -4552,6 +4552,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-05T02:42:20.059Z",
       "history": []
+    },
+    {
+      "id": "ironworker-arash__iron-ingot",
+      "traderId": "ironworker-arash",
+      "itemId": "iron-ingot",
+      "buyPrice": 0,
+      "sellPrice": 76,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:42:34.639Z",
+      "history": []
     }
   ]
 }
