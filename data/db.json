@@ -768,6 +768,11 @@
       "id": "weapon-merchant-strategos",
       "name": "Weapon Merchant Strategos",
       "cityId": "isfahan"
+    },
+    {
+      "id": "spice-merchant-shirin",
+      "name": "Spice Merchant Shirin",
+      "cityId": "isfahan"
     }
   ],
   "items": [
@@ -5071,6 +5076,16 @@
       "sellPrice": 15000,
       "isLocal": true,
       "updatedAt": "2026-09-05T03:17:42.651Z",
+      "history": []
+    },
+    {
+      "id": "spice-merchant-shirin__coriander",
+      "traderId": "spice-merchant-shirin",
+      "itemId": "coriander",
+      "buyPrice": 0,
+      "sellPrice": 130,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:18:16.962Z",
       "history": []
     }
   ]
