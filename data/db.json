@@ -5087,6 +5087,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T03:18:16.962Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-shirin__sea-salt",
+      "traderId": "spice-merchant-shirin",
+      "itemId": "sea-salt",
+      "buyPrice": 0,
+      "sellPrice": 136,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T03:18:29.160Z",
+      "history": []
     }
   ]
 }
