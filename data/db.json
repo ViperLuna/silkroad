@@ -664,6 +664,11 @@
       "id": "priest-dariush",
       "name": "Priest Dariush",
       "cityId": "ecbatana"
+    },
+    {
+      "id": "weapon-merchant-vardas",
+      "name": "Weapon Merchant Vardas",
+      "cityId": "susa"
     }
   ],
   "items": [
@@ -1162,6 +1167,10 @@
     {
       "id": "church",
       "name": "Church"
+    },
+    {
+      "id": "basic-sword",
+      "name": "Basic Sword"
     }
   ],
   "listings": [
@@ -4489,6 +4498,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-04T04:20:50.859Z",
+      "history": []
+    },
+    {
+      "id": "weapon-merchant-vardas__basic-sword",
+      "traderId": "weapon-merchant-vardas",
+      "itemId": "basic-sword",
+      "buyPrice": 0,
+      "sellPrice": 1000,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T02:40:53.618Z",
       "history": []
     }
   ]
