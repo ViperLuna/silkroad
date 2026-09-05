@@ -5187,6 +5187,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T03:20:57.699Z",
       "history": []
+    },
+    {
+      "id": "blacksmith-dariush__weapons",
+      "traderId": "blacksmith-dariush",
+      "itemId": "weapons",
+      "buyPrice": 0,
+      "sellPrice": 162,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T03:21:08.871Z",
+      "history": []
     }
   ]
 }
