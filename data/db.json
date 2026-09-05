@@ -773,6 +773,11 @@
       "id": "spice-merchant-shirin",
       "name": "Spice Merchant Shirin",
       "cityId": "isfahan"
+    },
+    {
+      "id": "agriculture-merchant-khashayar",
+      "name": "Agriculture Merchant Khashayar",
+      "cityId": "isfahan"
     }
   ],
   "items": [
@@ -5116,6 +5121,16 @@
       "sellPrice": 296,
       "isLocal": false,
       "updatedAt": "2026-09-05T03:19:00.707Z",
+      "history": []
+    },
+    {
+      "id": "agriculture-merchant-khashayar__olive-oil",
+      "traderId": "agriculture-merchant-khashayar",
+      "itemId": "olive-oil",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:19:41.712Z",
       "history": []
     }
   ]
