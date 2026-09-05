@@ -763,6 +763,11 @@
       "id": "glazier-kourosh-2",
       "name": "Glazier Kourosh",
       "cityId": "isfahan"
+    },
+    {
+      "id": "weapon-merchant-strategos",
+      "name": "Weapon Merchant Strategos",
+      "cityId": "isfahan"
     }
   ],
   "items": [
@@ -5036,6 +5041,16 @@
       "sellPrice": 17,
       "isLocal": false,
       "updatedAt": "2026-09-05T03:16:22.295Z",
+      "history": []
+    },
+    {
+      "id": "weapon-merchant-strategos__basic-sword",
+      "traderId": "weapon-merchant-strategos",
+      "itemId": "basic-sword",
+      "buyPrice": 0,
+      "sellPrice": 1000,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:17:20.918Z",
       "history": []
     }
   ]
