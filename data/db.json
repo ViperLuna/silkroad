@@ -4701,6 +4701,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-05T02:46:52.490Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-anahita-2__coriander",
+      "traderId": "spice-merchant-anahita-2",
+      "itemId": "coriander",
+      "buyPrice": 0,
+      "sellPrice": 166,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:47:05.166Z",
+      "history": []
     }
   ]
 }
