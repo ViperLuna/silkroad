@@ -4756,6 +4756,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-05T02:48:22.739Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-dariush__dried-fish",
+      "traderId": "agriculture-merchant-dariush",
+      "itemId": "dried-fish",
+      "buyPrice": 0,
+      "sellPrice": 52,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:48:30.110Z",
+      "history": []
     }
   ]
 }
