@@ -4781,6 +4781,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T02:49:01.841Z",
       "history": []
+    },
+    {
+      "id": "weaver-kourosh__linen",
+      "traderId": "weaver-kourosh",
+      "itemId": "linen",
+      "buyPrice": 0,
+      "sellPrice": 9,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T02:49:15.629Z",
+      "history": []
     }
   ]
 }
