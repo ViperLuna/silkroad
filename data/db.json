@@ -679,6 +679,11 @@
       "id": "blacksmith-khashayar-3",
       "name": "Blacksmith Khashayar",
       "cityId": "susa"
+    },
+    {
+      "id": "glazier-kourosh",
+      "name": "Glazier Kourosh",
+      "cityId": "susa"
     }
   ],
   "items": [
@@ -4586,6 +4591,16 @@
       "sellPrice": 150,
       "isLocal": false,
       "updatedAt": "2026-09-05T02:43:23.658Z",
+      "history": []
+    },
+    {
+      "id": "glazier-kourosh__books",
+      "traderId": "glazier-kourosh",
+      "itemId": "books",
+      "buyPrice": 0,
+      "sellPrice": 515,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T02:43:55.826Z",
       "history": []
     }
   ]
