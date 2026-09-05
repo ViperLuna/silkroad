@@ -101,6 +101,12 @@
       "name": "Marvdasht Plain",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "persepolis",
+      "name": "Persepolis",
+      "traits": "",
+      "category": "major"
     }
   ],
   "roads": [
@@ -183,6 +189,11 @@
       "id": "marvdasht-plain__zagros-foothills",
       "a": "zagros-foothills",
       "b": "marvdasht-plain"
+    },
+    {
+      "id": "marvdasht-plain__persepolis",
+      "a": "marvdasht-plain",
+      "b": "persepolis"
     }
   ],
   "traders": [
