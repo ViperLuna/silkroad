@@ -4681,6 +4681,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T02:46:22.257Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-anahita-2__saffron",
+      "traderId": "spice-merchant-anahita-2",
+      "itemId": "saffron",
+      "buyPrice": 0,
+      "sellPrice": 258,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T02:46:37.133Z",
+      "history": []
     }
   ]
 }
