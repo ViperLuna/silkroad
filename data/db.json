@@ -5162,6 +5162,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-05T03:20:19.007Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-khashayar__dried-fish",
+      "traderId": "agriculture-merchant-khashayar",
+      "itemId": "dried-fish",
+      "buyPrice": 0,
+      "sellPrice": 76,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T03:20:28.736Z",
+      "history": []
     }
   ]
 }
