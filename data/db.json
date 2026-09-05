@@ -758,6 +758,11 @@
       "id": "elephant-keeper-dariush",
       "name": "Elephant Keeper Dariush",
       "cityId": "isfahan"
+    },
+    {
+      "id": "glazier-kourosh-2",
+      "name": "Glazier Kourosh",
+      "cityId": "isfahan"
     }
   ],
   "items": [
@@ -4961,6 +4966,16 @@
       "sellPrice": 250000,
       "isLocal": true,
       "updatedAt": "2026-09-05T03:10:13.587Z",
+      "history": []
+    },
+    {
+      "id": "glazier-kourosh-2__minakari-ware",
+      "traderId": "glazier-kourosh-2",
+      "itemId": "minakari-ware",
+      "buyPrice": 0,
+      "sellPrice": 300,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:15:13.343Z",
       "history": []
     }
   ]
