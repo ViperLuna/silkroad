@@ -4602,6 +4602,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T02:43:55.826Z",
       "history": []
+    },
+    {
+      "id": "glazier-kourosh__clay",
+      "traderId": "glazier-kourosh",
+      "itemId": "clay",
+      "buyPrice": 0,
+      "sellPrice": 10,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T02:44:09.096Z",
+      "history": []
     }
   ]
 }
