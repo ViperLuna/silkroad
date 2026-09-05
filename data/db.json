@@ -1280,6 +1280,10 @@
     {
       "id": "royal-indian-elephant",
       "name": "Royal Indian Elephant"
+    },
+    {
+      "id": "indian-elephant",
+      "name": "Indian Elephant"
     }
   ],
   "listings": [
@@ -4947,6 +4951,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-05T03:09:56.947Z",
+      "history": []
+    },
+    {
+      "id": "elephant-keeper-dariush__indian-elephant",
+      "traderId": "elephant-keeper-dariush",
+      "itemId": "indian-elephant",
+      "buyPrice": 0,
+      "sellPrice": 250000,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:10:13.587Z",
       "history": []
     }
   ]
