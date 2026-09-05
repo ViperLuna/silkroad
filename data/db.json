@@ -5212,6 +5212,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-05T03:21:37.593Z",
       "history": []
+    },
+    {
+      "id": "ironworker-ardeshir__iron-ingot",
+      "traderId": "ironworker-ardeshir",
+      "itemId": "iron-ingot",
+      "buyPrice": 0,
+      "sellPrice": 61,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T03:21:52.106Z",
+      "history": []
     }
   ]
 }
