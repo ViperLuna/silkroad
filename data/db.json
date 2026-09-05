@@ -5097,6 +5097,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-05T03:18:29.160Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-shirin__sesame",
+      "traderId": "spice-merchant-shirin",
+      "itemId": "sesame",
+      "buyPrice": 0,
+      "sellPrice": 114,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T03:18:47.140Z",
+      "history": []
     }
   ]
 }
