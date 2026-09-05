@@ -783,6 +783,11 @@
       "id": "blacksmith-dariush",
       "name": "Blacksmith Dariush",
       "cityId": "isfahan"
+    },
+    {
+      "id": "ironworker-ardeshir",
+      "name": "Ironworker Ardeshir",
+      "cityId": "isfahan"
     }
   ],
   "items": [
@@ -5196,6 +5201,16 @@
       "sellPrice": 162,
       "isLocal": false,
       "updatedAt": "2026-09-05T03:21:08.871Z",
+      "history": []
+    },
+    {
+      "id": "ironworker-ardeshir__copper-ingot",
+      "traderId": "ironworker-ardeshir",
+      "itemId": "copper-ingot",
+      "buyPrice": 0,
+      "sellPrice": 46,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T03:21:37.593Z",
       "history": []
     }
   ]
