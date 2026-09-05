@@ -5062,6 +5062,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T03:17:29.832Z",
       "history": []
+    },
+    {
+      "id": "weapon-merchant-strategos__elite-sword",
+      "traderId": "weapon-merchant-strategos",
+      "itemId": "elite-sword",
+      "buyPrice": 0,
+      "sellPrice": 15000,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:17:42.651Z",
+      "history": []
     }
   ]
 }
