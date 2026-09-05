@@ -15,9 +15,9 @@ export function hasToken() {
   return !!getToken();
 }
 
-function authHeaders() {
+function authHeaders(tokenOverride) {
   const headers = { Accept: 'application/vnd.github+json' };
-  const token = getToken();
+  const token = tokenOverride !== undefined ? tokenOverride : getToken();
   if (token) headers.Authorization = `token ${token}`;
   return headers;
 }
@@ -56,9 +56,12 @@ export async function fetchViaApi() {
   return { data: JSON.parse(b64ToUtf8(json.content)), sha: json.sha };
 }
 
-export async function verifyToken() {
-  if (!hasToken()) return false;
-  const res = await fetch(`${API_BASE}/repos/${CONFIG.owner}/${CONFIG.repo}`, { headers: authHeaders() });
+// Checks a token against the repo without requiring it to be saved first,
+// so a candidate token can be verified before it's ever written to storage.
+export async function verifyToken(tokenOverride) {
+  const token = tokenOverride !== undefined ? tokenOverride : getToken();
+  if (!token) return false;
+  const res = await fetch(`${API_BASE}/repos/${CONFIG.owner}/${CONFIG.repo}`, { headers: authHeaders(token) });
   return res.ok;
 }
 

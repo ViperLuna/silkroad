@@ -52,6 +52,8 @@ const App = {
   currentCityId: null,
   dirty: localStorage.getItem(DIRTY_KEY) === '1',
   lastSyncError: null,
+  tokenFailCount: 0,
+  tokenCooldownUntil: 0,
   sort: {
     city: { key: 'item', dir: 'asc' },
     lookup: { key: 'buy', dir: 'desc' },
@@ -849,6 +851,18 @@ function isValidExportShape(obj) {
   return !!obj && ['cities', 'roads', 'traders', 'items', 'listings'].every((k) => Array.isArray(obj[k]));
 }
 
+// Escalating cooldown after failed token verification (3s, 6s, 12s, ...,
+// capped at 60s) so repeatedly submitting bad tokens can't turn this page
+// into a tool for hammering GitHub's API — the app just refuses to even
+// make the request while a cooldown is active, no network call at all.
+// This is a courtesy speed bump against casual button-mashing, not a real
+// security boundary: a static site has no server to enforce a hard limit,
+// and anyone determined enough to script requests directly bypasses the
+// UI entirely.
+function tokenCooldownRemaining() {
+  return Math.max(0, Math.ceil((App.tokenCooldownUntil - Date.now()) / 1000));
+}
+
 function openSettingsModal() {
   openModal(`
     <h3>GitHub Sync Settings</h3>
@@ -877,14 +891,25 @@ function openSettingsModal() {
     document.getElementById('f-token-status').textContent = 'Token cleared.';
   };
   document.getElementById('f-save').onclick = async () => {
-    const token = document.getElementById('f-token').value.trim();
-    GH.setToken(token);
     const status = document.getElementById('f-token-status');
+    const remaining = tokenCooldownRemaining();
+    if (remaining > 0) {
+      status.textContent = `Too many failed attempts — try again in ${remaining}s.`;
+      return;
+    }
+    const token = document.getElementById('f-token').value.trim();
     status.textContent = 'Checking…';
-    const ok = await GH.verifyToken();
-    status.textContent = ok ? 'Token looks good.' : 'Could not verify this token against the repo.';
-    if (ok && App.dirty) {
-      await persist('Sync pending changes');
+    const ok = await GH.verifyToken(token);
+    if (ok) {
+      GH.setToken(token);
+      App.tokenFailCount = 0;
+      status.textContent = 'Token looks good.';
+      if (App.dirty) await persist('Sync pending changes');
+    } else {
+      App.tokenFailCount = (App.tokenFailCount || 0) + 1;
+      const cooldownSec = Math.min(3 * 2 ** (App.tokenFailCount - 1), 60);
+      App.tokenCooldownUntil = Date.now() + cooldownSec * 1000;
+      status.textContent = `Could not verify this token — not saved. Try again in ${cooldownSec}s.`;
     }
     updateBanner();
   };
