@@ -113,6 +113,12 @@
       "name": "Central Spahan",
       "traits": "",
       "category": "minor"
+    },
+    {
+      "id": "isfahan",
+      "name": "Isfahan",
+      "traits": "",
+      "category": "major"
     }
   ],
   "roads": [
@@ -205,6 +211,11 @@
       "id": "central-spahan__marvdasht-plain",
       "a": "marvdasht-plain",
       "b": "central-spahan"
+    },
+    {
+      "id": "central-spahan__isfahan",
+      "a": "central-spahan",
+      "b": "isfahan"
     }
   ],
   "traders": [
