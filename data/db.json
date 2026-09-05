@@ -5142,6 +5142,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T03:19:51.575Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-khashayar__wheat",
+      "traderId": "agriculture-merchant-khashayar",
+      "itemId": "wheat",
+      "buyPrice": 0,
+      "sellPrice": 41,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T03:20:09.523Z",
+      "history": []
     }
   ]
 }
