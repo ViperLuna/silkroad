@@ -689,6 +689,11 @@
       "id": "spice-merchant-anahita-2",
       "name": "Spice Merchant Anahita",
       "cityId": "susa"
+    },
+    {
+      "id": "agriculture-merchant-dariush",
+      "name": "Agriculture Merchant Dariush",
+      "cityId": "susa"
     }
   ],
   "items": [
@@ -4710,6 +4715,16 @@
       "sellPrice": 166,
       "isLocal": false,
       "updatedAt": "2026-09-05T02:47:05.166Z",
+      "history": []
+    },
+    {
+      "id": "agriculture-merchant-dariush__wheat",
+      "traderId": "agriculture-merchant-dariush",
+      "itemId": "wheat",
+      "buyPrice": 0,
+      "sellPrice": 37,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:47:43.590Z",
       "history": []
     }
   ]
