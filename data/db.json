@@ -4997,6 +4997,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T03:15:36.010Z",
       "history": []
+    },
+    {
+      "id": "glazier-kourosh-2__paper",
+      "traderId": "glazier-kourosh-2",
+      "itemId": "paper",
+      "buyPrice": 0,
+      "sellPrice": 50,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:15:46.854Z",
+      "history": []
     }
   ]
 }
