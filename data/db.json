@@ -753,6 +753,11 @@
       "id": "beekeeper-khashayar",
       "name": "Beekeeper Khashayar",
       "cityId": "central-spahan"
+    },
+    {
+      "id": "elephant-keeper-dariush",
+      "name": "Elephant Keeper Dariush",
+      "cityId": "isfahan"
     }
   ],
   "items": [
@@ -4908,6 +4913,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-05T03:06:47.146Z",
+      "history": []
+    },
+    {
+      "id": "elephant-keeper-dariush__saddlebags",
+      "traderId": "elephant-keeper-dariush",
+      "itemId": "saddlebags",
+      "buyPrice": 0,
+      "sellPrice": 500,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:09:31.198Z",
       "history": []
     }
   ]
