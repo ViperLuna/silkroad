@@ -684,6 +684,11 @@
       "id": "glazier-kourosh",
       "name": "Glazier Kourosh",
       "cityId": "susa"
+    },
+    {
+      "id": "spice-merchant-anahita-2",
+      "name": "Spice Merchant Anahita",
+      "cityId": "susa"
     }
   ],
   "items": [
@@ -4665,6 +4670,16 @@
       "sellPrice": 76,
       "isLocal": false,
       "updatedAt": "2026-09-05T02:45:28.242Z",
+      "history": []
+    },
+    {
+      "id": "spice-merchant-anahita-2__sesame",
+      "traderId": "spice-merchant-anahita-2",
+      "itemId": "sesame",
+      "buyPrice": 0,
+      "sellPrice": 103,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T02:46:22.257Z",
       "history": []
     }
   ]
