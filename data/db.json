@@ -1175,6 +1175,10 @@
     {
       "id": "advanced-sword",
       "name": "Advanced Sword"
+    },
+    {
+      "id": "elite-sword",
+      "name": "Elite Sword"
     }
   ],
   "listings": [
@@ -4522,6 +4526,16 @@
       "sellPrice": 5000,
       "isLocal": true,
       "updatedAt": "2026-09-05T02:41:08.360Z",
+      "history": []
+    },
+    {
+      "id": "weapon-merchant-vardas__elite-sword",
+      "traderId": "weapon-merchant-vardas",
+      "itemId": "elite-sword",
+      "buyPrice": 0,
+      "sellPrice": 15000,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T02:41:21.862Z",
       "history": []
     }
   ]
