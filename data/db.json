@@ -4791,6 +4791,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T02:49:15.629Z",
       "history": []
+    },
+    {
+      "id": "weaver-kourosh__leather",
+      "traderId": "weaver-kourosh",
+      "itemId": "leather",
+      "buyPrice": 0,
+      "sellPrice": 16,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:49:33.170Z",
+      "history": []
     }
   ]
 }
