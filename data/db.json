@@ -710,6 +710,11 @@
       "id": "weaver-kourosh",
       "name": "Weaver Kourosh",
       "cityId": "susa"
+    },
+    {
+      "id": "bandit-hunter-photeinos",
+      "name": "Bandit Hunter Photeinos",
+      "cityId": "marvdasht-plain"
     }
   ],
   "items": [
@@ -1224,6 +1229,10 @@
     {
       "id": "minakari-ware",
       "name": "Minakari Ware"
+    },
+    {
+      "id": "bandits",
+      "name": "Bandits"
     }
   ],
   "listings": [
@@ -4841,6 +4850,16 @@
       "sellPrice": 39,
       "isLocal": false,
       "updatedAt": "2026-09-05T02:50:26.104Z",
+      "history": []
+    },
+    {
+      "id": "bandit-hunter-photeinos__bandits",
+      "traderId": "bandit-hunter-photeinos",
+      "itemId": "bandits",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T02:57:41.067Z",
       "history": []
     }
   ]
