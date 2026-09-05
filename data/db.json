@@ -4746,6 +4746,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-05T02:48:10.799Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-dariush__honey",
+      "traderId": "agriculture-merchant-dariush",
+      "itemId": "honey",
+      "buyPrice": 0,
+      "sellPrice": 62,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:48:22.739Z",
+      "history": []
     }
   ]
 }
