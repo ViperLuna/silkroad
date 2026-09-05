@@ -737,6 +737,11 @@
       "id": "bandit-hunter-photeinos",
       "name": "Bandit Hunter Photeinos",
       "cityId": "marvdasht-plain"
+    },
+    {
+      "id": "beekeeper-khashayar",
+      "name": "Beekeeper Khashayar",
+      "cityId": "central-spahan"
     }
   ],
   "items": [
@@ -4882,6 +4887,16 @@
       "sellPrice": 0,
       "isLocal": true,
       "updatedAt": "2026-09-05T02:57:41.067Z",
+      "history": []
+    },
+    {
+      "id": "beekeeper-khashayar__apiary-ownership",
+      "traderId": "beekeeper-khashayar",
+      "itemId": "apiary-ownership",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:06:47.146Z",
       "history": []
     }
   ]
