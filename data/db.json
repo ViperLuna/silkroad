@@ -694,6 +694,11 @@
       "id": "agriculture-merchant-dariush",
       "name": "Agriculture Merchant Dariush",
       "cityId": "susa"
+    },
+    {
+      "id": "weaver-kourosh",
+      "name": "Weaver Kourosh",
+      "cityId": "susa"
     }
   ],
   "items": [
@@ -4765,6 +4770,16 @@
       "sellPrice": 52,
       "isLocal": false,
       "updatedAt": "2026-09-05T02:48:30.110Z",
+      "history": []
+    },
+    {
+      "id": "weaver-kourosh__wool",
+      "traderId": "weaver-kourosh",
+      "itemId": "wool",
+      "buyPrice": 0,
+      "sellPrice": 9,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T02:49:01.841Z",
       "history": []
     }
   ]
