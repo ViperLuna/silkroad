@@ -1194,6 +1194,10 @@
     {
       "id": "elite-sword",
       "name": "Elite Sword"
+    },
+    {
+      "id": "minakari-ware",
+      "name": "Minakari Ware"
     }
   ],
   "listings": [
@@ -4621,6 +4625,16 @@
       "sellPrice": 41,
       "isLocal": false,
       "updatedAt": "2026-09-05T02:44:21.076Z",
+      "history": []
+    },
+    {
+      "id": "glazier-kourosh__minakari-ware",
+      "traderId": "glazier-kourosh",
+      "itemId": "minakari-ware",
+      "buyPrice": 0,
+      "sellPrice": 360,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:44:49.068Z",
       "history": []
     }
   ]
