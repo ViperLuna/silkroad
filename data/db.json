@@ -4736,6 +4736,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-05T02:47:58.228Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-dariush__olive-oil",
+      "traderId": "agriculture-merchant-dariush",
+      "itemId": "olive-oil",
+      "buyPrice": 0,
+      "sellPrice": 92,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:48:10.799Z",
+      "history": []
     }
   ]
 }
