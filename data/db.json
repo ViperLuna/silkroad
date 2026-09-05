@@ -1276,6 +1276,10 @@
     {
       "id": "bandits",
       "name": "Bandits"
+    },
+    {
+      "id": "royal-indian-elephant",
+      "name": "Royal Indian Elephant"
     }
   ],
   "listings": [
@@ -4933,6 +4937,16 @@
       "sellPrice": 1000,
       "isLocal": true,
       "updatedAt": "2026-09-05T03:09:42.652Z",
+      "history": []
+    },
+    {
+      "id": "elephant-keeper-dariush__royal-indian-elephant",
+      "traderId": "elephant-keeper-dariush",
+      "itemId": "royal-indian-elephant",
+      "buyPrice": 0,
+      "sellPrice": 0,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:09:56.947Z",
       "history": []
     }
   ]
