@@ -4726,6 +4726,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-05T02:47:43.590Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-dariush__barley",
+      "traderId": "agriculture-merchant-dariush",
+      "itemId": "barley",
+      "buyPrice": 0,
+      "sellPrice": 27,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:47:58.228Z",
+      "history": []
     }
   ]
 }
