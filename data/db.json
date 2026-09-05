@@ -674,6 +674,11 @@
       "id": "ironworker-arash",
       "name": "Ironworker Arash",
       "cityId": "susa"
+    },
+    {
+      "id": "blacksmith-khashayar-3",
+      "name": "Blacksmith Khashayar",
+      "cityId": "susa"
     }
   ],
   "items": [
@@ -4561,6 +4566,16 @@
       "sellPrice": 76,
       "isLocal": false,
       "updatedAt": "2026-09-05T02:42:34.639Z",
+      "history": []
+    },
+    {
+      "id": "blacksmith-khashayar-3__tools",
+      "traderId": "blacksmith-khashayar-3",
+      "itemId": "tools",
+      "buyPrice": 0,
+      "sellPrice": 131,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:43:12.794Z",
       "history": []
     }
   ]
