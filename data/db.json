@@ -4977,6 +4977,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T03:15:13.343Z",
       "history": []
+    },
+    {
+      "id": "glazier-kourosh-2__candles",
+      "traderId": "glazier-kourosh-2",
+      "itemId": "candles",
+      "buyPrice": 0,
+      "sellPrice": 800,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:15:26.625Z",
+      "history": []
     }
   ]
 }
