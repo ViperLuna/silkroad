@@ -669,6 +669,11 @@
       "id": "weapon-merchant-vardas",
       "name": "Weapon Merchant Vardas",
       "cityId": "susa"
+    },
+    {
+      "id": "ironworker-arash",
+      "name": "Ironworker Arash",
+      "cityId": "susa"
     }
   ],
   "items": [
@@ -4536,6 +4541,16 @@
       "sellPrice": 15000,
       "isLocal": true,
       "updatedAt": "2026-09-05T02:41:21.862Z",
+      "history": []
+    },
+    {
+      "id": "ironworker-arash__copper-ingot",
+      "traderId": "ironworker-arash",
+      "itemId": "copper-ingot",
+      "buyPrice": 0,
+      "sellPrice": 48,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:42:20.059Z",
       "history": []
     }
   ]
