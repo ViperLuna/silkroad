@@ -4691,6 +4691,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T02:46:37.133Z",
       "history": []
+    },
+    {
+      "id": "spice-merchant-anahita-2__sea-salt",
+      "traderId": "spice-merchant-anahita-2",
+      "itemId": "sea-salt",
+      "buyPrice": 0,
+      "sellPrice": 108,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:46:52.490Z",
+      "history": []
     }
   ]
 }
