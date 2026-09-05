@@ -5052,6 +5052,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T03:17:20.918Z",
       "history": []
+    },
+    {
+      "id": "weapon-merchant-strategos__advanced-sword",
+      "traderId": "weapon-merchant-strategos",
+      "itemId": "advanced-sword",
+      "buyPrice": 0,
+      "sellPrice": 5000,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:17:29.832Z",
+      "history": []
     }
   ]
 }
