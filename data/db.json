@@ -4646,6 +4646,16 @@
       "isLocal": false,
       "updatedAt": "2026-09-05T02:45:03.739Z",
       "history": []
+    },
+    {
+      "id": "glazier-kourosh__glassware",
+      "traderId": "glazier-kourosh",
+      "itemId": "glassware",
+      "buyPrice": 0,
+      "sellPrice": 249,
+      "isLocal": false,
+      "updatedAt": "2026-09-05T02:45:14.714Z",
+      "history": []
     }
   ]
 }
