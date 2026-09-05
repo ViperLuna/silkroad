@@ -5132,6 +5132,16 @@
       "isLocal": true,
       "updatedAt": "2026-09-05T03:19:41.712Z",
       "history": []
+    },
+    {
+      "id": "agriculture-merchant-khashayar__honey",
+      "traderId": "agriculture-merchant-khashayar",
+      "itemId": "honey",
+      "buyPrice": 0,
+      "sellPrice": 36,
+      "isLocal": true,
+      "updatedAt": "2026-09-05T03:19:51.575Z",
+      "history": []
     }
   ]
 }
