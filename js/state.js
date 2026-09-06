@@ -117,7 +117,7 @@ export function routeTo(fromCityId, toCityId, roads, cities) {
 // Finds the major cities that bound a minor waypoint — walking outward
 // through any chain of other minor waypoints until a major city is hit on
 // each branch, and stopping there (majors act as walls, not pass-throughs).
-// Used to describe a waypoint as "Between Tyre and Damascus".
+// Used to describe a waypoint as "Borders Tyre, Damascus".
 export function nearbyMajors(cityId, roads, cities) {
   const cityById = new Map(cities.map((c) => [c.id, c]));
   const adj = buildAdjacency(roads);
@@ -148,16 +148,16 @@ function joinNames(names) {
 }
 
 // A human label for a location: just its name for a major city; for a
-// minor waypoint, "Name (Between X and Y)" when it sits between two or
-// more major cities, or "Name (Near X)" when only one side of the road has
-// been mapped so far (e.g. a dead end, or the next city just hasn't been
-// discovered/added yet).
+// minor waypoint, "Name (Borders X, Y, ...)" listing every nearby major
+// city, however many that turns out to be — "Between" only reads right
+// for exactly two, and some waypoints (a hub-like crossroads) border more
+// than that. Reads fine for a single neighbor too ("Borders Tyre"), so it
+// covers a dead end / not-yet-discovered-onward-road case the same way.
 export function locationLabel(city, roads, cities) {
   if (!city || !isMinor(city)) return city ? city.name : '';
   const majors = nearbyMajors(city.id, roads, cities).map((c) => c.name).sort();
   if (majors.length === 0) return city.name;
-  if (majors.length === 1) return `${city.name} (Near ${majors[0]})`;
-  return `${city.name} (Between ${joinNames(majors)})`;
+  return `${city.name} (Borders ${joinNames(majors)})`;
 }
 
 export function formatPrice(value) {
